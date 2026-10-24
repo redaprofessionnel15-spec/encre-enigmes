@@ -54,7 +54,47 @@ python3 engine.py shorts/002-joconde/short.json videos/002-joconde.mp4
 
 - `*_on` : mot (ou `mot#n` pour la n-ième occurrence) sur lequel une animation ou un son se déclenche.
 - Costumes : chapeaux `bicorne tricorne detective headphones beret crown`, manteaux `navy brown green red white black`, accessoires `spyglass magnifier lantern radio`.
-- Scènes génériques (dans `engine.py`) : `hook place scroll battle toll finale cta throne`. Le dernier segment est toujours `cta` (abonnement + like).
+- Scènes génériques (dans `engine.py`) : `hook place scroll battle toll finale cta throne`, plus celles de `scenes/common.py` (voir plus bas). Le dernier segment est toujours `cta` (abonnement + like).
+
+## Hibou : humeurs, poses et gestes (v3)
+
+`character.py` définit `MOODS` (neutral, happy, worried, serious, surprised, shocked, angry, smug, sad, curious)
+et `POSES` (idle, point, shrug, hands_up, think, present, cross, lean_in, recoil, cheer). Les ailes ont deux
+articulations (épaule + coude), le corps et la tête s'inclinent, et une aile repliée vers le corps passe devant lui.
+Humeurs et poses se mélangent en douceur (`blend_mood`, `blend_pose`).
+
+Par segment, dans `owl` :
+
+```json
+"owl": {"x": 240, "face": 1, "scale": 0.56, "mood": "serious", "pose": "idle",
+        "acts": [{"on": "feu", "pose": "recoil", "mood": "shocked", "hold": 1.2}]}
+```
+
+- `mood` / `pose` : attitude de base du segment ; le hibou y glisse pendant le saut entre deux segments.
+  Sans `mood`, c'est la scène qui le choisit, comme en v2.
+- `acts` : gestes calés sur un mot (`on`, même syntaxe que les `*_on`). Attaque rapide avec un léger rebond,
+  maintien `hold` secondes, puis retour.
+- Segment sans `acts` : gestes automatiques d'après la ponctuation (`?` → haussement d'épaules,
+  `…` → se penche, `!` → présente, chiffre → pointe). `"auto_acts": false` au niveau du Short les coupe.
+- Planche de contrôle de toutes les humeurs et poses : `python3 tools/owl_sheet.py planche.png`.
+
+## Scènes génériques de `scenes/common.py` (chargé automatiquement)
+
+| type | paramètres |
+|---|---|
+| `counter` | `value`, `unit`, `label`, `from`, `slam_on` : gros chiffre qui défile puis claque |
+| `year` | `year`, `from`, `place`, `land_on` : l'année remonte le temps (1 s minimum) |
+| `versus` | `left`, `left_label`, `left_on`, `right`, `right_label`, `right_on` : deux barres comparées |
+| `verdict` | `claim`, `stamp` (VRAI → vert, sinon rouge), `stamp_on` |
+| `quote` | `title`, `sign` : le texte du segment s'écrit à la plume, synchronisé sur la voix |
+
+## Transitions et boucle
+
+- `"transition"` dans un segment : `ink` (défaut), `whip` (panoramique vertical), `zoom` ou `flash`, pour la
+  coupe qui mène à ce segment. Peut aussi se mettre au niveau du Short.
+- `"loop": true` (facultatif) : les 0,35 dernières secondes fondent vers la première image.
+- Exemple complet avec la voix de George : `shorts/001-zanzibar/short_v3.json` → `videos/001-zanzibar-v3.mp4`.
+- Assembler des images PREVIEW en planche : `python3 tools/sheet.py out/x_work planche.png`.
 
 ## Écrire un pack de scènes
 

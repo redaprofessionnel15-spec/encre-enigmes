@@ -46,6 +46,7 @@ Liste d'attente :
 - Créer `scenes/sujet.py` : 6 à 8 scènes propres au sujet, avec décors, accessoires et bruitages (voir `scenes/joconde.py` et le README).
 - Chaque scène illustre ce qui est dit à ce moment ; les animations clés tombent sur les mots (`*_on`).
 - Écrire `shorts/NNN-sujet/short.json` et `meta.json`.
+- Faire jouer le hibou : `mood`, `pose` et 2 à 4 `acts` par Short sur les mots forts, varier les `transition`, utiliser les scènes de `scenes/common.py` quand elles conviennent (voir le README).
 
 ## 6. Contrôler avant le rendu
 

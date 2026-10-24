@@ -10,7 +10,7 @@ import skia
 from scipy import signal
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from character import draw_owl
+from character import draw_owl, blend_mood, blend_pose, POSES
 
 W, H, FPS = 1080, 1920, 30
 SR = 44100
@@ -769,7 +769,7 @@ def sc_throne(cv, p, lt, dur, si, t):
 SCENES = dict(hook=sc_hook, place=sc_place, scroll=sc_scroll, battle=sc_battle, toll=sc_toll, finale=sc_finale, cta=sc_cta, throne=sc_throne)
 SFX_HOOKS = []
 # scene packs: extra scene files that register new scenes / sound hooks
-for _pack in spec.get("scene_packs", []):
+for _pack in ["scenes/common.py"] + spec.get("scene_packs", []):
     _pp = _pack if os.path.isabs(_pack) else os.path.join(os.path.dirname(os.path.abspath(__file__)), _pack)
     exec(compile(open(_pp).read(), _pp, "exec"), globals())
 
@@ -846,6 +846,49 @@ def owl_state(t):
         if 0 <= dl < .25: squash = math.sin(math.pi * dl / .25) * .12
     return x, face, sc, y_off, squash, si
 
+# acts = timed gestures: explicit in the JSON ("owl": {"acts": [{"on": "feu", "pose": "recoil", "mood": "shocked"}]})
+# plus automatic ones read from the punctuation, so a script without acts still moves.
+ACTS = []
+for si, o in enumerate(OWL):
+    for a in o.get("acts", []):
+        ta = word_time(si, a.get("on"))
+        if ta is not None:
+            ACTS.append(dict(t=ta - .08, pose=a.get("pose"), mood=a.get("mood"), hold=a.get("hold", .7)))
+if spec.get("auto_acts", True):
+    busy = sorted(a["t"] for a in ACTS); last = -9
+    for w in words:
+        txt = w["text"]; ta = None
+        if txt.endswith("?"): ta, pz, md, hd = w["t0"], "shrug", "curious", .7
+        elif txt.endswith("…"): ta, pz, md, hd = w["t0"], "lean_in", "serious", .6
+        elif txt.endswith("!"): ta, pz, md, hd = w["t0"], "present", "happy", .5
+        elif re.search(r"\d", txt): ta, pz, md, hd = w["t0"], "point", None, .5
+        if ta is None or OWL[w["seg"]].get("acts") is not None or ta - last < 1.4: continue
+        if any(abs(ta - b) < 1.2 for b in busy): continue
+        ACTS.append(dict(t=ta - .08, pose=pz, mood=md, hold=hd)); last = ta
+ACTS.sort(key=lambda a: a["t"])
+
+def act_k(a, t):
+    d = t - a["t"]
+    if d < 0 or d > .18 + a["hold"] + .4: return 0.
+    if d < .18: return eback(d / .18, 2.2)          # snappy attack with overshoot
+    if d < .18 + a["hold"]: return 1.
+    return 1 - eio((d - .18 - a["hold"]) / .4)
+
+def owl_pose_mood(t, si, hints):
+    cur = OWL[si]
+    pose = POSES.get(cur.get("pose", "idle"))
+    mood = cur.get("mood") or hints.get("mood", "neutral")
+    if si + 1 < len(SEGS) and t > seg_bounds[si][1] - HOP:   # glide toward the next segment's base
+        q = eio((t - (seg_bounds[si][1] - HOP)) / HOP); nx = OWL[si + 1]
+        pose = blend_pose(pose, nx.get("pose", "idle"), q)
+        if nx.get("mood"): mood = blend_mood(mood, nx["mood"], q)
+    for a in ACTS:
+        k = act_k(a, t)
+        if k <= 0: continue
+        if a["pose"]: pose = blend_pose(pose, a["pose"], k)
+        if a["mood"]: mood = blend_mood(mood, a["mood"], min(1, k))
+    return pose, mood
+
 def draw_owl_at(cv, t, f, hints):
     x, face, sc, y_off, squash, si = owl_state(t)
     e = float(ENV[min(f, NF - 1)])
@@ -855,10 +898,13 @@ def draw_owl_at(cv, t, f, hints):
         if 0 <= d < .16: blink = 1 - abs(d - .08) / .08
     bob = 6 * math.sin(t * 2.4)
     lk = hints.get("look", (0, -1)); lk = (lk[0] * face, lk[1])
+    pose, mood = owl_pose_mood(t, si, hints)
+    pose = dict(pose); pose["head"] += 3 * math.sin(t * 1.1) + 4 * e * math.sin(t * 7)   # head bobs while talking
     cv.save(); cv.translate(x, 1700 + y_off + bob)
     cv.scale(sc * face * (1 + squash), sc * (1 - squash + .035 * e))
     draw_owl(cv, t, e=e, costume=COSTUME, look=lk, surprise=hints.get("surprise", 0), blink=blink,
-             point=hints.get("point", GEST[min(f, NF - 1)]), mood=hints.get("mood", "neutral"))
+             point=hints.get("point", GEST[min(f, NF - 1)]) * (1 - min(1, abs(pose["r_sh"] - 10) / 60)),
+             mood=mood, pose=pose)
     cv.restore()
 
 # =================================================================== CAPTIONS
@@ -897,20 +943,39 @@ if not PREVIEW:
                            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-shortest", "-movflags", "+faststart", out_path],
                           stdin=subprocess.PIPE)
 TR = .24
+LOOP_FADE = .35
 for f in frames:
     t = f / FPS
     cv = surface.getCanvas()
     si = next((i for i, (a, b) in enumerate(seg_bounds) if a <= t < b), len(SEGS) - 1)
     a, b = seg_bounds[si]; seg = SEGS[si]; lt = t - a
     background(cv, t, warm=seg.get("tension", .4))
+    # transition into the nearest cut: "ink" (default), "whip", "zoom", "flash"
+    kind, q, out = None, 0., False
+    for k_, (bb, _) in enumerate(seg_bounds[1:], 1):
+        if abs(t - bb) < TR:
+            kind = SEGS[k_].get("transition", spec.get("transition", "ink")); out = t < bb; q = 1 - abs(t - bb) / TR
     # gentle camera push-in per scene
     z = 1 + .045 * eio(lt / max(.1, b - a))
-    cv.save(); cv.translate(W / 2, 620); cv.scale(z, z); cv.translate(-W / 2, -620)
+    dy = 0.
+    if kind == "whip": dy = (-1 if out else 1) * H * .55 * eio(q) ** 2
+    if kind == "zoom": z *= (1 + .9 * eio(q) ** 2) if out else (1 - .35 * eio(q) ** 2)
+    cv.save(); cv.translate(0, dy); cv.translate(W / 2, 620); cv.scale(z, z); cv.translate(-W / 2, -620)
     hints = SCENES[seg["scene"]["type"]](cv, seg["scene"], lt, b - a, si, t) or {}
     cv.restore()
-    for (bb, _) in seg_bounds[1:]:
-        d = abs(t - bb)
-        if d < TR: ink_blot(cv, W / 2, 620, 1300 * eo(1 - d / TR), t)
+    if kind == "ink": ink_blot(cv, W / 2, 620, 1300 * eo(q), t)
+    elif kind == "whip":
+        for j in range(14):   # motion streaks
+            xx = (j * 197.3) % W; ln = 300 + 500 * ((j * 37) % 7) / 7
+            yy = ((j * 311.7 + t * 9000) % (H + ln)) - ln
+            cv.drawLine(xx, yy, xx, yy + ln * q, P("#F0CF85", 120 * q, 3 + j % 3))
+    elif kind == "zoom": cv.drawRect(skia.Rect.MakeWH(W, H), P("#05080F", 230 * eio(q) ** 3))
+    elif kind == "flash": cv.drawRect(skia.Rect.MakeWH(W, H), P("#FFF3D6", 255 * eio(q) ** 2))
+    if spec.get("loop") and t > TOTAL - LOOP_FADE:   # fade into the very first frame for a seamless replay
+        cv.saveLayerAlpha(None, int(255 * eio((t - TOTAL + LOOP_FADE) / LOOP_FADE)))
+        background(cv, 0, warm=SEGS[0].get("tension", .4))
+        SCENES[SEGS[0]["scene"]["type"]](cv, SEGS[0]["scene"], 0.0, seg_bounds[0][1], 0, 0.0)
+        cv.restore()
     foreground(cv, t, f)
     header(cv, t)
     draw_owl_at(cv, t, f, hints)

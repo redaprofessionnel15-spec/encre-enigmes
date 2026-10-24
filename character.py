@@ -9,6 +9,9 @@ draw_owl(cv, t, e, costume, look, surprise, blink, point)
   surprise : 0..1 (eyes widen, brows up, feathers ruffle)
   blink    : 0..1 eyelid closure
   point    : 0..1 right wing raised / pointing
+  mood     : name from MOODS, or a dict of face params (see blend_mood)
+  pose     : dict from POSES (or blend_pose output): body lean, head tilt,
+             both wings with shoulder + elbow. None = classic idle.
 """
 import math
 import skia
@@ -45,6 +48,49 @@ COATS = {
     "black":   ("#1A1A22", "#0E0E14", "#C9A04E"),
 }
 
+# Face params: tilt = inner brow end (+ angry, - worried), lift = brow height per side,
+# lid = upper eyelid rest, pupil = pupil scale, smile = happy lower lids
+MOODS = {
+    "neutral":   dict(tilt=0,   lift_l=0,   lift_r=0,   lid=0,   pupil=1,   smile=0),
+    "happy":     dict(tilt=-6,  lift_l=.2,  lift_r=.2,  lid=0,   pupil=1.05, smile=1),
+    "worried":   dict(tilt=-22, lift_l=.35, lift_r=.35, lid=.12, pupil=.9,  smile=0),
+    "serious":   dict(tilt=22,  lift_l=0,   lift_r=0,   lid=.18, pupil=1,   smile=0),
+    "surprised": dict(tilt=-10, lift_l=.6,  lift_r=.6,  lid=0,   pupil=.8,  smile=0),
+    "shocked":   dict(tilt=-16, lift_l=1,   lift_r=1,   lid=0,   pupil=.55, smile=0),
+    "angry":     dict(tilt=34,  lift_l=-.3, lift_r=-.3, lid=.25, pupil=.85, smile=0),
+    "smug":      dict(tilt=10,  lift_l=-.2, lift_r=.7,  lid=.42, pupil=1,   smile=.6),
+    "sad":       dict(tilt=-30, lift_l=.1,  lift_r=.1,  lid=.35, pupil=1.1, smile=0),
+    "curious":   dict(tilt=-4,  lift_l=.05, lift_r=.6,  lid=.05, pupil=1.15, smile=0),
+}
+
+# Body params: degrees. sh = shoulder raise (+ = up/outward), el = elbow bend (+ = toward body)
+POSES = {
+    "idle":     dict(lean=0,  head=0,   l_sh=8,   l_el=0,   r_sh=10,  r_el=0),
+    "point":    dict(lean=-3, head=4,   l_sh=8,   l_el=0,   r_sh=125, r_el=-10),
+    "shrug":    dict(lean=0,  head=-9,  l_sh=62,  l_el=-70, r_sh=62,  r_el=-70),
+    "hands_up": dict(lean=5,  head=-4,  l_sh=150, l_el=25,  r_sh=150, r_el=25),
+    "think":    dict(lean=-2, head=8,   l_sh=8,   l_el=0,   r_sh=40,  r_el=118),
+    "present":  dict(lean=3,  head=-5,  l_sh=70,  l_el=-25, r_sh=20,  r_el=10),
+    "cross":    dict(lean=0,  head=0,   l_sh=35,  l_el=105, r_sh=35,  r_el=105),
+    "lean_in":  dict(lean=-7, head=10,  l_sh=18,  l_el=30,  r_sh=18,  r_el=30),
+    "recoil":   dict(lean=9,  head=-8,  l_sh=55,  l_el=50,  r_sh=55,  r_el=50),
+    "cheer":    dict(lean=0,  head=-6,  l_sh=135, l_el=-35, r_sh=135, r_el=-35),
+}
+
+def _mix(a, b, k):
+    return {key: a[key] + (b[key] - a[key]) * k for key in a}
+
+def blend_mood(a, b, k):
+    """Blend two moods (names or dicts); k=0 -> a, k=1 -> b."""
+    a = MOODS.get(a, MOODS["neutral"]) if isinstance(a, str) else a
+    b = MOODS.get(b, MOODS["neutral"]) if isinstance(b, str) else b
+    return _mix(a, b, k)
+
+def blend_pose(a, b, k):
+    a = POSES.get(a, POSES["idle"]) if isinstance(a, str) else a
+    b = POSES.get(b, POSES["idle"]) if isinstance(b, str) else b
+    return _mix(a, b, k)
+
 def owl_body_path():
     p = skia.Path()
     p.moveTo(0, -14)
@@ -70,6 +116,49 @@ def wing_path(side):
     p.cubicTo(s * -10, 150, s * -15, 60, 0, 0)
     p.close()
     return p
+
+def upper_wing_path(side):
+    s = side
+    p = skia.Path()
+    p.moveTo(-s * 6, 0)
+    p.cubicTo(s * 60, 6, s * 82, 70, s * 70, 128)
+    p.cubicTo(s * 50, 150, s * 8, 146, -s * 4, 122)
+    p.cubicTo(-s * 14, 80, -s * 16, 30, -s * 6, 0)
+    p.close()
+    return p
+
+def draw_wing(cv, side, sh, el, t, holding=None, costume=None):
+    """Two-joint wing; frame = shoulder. holding: 'quill' or an accessory name."""
+    s = side
+    cv.save(); cv.rotate(-s * sh)
+    up = upper_wing_path(s)
+    cv.drawPath(up, grad_paint((0, 0), (0, 140), [FEATHER_TOP, FEATHER_MID]))
+    cv.drawPath(up, P(OUTLINE, 255, 6))
+    cv.translate(s * 36, 112); cv.rotate(s * el)
+    cv.save(); cv.scale(.72, .66)
+    wp = wing_path(s)
+    cv.drawPath(wp, grad_paint((0, 0), (0, 250), [FEATHER_MID, FEATHER_BOT]))
+    cv.drawPath(wp, P(OUTLINE, 255, 8))
+    cv.restore()
+    if holding == "quill":
+        draw_quill(cv, s * 42, 140, s * 18 + 6 * math.sin(t * 1.3), .95)
+    elif holding:
+        cv.save(); cv.translate(s * 44, 150); cv.rotate(s * (sh - el) * .6)
+        draw_accessory(cv, holding, t)
+        cv.restore()
+    cv.restore()
+
+def _wings(cv, pose, t, point, costume, front):
+    """Wings bent toward the body (elbow > 45°) are drawn in front of it."""
+    breath = 4 * math.sin(t * 1.6)
+    for side, sh, el, hold in ((-1, pose["l_sh"] + breath, pose["l_el"], "quill"),
+                               (1, pose["r_sh"] + 120 * point * (1 - min(1, pose["r_sh"] / 120)) + breath * .8,
+                                pose["r_el"], costume.get("accessory"))):
+        if (el > 45) != front:
+            continue
+        cv.save(); cv.translate(side * 225, -330)
+        draw_wing(cv, side, sh, el, t, holding=hold)
+        cv.restore()
 
 def draw_quill(cv, x, y, ang, sc=1.0):
     cv.save(); cv.translate(x, y); cv.rotate(ang); cv.scale(sc, sc)
@@ -187,8 +276,9 @@ def draw_coat(cv, kind):
             for k in range(6):
                 cv.drawLine(s * 205 - 40 + k * 16, -305, s * 205 - 40 + k * 16, -282, P(trim, 255, 5))
 
-def draw_owl(cv, t, e=0.0, costume=None, look=(0, -0.5), surprise=0.0, blink=0.0, point=0.0, mood="neutral"):
+def draw_owl(cv, t, e=0.0, costume=None, look=(0, -0.5), surprise=0.0, blink=0.0, point=0.0, mood="neutral", pose=None):
     costume = costume or {}
+    m = MOODS.get(mood, MOODS["neutral"]) if isinstance(mood, str) else mood
     ruff = 1 + 0.04 * surprise
     # shadow
     sh = skia.Paint(); sh.setShader(skia.GradientShader.MakeRadial(center=(0, 0), radius=280,
@@ -198,25 +288,29 @@ def draw_owl(cv, t, e=0.0, costume=None, look=(0, -0.5), surprise=0.0, blink=0.0
     for s in (-1, 1):
         for k in (-1, 0, 1):
             cv.drawLine(s * 70, -26, s * 70 + k * 26, -2, P("#E39A3B", 255, 16))
-    # left wing (behind, holding the quill)
-    la = 8 + 5 * math.sin(t * 1.6)
-    cv.save(); cv.translate(-225, -330); cv.rotate(la)
-    wp = wing_path(-1)
-    cv.drawPath(wp, grad_paint((0, 0), (0, 250), [FEATHER_MID, FEATHER_BOT]))
-    cv.drawPath(wp, P(OUTLINE, 255, 6))
-    draw_quill(cv, -70, 210, -18 + 6 * math.sin(t * 1.3), .95)
-    cv.restore()
-    # right wing (gestures / points)
-    ra = -10 - 120 * point + 6 * math.sin(t * 3.1)
-    cv.save(); cv.translate(225, -330); cv.rotate(ra)
-    wp = wing_path(1)
-    cv.drawPath(wp, grad_paint((0, 0), (0, 250), [FEATHER_MID, FEATHER_BOT]))
-    cv.drawPath(wp, P(OUTLINE, 255, 6))
-    if costume.get("accessory"):
-        cv.save(); cv.translate(60, 225); cv.rotate(-ra * .6)
-        draw_accessory(cv, costume["accessory"], t)
+    if pose is not None:
+        cv.save(); cv.rotate(pose["lean"])
+        _wings(cv, pose, t, point, costume, front=False)
+    else:
+        # left wing (behind, holding the quill)
+        la = 8 + 5 * math.sin(t * 1.6)
+        cv.save(); cv.translate(-225, -330); cv.rotate(la)
+        wp = wing_path(-1)
+        cv.drawPath(wp, grad_paint((0, 0), (0, 250), [FEATHER_MID, FEATHER_BOT]))
+        cv.drawPath(wp, P(OUTLINE, 255, 6))
+        draw_quill(cv, -70, 210, -18 + 6 * math.sin(t * 1.3), .95)
         cv.restore()
-    cv.restore()
+        # right wing (gestures / points)
+        ra = -10 - 120 * point + 6 * math.sin(t * 3.1)
+        cv.save(); cv.translate(225, -330); cv.rotate(ra)
+        wp = wing_path(1)
+        cv.drawPath(wp, grad_paint((0, 0), (0, 250), [FEATHER_MID, FEATHER_BOT]))
+        cv.drawPath(wp, P(OUTLINE, 255, 6))
+        if costume.get("accessory"):
+            cv.save(); cv.translate(60, 225); cv.rotate(-ra * .6)
+            draw_accessory(cv, costume["accessory"], t)
+            cv.restore()
+        cv.restore()
     # body
     cv.save(); cv.scale(ruff, 1)
     body = owl_body_path()
@@ -235,7 +329,12 @@ def draw_owl(cv, t, e=0.0, costume=None, look=(0, -0.5), surprise=0.0, blink=0.0
                 arc = skia.Path(); arc.addArc(skia.Rect.MakeXYWH(x - 20, y - 14, 40, 30), 20, 140)
                 cv.drawPath(arc, P("#A9834C", 255, 4))
     draw_coat(cv, costume.get("coat"))
-    # facial disc
+    if pose is not None:
+        _wings(cv, pose, t, point, costume, front=True)
+    # facial disc (head group: tilts around the neck)
+    cv.save()
+    if pose is not None:
+        cv.rotate(pose["head"], 0, -330)
     for s in (-1, 1):
         cv.drawCircle(s * 92, -440, 118, P(FACE))
     cv.drawCircle(0, -400, 70, P(FACE))
@@ -250,11 +349,12 @@ def draw_owl(cv, t, e=0.0, costume=None, look=(0, -0.5), surprise=0.0, blink=0.0
                colors=[col("#FFE08A"), col("#E9A73A"), col("#B06A18")], positions=[0, .6, 1]))
         px, py = x + look[0] * 16, y + look[1] * 14
         cv.drawCircle(px, py, 48, iris)
-        cv.drawCircle(px, py, 25 * (1 - .3 * surprise), P("#120C08"))
+        cv.drawCircle(px, py, 25 * m["pupil"] * (1 - .3 * surprise), P("#120C08"))
         cv.drawCircle(px + 13, py - 14, 10, P("#FFFFFF"))
         cv.drawCircle(px - 10, py + 12, 4, P("#FFFFFF", 200))
-        if blink > 0.01:   # eyelids
-            hgt = eye_r * 2 * blink
+        lid = max(blink, m["lid"] * (1 - surprise))
+        if lid > 0.01:   # eyelids
+            hgt = eye_r * 2 * lid
             cv.save()
             clip = skia.Path(); clip.addCircle(x, y, eye_r)
             cv.clipPath(clip, doAntiAlias=True)
@@ -265,19 +365,20 @@ def draw_owl(cv, t, e=0.0, costume=None, look=(0, -0.5), surprise=0.0, blink=0.0
         cv.drawCircle(x, y, eye_r + 14, P("#E2B661", 255, 11))
         cv.drawCircle(x, y, eye_r + 14, P("#8A5A22", 255, 3))
         # brow feathers
-        by = y - eye_r - 34 - 26 * surprise - 10 * e
+        by = y - eye_r - 34 - 26 * surprise - 10 * e - 34 * (m["lift_l"] if s < 0 else m["lift_r"])
         # inner end of the brow (toward the beak) moves with the mood
-        tilt = {"worried": -22, "serious": 22, "happy": -6, "surprised": -10}.get(mood, 0)
+        tilt = m["tilt"]
         inner_x, outer_x = x - 48 * s, x + 48 * s
         brow = skia.Path(); brow.moveTo(inner_x, by + 10 + tilt)
         brow.quadTo(x, by - 22 - 8 * surprise, outer_x, by + 10 - tilt * .3)
         cv.drawPath(brow, P(FEATHER_BOT, 255, 15))
-        if mood == "happy" and blink < .5:   # smiling lower lids
+        if m["smile"] > .05 and blink < .5:   # smiling lower lids
+            sm = m["smile"]
             cv.save(); clip = skia.Path(); clip.addCircle(x, y, eye_r); cv.clipPath(clip, doAntiAlias=True)
-            cv.drawOval(skia.Rect.MakeXYWH(x - eye_r * 1.3, y + eye_r * .35, eye_r * 2.6, eye_r * 1.4), P(FACE))
+            cv.drawOval(skia.Rect.MakeXYWH(x - eye_r * 1.3, y + eye_r * (1.05 - .7 * sm), eye_r * 2.6, eye_r * 1.4), P(FACE))
             cv.restore()
-            arc = skia.Path(); arc.addArc(skia.Rect.MakeXYWH(x - eye_r * .9, y + eye_r * .25, eye_r * 1.8, eye_r * .8), 200, 140)
-            cv.drawPath(arc, P(OUTLINE, 255, 4))
+            arc = skia.Path(); arc.addArc(skia.Rect.MakeXYWH(x - eye_r * .9, y + eye_r * (.95 - .7 * sm), eye_r * 1.8, eye_r * .8), 200, 140)
+            cv.drawPath(arc, P(OUTLINE, 255 * sm, 4))
     cv.drawLine(-12, -445, 12, -445, P("#E2B661", 255, 9))
     # beak (lip-sync)
     op = max(e, .5 * surprise)
@@ -299,3 +400,6 @@ def draw_owl(cv, t, e=0.0, costume=None, look=(0, -0.5), surprise=0.0, blink=0.0
     # hat
     if costume.get("hat"):
         cv.save(); cv.translate(0, -598); draw_hat(cv, costume["hat"], t); cv.restore()
+    cv.restore()
+    if pose is not None:
+        cv.restore()
