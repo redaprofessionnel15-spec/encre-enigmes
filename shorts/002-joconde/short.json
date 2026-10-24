@@ -1,0 +1,152 @@
+{
+  "title": "Le jour où la Joconde a disparu du Louvre",
+  "scene_packs": [
+    "scenes/joconde.py"
+  ],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "magnifier"
+  },
+  "speed": 1.12,
+  "segments": [
+    {
+      "tts": "Des foules entières sont venues au Louvre… pour regarder un mur vide.",
+      "tension": 0.45,
+      "scene": {
+        "type": "wall",
+        "slam_on": "vide"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.58
+      }
+    },
+    {
+      "tts": "Le vingt et un août dix-neuf cent onze, le musée est fermé. Un homme a passé la nuit caché dans un débarras. Au petit matin, il décroche la Joconde… et repart avec, cachée sous sa blouse.",
+      "caption": "Le 21 août 1911, le musée est fermé. Un homme a passé la nuit caché dans un débarras. Au petit matin, il décroche la Joconde… et repart avec, cachée sous sa blouse.",
+      "tension": 0.6,
+      "scene": {
+        "type": "night",
+        "date": "21 AOÛT 1911",
+        "pill": "musée fermé",
+        "take_on": "décroche",
+        "smock_on": "blouse"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54
+      }
+    },
+    {
+      "tts": "Le lendemain, un peintre vient la copier. À sa place : un mur vide. Panique à Paris !",
+      "tension": 0.8,
+      "scene": {
+        "type": "discover",
+        "date": "22 AOÛT 1911",
+        "panic_on": "panique"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54
+      }
+    },
+    {
+      "tts": "Le poète Apollinaire est arrêté. Picasso est interrogé. Mais ce ne sont pas eux.",
+      "tension": 0.55,
+      "scene": {
+        "type": "suspects",
+        "arrest_on": "arrêté",
+        "ask_on": "interrogé",
+        "free_on": "mais"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56
+      }
+    },
+    {
+      "tts": "Le voleur, c'est Vincenzo Peruggia, un vitrier italien qui avait travaillé au Louvre.",
+      "tension": 0.7,
+      "scene": {
+        "type": "thief",
+        "name": "VINCENZO PERUGGIA",
+        "sub": "vitrier italien",
+        "name_on": "vincenzo",
+        "pill_on": "travaillé",
+        "pill": "ANCIEN EMPLOYÉ DU LOUVRE"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54
+      }
+    },
+    {
+      "tts": "Pendant plus de deux ans, la Joconde dort dans une valise… sous son lit.",
+      "tension": 0.4,
+      "scene": {
+        "type": "hideout",
+        "big": "PLUS DE 2 ANS",
+        "big_on": "deux",
+        "case_on": "valise"
+      },
+      "owl": {
+        "x": 860,
+        "face": -1,
+        "scale": 0.52
+      }
+    },
+    {
+      "tts": "Fin dix-neuf cent treize, il essaie de la vendre à un antiquaire de Florence. Le directeur du musée des Offices la reconnaît. Peruggia est arrêté.",
+      "caption": "Fin 1913, il essaie de la vendre à un antiquaire de Florence. Le directeur du musée des Offices la reconnaît. Peruggia est arrêté.",
+      "tension": 0.75,
+      "scene": {
+        "type": "florence",
+        "date": "FIN 1913",
+        "reveal_on": "reconnaît"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56
+      }
+    },
+    {
+      "tts": "Et ce vol a rendu la Joconde encore plus célèbre.",
+      "tension": 0.5,
+      "scene": {
+        "type": "fame",
+        "big": "ENCORE PLUS CÉLÈBRE"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.58
+      }
+    },
+    {
+      "tts": "Abonne-toi pour d'autres histoires comme celle-là !",
+      "tension": 0.3,
+      "tail": 0.5,
+      "scene": {
+        "type": "cta",
+        "big": "TU AS AIMÉ ?",
+        "sub_on": "abonne",
+        "like_on": "histoires"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      }
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.06
+}

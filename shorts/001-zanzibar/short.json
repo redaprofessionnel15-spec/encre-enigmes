@@ -1,0 +1,146 @@
+{
+  "title": "La guerre qui n'a duré que 38 minutes",
+  "narration": "voice_final.wav",
+  "costume": {
+    "hat": "bicorne",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "Cette guerre a duré trente-huit minutes. Pas trente-huit jours. Pas trente-huit heures… trente-huit minutes.",
+      "caption": "Cette guerre a duré 38 minutes. Pas 38 jours. Pas 38 heures… 38 minutes.",
+      "tension": 0.5,
+      "scene": {
+        "type": "hook",
+        "slam_on": "38#4"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.58
+      }
+    },
+    {
+      "tts": "On est en 1896, sur l'île de Zanzibar, au large de l'Afrique.",
+      "caption": "On est en 1896, sur l'île de Zanzibar, au large de l'Afrique.",
+      "tension": 0.35,
+      "scene": {
+        "type": "place",
+        "big": "ZANZIBAR",
+        "small": "AOÛT 1896"
+      },
+      "owl": {
+        "x": 830,
+        "face": -1,
+        "scale": 0.54
+      }
+    },
+    {
+      "tts": "Le sultan vient de mourir, et un certain Khalid s'installe sur le trône… sans demander l'avis des Britanniques. Grosse erreur.",
+      "caption": "Le sultan vient de mourir, et un certain Khalid s'installe sur le trône… sans demander l'avis des Britanniques. Grosse erreur.",
+      "tension": 0.45,
+      "scene": {
+        "type": "throne",
+        "big": "KHALID",
+        "small": "sans l'accord des Britanniques",
+        "crown_on": "khalid",
+        "stamp_on": "grosse",
+        "stamp": "GROSSE ERREUR"
+      },
+      "owl": {
+        "x": 860,
+        "face": -1,
+        "scale": 0.52
+      }
+    },
+    {
+      "tts": "Londres lui pose un ultimatum : il a jusqu'à neuf heures pour quitter le palais. Khalid refuse.",
+      "caption": "Londres lui pose un ultimatum : il a jusqu'à 9 heures pour quitter le palais. Khalid refuse.",
+      "tension": 0.55,
+      "scene": {
+        "type": "scroll",
+        "big": "ULTIMATUM",
+        "line": "Quitter le palais avant 9 heures",
+        "seal_on": "ultimatum",
+        "pill": "9 H 00"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54
+      }
+    },
+    {
+      "tts": "À neuf heures deux, trois navires britanniques ouvrent le feu. Le yacht du sultan tente de riposter… et coule.",
+      "caption": "À 9 h 02, trois navires britanniques ouvrent le feu. Le yacht du sultan tente de riposter… et coule.",
+      "tension": 1.0,
+      "scene": {
+        "type": "battle",
+        "time": "9:02",
+        "big": "9 H 02",
+        "small": "trois navires ouvrent le feu",
+        "shake_on": "feu",
+        "sink_on": "coule"
+      },
+      "owl": {
+        "x": 240,
+        "face": 1,
+        "scale": 0.56
+      }
+    },
+    {
+      "tts": "Vers neuf heures quarante, c'est fini : le drapeau du palais tombe. Environ cinq cents morts ou blessés côté sultan. Un seul blessé côté britannique.",
+      "caption": "Vers 9 h 40, c'est fini : le drapeau du palais tombe. Environ 500 morts ou blessés côté sultan. Un seul blessé côté britannique.",
+      "tension": 0.6,
+      "scene": {
+        "type": "toll",
+        "flag_on": "tombe",
+        "left": 500,
+        "left_label": "morts ou blessés",
+        "left_on": "environ",
+        "right": 1,
+        "right_label": "blessé britannique",
+        "right_on": "seul"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.52
+      }
+    },
+    {
+      "tts": "Et Khalid ? Il s'est réfugié au consulat d'Allemagne. Une guerre entière… en trente-huit minutes.",
+      "caption": "Et Khalid ? Il s'est réfugié au consulat d'Allemagne. Une guerre entière… en 38 minutes.",
+      "tension": 0.45,
+      "scene": {
+        "type": "finale",
+        "big": "38 MINUTES.",
+        "small": "une guerre entière"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.58
+      }
+    },
+    {
+      "tts": "Abonne-toi pour d'autres histoires comme celle-là !",
+      "caption": "Abonne-toi pour d'autres histoires comme celle-là !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU AS AIMÉ ?",
+        "sub_on": "abonne",
+        "like_on": "histoires"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      }
+    }
+  ],
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.06
+}

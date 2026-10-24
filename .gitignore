@@ -1,0 +1,6 @@
+# rendus intermédiaires
+*_work/
+shorts/*/voice_final.wav
+__pycache__/
+*.pyc
+out/
