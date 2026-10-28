@@ -1,0 +1,73 @@
+{
+  "title": "La Bête du Gévaudan",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "green",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En juin 1764, une jeune bergère de quatorze ans fait paître son troupeau près de Langogne.",
+      "caption": "En juin 1764, une jeune bergère de 14 ans fait paître son troupeau près de Langogne.",
+      "tension": 0.5,
+      "scene": {"type": "year", "year": 1764, "from": 2026, "place": "GÉVAUDAN", "land_on": "1764"},
+      "owl": {"x": 540, "face": 1, "scale": 0.56}
+    },
+    {
+      "tts": "Une bête féroce surgit. Ce n'est que le début.",
+      "tension": 0.8,
+      "scene": {"type": "scroll", "big": "BÊTE FÉROCE", "line": "Ce n'est que le début"},
+      "owl": {"x": 230, "face": 1, "scale": 0.54}
+    },
+    {
+      "tts": "Pendant trois ans, en Gévaudan, dans le sud de la France, une créature inconnue attaque les enfants et les jeunes femmes isolées.",
+      "caption": "Pendant trois ans, en Gévaudan, dans le sud de la France, une créature inconnue attaque les enfants et les jeunes femmes isolées.",
+      "tension": 0.6,
+      "scene": {"type": "place", "big": "GÉVAUDAN", "small": "SUD DE LA FRANCE"},
+      "owl": {"x": 850, "face": -1, "scale": 0.54}
+    },
+    {
+      "tts": "Une centaine de personnes meurent ou sont blessées.",
+      "tension": 0.7,
+      "scene": {"type": "counter", "value": 100, "unit": "PERSONNES", "label": "MORTS OU BLESSÉS", "from": 0, "slam_on": "centaine"},
+      "owl": {"x": 540, "face": 1, "scale": 0.56}
+    },
+    {
+      "tts": "Le roi Louis quinze envoie des dragons, des chasseurs et des milliers de paysans.",
+      "tension": 0.6,
+      "scene": {"type": "battle", "pill": "DRAGONS, CHASSEURS, PAYSANS"},
+      "owl": {"x": 230, "face": 1, "scale": 0.54}
+    },
+    {
+      "tts": "Rien n'y fait. Les gazettes en font un feuilleton, et la légende prend le dessus.",
+      "tension": 0.65,
+      "scene": {"type": "verdict", "claim": "Rien n'y fait", "stamp": "ÉCHEC", "stamp_on": "fait"},
+      "owl": {"x": 850, "face": -1, "scale": 0.54}
+    },
+    {
+      "tts": "On tue plus d'une centaine de loups dans la région. Lequel était la bête ?",
+      "caption": "On tue plus d'une centaine de loups dans la région. Lequel était la bête ?",
+      "tension": 0.75,
+      "scene": {"type": "counter", "value": 100, "unit": "LOUPS", "label": "ABATTUS DANS LA RÉGION", "from": 0, "slam_on": "loups"},
+      "owl": {"x": 540, "face": 1, "scale": 0.56}
+    },
+    {
+      "tts": "En juin mille sept cent soixante-sept, un paysan, Jean Chastel, abat un gros loup. Les attaques cessent. Le mystère, lui, n'a jamais été résolu.",
+      "caption": "En juin 1767, un paysan, Jean Chastel, abat un gros loup. Les attaques cessent. Le mystère, lui, n'a jamais été résolu.",
+      "tension": 0.5,
+      "scene": {"type": "year", "year": 1767, "from": 1764, "place": "GÉVAUDAN", "land_on": "mille"},
+      "owl": {"x": 230, "face": 1, "scale": 0.54}
+    },
+    {
+      "tts": "Tu penses que c'était un loup, un fou, ou autre chose ? Abonne-toi et laisse un like pour la suite !",
+      "tension": 0.3,
+      "tail": 0.5,
+      "scene": {"type": "cta", "big": "TU PENSES QUOI ?", "sub_on": "Abonne", "like_on": "like"},
+      "owl": {"x": 540, "face": 1, "scale": 0.62}
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.06
+}
