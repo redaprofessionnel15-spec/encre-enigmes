@@ -1,0 +1,59 @@
+{
+  "title": "Le signal « Wow! » (1977)",
+  "scene_packs": [],
+  "costume": {
+    "hat": "headphones",
+    "coat": "white",
+    "accessory": "radio"
+  },
+  "segments": [
+    {
+      "tts": "Le quinze août mille neuf cent soixante-dix-sept, un radiotélescope américain capte un signal venu de l'espace.",
+      "caption": "Le 15 août 1977, un radiotélescope américain capte un signal venu de l'espace.",
+      "tension": 0.5,
+      "scene": {"type": "year", "year": 1977, "from": 2026, "place": "OHIO", "land_on": "mille"},
+      "owl": {"x": 540, "face": 1, "scale": 0.56}
+    },
+    {
+      "tts": "Il dure soixante-douze secondes. Puis il disparaît.",
+      "caption": "Il dure 72 secondes. Puis il disparaît.",
+      "tension": 0.7,
+      "scene": {"type": "counter", "value": 72, "unit": "SECONDES", "label": "DE SIGNAL", "from": 0, "slam_on": "soixante-douze"},
+      "owl": {"x": 230, "face": 1, "scale": 0.54}
+    },
+    {
+      "tts": "Il semble venir de la constellation du Sagittaire, et il est d'une pureté étonnante.",
+      "tension": 0.6,
+      "scene": {"type": "place", "big": "SAGITTAIRE", "small": "CONSTELLATION"},
+      "owl": {"x": 850, "face": -1, "scale": 0.54}
+    },
+    {
+      "tts": "Jerry Ehman, un astronome, examine les impressions. Il entoure le signal, et écrit à côté : Wow !",
+      "tension": 0.8,
+      "scene": {"type": "quote", "title": "IMPRESSION DU BIG EAR", "sign": "— Jerry Ehman, 1977"},
+      "owl": {"x": 540, "face": 1, "scale": 0.56}
+    },
+    {
+      "tts": "Il ne s'est jamais reproduit.",
+      "tension": 0.7,
+      "scene": {"type": "verdict", "claim": "Le signal est-il revenu ?", "stamp": "JAMAIS", "stamp_on": "jamais"},
+      "owl": {"x": 230, "face": 1, "scale": 0.54}
+    },
+    {
+      "tts": "Naturel, ou venu d'une civilisation lointaine ? La question reste ouverte.",
+      "tension": 0.5,
+      "scene": {"type": "scroll", "big": "NATUREL ?", "line": "ou civilisation lointaine ?"},
+      "owl": {"x": 850, "face": -1, "scale": 0.54}
+    },
+    {
+      "tts": "Et toi, tu y crois ? Abonne-toi et laisse un like pour la suite !",
+      "tension": 0.3,
+      "tail": 0.5,
+      "scene": {"type": "cta", "big": "Y CROIS-TU ?", "sub_on": "Abonne", "like_on": "laisse"},
+      "owl": {"x": 540, "face": 1, "scale": 0.62}
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.06
+}
