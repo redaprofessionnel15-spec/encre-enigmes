@@ -71,7 +71,7 @@
       "scene": {
         "type": "verdict",
         "claim": "Une trace du médium ?",
-        "stamp": "AUCUN",
+        "stamp": "AUCUNE",
         "stamp_on": "trace"
       },
       "owl": {
