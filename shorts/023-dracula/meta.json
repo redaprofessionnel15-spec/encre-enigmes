@@ -1,11 +1,14 @@
 {
   "title": "🎃 Le vrai Dracula a existé",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/023-dracula.mp4",
   "costume": "tricorne, manteau noir, lanterne",
   "voice": "ElevenLabs direct (Guillaume, eleven_multilingual_v2), 740 crédits",
   "sources": [
     "Wikipedia, Vlad the Impaler (Laonikos Chalkokondyles cité)",
     "Bram Stoker, Dracula (1897)"
-  ]
+  ],
+  "publish_at": "2026-11-09T16:00:00+01:00",
+  "metricool_id": 411405655,
+  "commit": "1598a8f03ab791b511410f8b97ec5152095c1b99"
 }
