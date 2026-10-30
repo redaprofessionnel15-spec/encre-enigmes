@@ -53,7 +53,7 @@
       "tension": 0.6,
       "scene": {
         "type": "quote",
-        "title": "DRACUL → DRACULA",
+        "title": "DE DRACUL À DRACULA",
         "sign": "— « le fils du dragon »"
       },
       "owl": {
@@ -88,7 +88,7 @@
         "type": "year",
         "year": 1462,
         "from": 1456,
-        "place": "TÂRGOVIȘTE",
+        "place": "TÂRGOVISTE",
         "land_on": "mille"
       },
       "owl": {
