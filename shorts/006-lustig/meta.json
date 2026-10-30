@@ -1,8 +1,14 @@
 {
   "title": "L'homme qui a vendu la tour Eiffel (deux fois)",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/006-lustig.mp4",
   "costume": "chapeau de détective, manteau noir, loupe",
   "voice": "ElevenLabs direct (George, eleven_multilingual_v2), 663 crédits",
-  "sources": ["Wikipedia, Victor Lustig", "Slate.fr, « L'histoire de ce roi de l'arnaque qui a vendu la tour Eiffel »"]
+  "sources": [
+    "Wikipedia, Victor Lustig",
+    "Slate.fr, « L'histoire de ce roi de l'arnaque qui a vendu la tour Eiffel »"
+  ],
+  "publish_at": "2026-11-03T16:00:00+01:00",
+  "metricool_id": 411311129,
+  "commit": "0bd718bd5f7fd4d70925ce55bc7f3037ff2b7d0b"
 }
