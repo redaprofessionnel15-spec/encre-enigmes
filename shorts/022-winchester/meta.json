@@ -1,10 +1,13 @@
 {
   "title": "🎃 La maison Winchester, construite pour les fantômes ?",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/022-winchester.mp4",
   "costume": "tricorne, manteau noir, lanterne",
   "voice": "ElevenLabs direct (Guillaume, eleven_multilingual_v2), 668 crédits",
   "sources": [
     "Wikipedia, Winchester Mystery House (Mary Jo Ignoffo, Joe Nickell cités)"
-  ]
+  ],
+  "publish_at": "2026-11-08T16:00:00+01:00",
+  "metricool_id": 411398095,
+  "commit": "2cdd39ce4e2a0610a741a9304274b0c0965a6966"
 }
