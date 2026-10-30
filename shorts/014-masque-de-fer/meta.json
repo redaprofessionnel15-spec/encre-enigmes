@@ -1,0 +1,10 @@
+{
+  "title": "🎃 L'Homme au masque de fer",
+  "status": "prêt",
+  "video": "videos/014-masque-de-fer.mp4",
+  "costume": "tricorne, manteau noir, lanterne",
+  "voice": "ElevenLabs direct (George, eleven_multilingual_v2), 650 crédits",
+  "sources": [
+    "Wikipedia, Man in the Iron Mask"
+  ]
+}
