@@ -32,5 +32,5 @@
      "tension": 0.3, "tail": 0.5, "scene": {"type": "cta", "big": "PIÉGÉ ?", "sub_on": "Abonne", "like_on": "laisse"},
      "owl": {"x": 540, "face": 1, "scale": 0.62}}
   ],
-  "narration": "voice_final.wav", "voice_raw": "voice_raw.mp3", "voice_tempo": 1.06
+  "narration": "voice_final.wav", "voice_raw": "voice_raw.mp3", "voice_tempo": 1.0
 }
