@@ -1,0 +1,11 @@
+{
+  "title": "🎃 La Mary Celeste, le navire fantôme",
+  "status": "prêt",
+  "video": "videos/012-mary-celeste.mp4",
+  "costume": "bicorne, manteau bleu marine, longue-vue",
+  "voice": "ElevenLabs direct (Guillaume, eleven_multilingual_v2), 627 crédits",
+  "sources": [
+    "Wikipedia, Mary Celeste",
+    "Smithsonian Magazine, « Abandoned Ship: The Mary Celeste »"
+  ]
+}
