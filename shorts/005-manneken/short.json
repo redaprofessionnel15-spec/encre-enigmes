@@ -1,0 +1,209 @@
+{
+  "title": "Le Manneken-Pis et ses mille costumes",
+  "scene_packs": [],
+  "costume": {
+    "hat": "beret",
+    "coat": "red",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "Cette petite statue de Bruxelles possède plus de mille costumes. Plus que n'importe quelle star.",
+      "tension": 0.5,
+      "scene": {
+        "type": "counter",
+        "value": 1000,
+        "unit": "COSTUMES",
+        "label": "ET ÇA CONTINUE",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "star",
+            "pose": "present",
+            "mood": "smug",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Le Manneken-Pis mesure à peine cinquante-cinq centimètres.",
+      "caption": "Le Manneken-Pis mesure à peine 55 centimètres.",
+      "tension": 0.5,
+      "scene": {
+        "type": "counter",
+        "value": 55,
+        "unit": "CENTIMÈTRES",
+        "label": "DE BRONZE",
+        "from": 0,
+        "slam_on": "cinquante-cinq"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il a été sculpté en seize cent dix-neuf. Et depuis, Bruxelles le surveille de près.",
+      "caption": "Il a été sculpté en 1619. Et depuis, Bruxelles le surveille de près.",
+      "tension": 0.5,
+      "scene": {
+        "type": "year",
+        "year": 1619,
+        "from": 2026,
+        "place": "BRUXELLES",
+        "land_on": "seize"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Parce que tout le monde veut le voler.",
+      "tension": 0.7,
+      "scene": {
+        "type": "scroll",
+        "big": "VOLÉ !",
+        "line": "encore et encore"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious",
+        "acts": [
+          {
+            "on": "voler",
+            "pose": "hands_up",
+            "mood": "shocked",
+            "hold": 0.9
+          }
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "En mille sept cent quarante-sept, des soldats français auraient tenté de l'emporter. Les Bruxellois sont furieux.",
+      "caption": "En 1747, des soldats français auraient tenté de l'emporter. Les Bruxellois sont furieux.",
+      "tension": 0.8,
+      "scene": {
+        "type": "year",
+        "year": 1747,
+        "from": 1619,
+        "place": "SOLDATS FRANÇAIS",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Pour se faire pardonner, le roi Louis Quinze lui offre un habit brodé d'or. Il est toujours conservé aujourd'hui.",
+      "caption": "Pour se faire pardonner, le roi Louis XV lui offre un habit brodé d'or. Il est toujours conservé aujourd'hui.",
+      "tension": 0.5,
+      "scene": {
+        "type": "scroll",
+        "big": "LOUIS XV",
+        "line": "un habit brodé d'or"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "or",
+            "pose": "present",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "En mille huit cent dix-sept, un voleur le brise en onze morceaux.",
+      "caption": "En 1817, un voleur le brise en 11 morceaux.",
+      "tension": 0.8,
+      "scene": {
+        "type": "counter",
+        "value": 11,
+        "unit": "MORCEAUX",
+        "label": "EN 1817",
+        "from": 0,
+        "slam_on": "onze"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried",
+        "acts": [
+          {
+            "on": "brise",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Et celui que tu vois dans la rue ? C'est une copie. Le vrai est à l'abri dans un musée.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Celui de la rue est l'original ?",
+        "stamp": "COPIE",
+        "stamp_on": "copie"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug",
+        "acts": [
+          {
+            "on": "copie",
+            "pose": "point",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Abonne-toi et laisse un like pour la prochaine énigme !",
+      "tension": 0.3,
+      "tail": 0.5,
+      "scene": {
+        "type": "cta",
+        "big": "TU LE SAVAIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      }
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.06
+}
