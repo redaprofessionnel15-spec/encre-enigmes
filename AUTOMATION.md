@@ -38,7 +38,7 @@ Liste d'attente :
 
 ## 4. Générer la voix
 
-- `creative_generate_speech` (ElevenLabs), modèle `eleven_multilingual_v2`, voix George (`voice_id` `JBFqnCBsd6RMkjVDRZzb`, ou celle indiquée par `voice_id` dans `short.json`), `generations_count` 1, tout le script d'un seul tenant, sur le flow `BdaPXZcXUCpgBt9B1rZL`.
+- `creative_generate_speech` (ElevenLabs), modèle `eleven_multilingual_v2`, voix **Guillaume** (`voice_id` `ohItIVrXTBI80RrUECOD`, voix de la chaîne depuis le 30/10/2026 ; utiliser le `voice_id` du `short.json` s'il y en a un), `generations_count` 1, tout le script d'un seul tenant, sur le flow `BdaPXZcXUCpgBt9B1rZL`.
 - Interroger `creative_get_flow_run_status` jusqu'à `all_completed`, puis télécharger le MP3 (`content_url`, domaine storage.googleapis.com) avec curl dans `shorts/NNN-sujet/voice_raw.mp3`.
 - `voice_tempo` : 1,0 si la voix brute dure moins de 42 s, sinon 1,06. Au-delà de 58 s après resserrage, raccourcir le script plutôt que d'accélérer la voix.
 
