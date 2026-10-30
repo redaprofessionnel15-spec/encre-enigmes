@@ -6,7 +6,8 @@ Cette procédure est suivie chaque dimanche par une session Claude planifiée. E
 
 - Relier le dépôt `redaprofessionnel15-spec/encre-enigmes` en écriture, le cloner, puis `pip install -r requirements.txt --break-system-packages`. Vérifier `ffmpeg -version`.
 - Lire `shorts/*/meta.json` pour savoir ce qui est déjà fait, prêt ou programmé.
-- Vérifier les crédits vidIQ (`vidiq_balance`) : une voix coûte environ 14 crédits. S'il n'y en a pas assez pour tous les Shorts prévus, faire ceux qui sont possibles et le signaler.
+- La voix passe désormais par le connecteur **ElevenLabs** (plus par vidIQ). Une voix coûte environ 1 crédit par caractère (600 à 770 crédits par Short). Si un appel répond « Free generations are busy », rien n'est débité : ne pas relancer dans le même tour, programmer une reprise quelques minutes plus tard. Si les crédits manquent, faire les Shorts possibles et le signaler.
+- La machine n'a que 2 processeurs : rendre les Shorts **l'un après l'autre**, jamais en parallèle.
 
 ## 1. Choisir les sujets
 
@@ -37,9 +38,9 @@ Liste d'attente :
 
 ## 4. Générer la voix
 
-- `vidiq_voiceover_generate`, voix George (`voiceId` `JBFqnCBsd6RMkjVDRZzb`), français, tout le script d'un seul tenant.
-- Interroger le travail avec `vidiq_job_poll` jusqu'à la fin, puis télécharger le MP3 (domaine `ai-voiceovers.s3.us-east-1.amazonaws.com`) dans `shorts/NNN-sujet/voice_raw.mp3`.
-- Écouter la durée : au-delà de 58 s après resserrage, raccourcir le script plutôt que d'accélérer la voix.
+- `creative_generate_speech` (ElevenLabs), modèle `eleven_multilingual_v2`, voix George (`voice_id` `JBFqnCBsd6RMkjVDRZzb`, ou celle indiquée par `voice_id` dans `short.json`), `generations_count` 1, tout le script d'un seul tenant, sur le flow `BdaPXZcXUCpgBt9B1rZL`.
+- Interroger `creative_get_flow_run_status` jusqu'à `all_completed`, puis télécharger le MP3 (`content_url`, domaine storage.googleapis.com) avec curl dans `shorts/NNN-sujet/voice_raw.mp3`.
+- `voice_tempo` : 1,0 si la voix brute dure moins de 42 s, sinon 1,06. Au-delà de 58 s après resserrage, raccourcir le script plutôt que d'accélérer la voix.
 
 ## 5. Construire les scènes
 
@@ -61,12 +62,12 @@ Liste d'attente :
 
 ## 8. Publier sur le dépôt
 
-- `git add` du dossier du Short, du pack de scènes et du MP4, commit, push sur `main`.
-- URL brute de la vidéo : `https://raw.githubusercontent.com/redaprofessionnel15-spec/encre-enigmes/main/videos/NNN-sujet.mp4`.
+- `git add` du dossier du Short, du pack de scènes et du MP4, commit, push sur une **branche** (jamais directement sur `main`).
+- URL brute de la vidéo, épinglée sur le commit : `https://raw.githubusercontent.com/redaprofessionnel15-spec/encre-enigmes/<sha>/videos/NNN-sujet.mp4`.
 
 ## 9. Programmer dans Metricool
 
-- Marque `7613241`, réseau YouTube, à 16 h (heure de Bruxelles) les jours prévus.
+- Marque `7613241`, réseau YouTube, à 16 h (heure de Bruxelles) les jours prévus. Vérifier d'abord avec `getScheduledPosts` les créneaux déjà pris pour ne rien programmer en double.
 - `youtubeData` : type `short`, `madeForKids` false, titre (moins de 70 caractères, avec un mot-clé), description courte avec 3 à 5 hashtags dont `#shorts`.
 - Plan gratuit : 20 publications par mois au maximum.
 - Mettre à jour `meta.json` (`status: "programmé"`, `publish_at`), commit, push.
