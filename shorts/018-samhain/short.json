@@ -1,0 +1,148 @@
+{
+  "title": "Les vraies origines d'Halloween",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Avant les bonbons et les citrouilles, Halloween était une fête des morts. Et elle ne vient pas d'Amérique, mais d'Irlande.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une fête américaine ?",
+        "stamp": "FAUX",
+        "stamp_on": "Irlande"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug",
+        "acts": [
+          {
+            "on": "morts",
+            "pose": "lean_in",
+            "mood": "serious",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Chez les Gaëls, elle s'appelle Samhain. Elle marque la fin des récoltes, et le début de la saison sombre.",
+      "tension": 0.5,
+      "scene": {
+        "type": "scroll",
+        "big": "SAMHAIN",
+        "line": "la fin des récoltes"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Ce soir-là, on croit que la frontière entre le monde des vivants et l'autre monde devient très fine.",
+      "tension": 0.7,
+      "scene": {
+        "type": "quote",
+        "title": "LA NUIT DU 31 OCTOBRE",
+        "sign": "— tradition gaélique"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Les esprits peuvent passer. Alors on leur laisse à manger, et on garde une place à table pour les ancêtres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE PLACE À TABLE",
+        "line": "pour les ancêtres"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious",
+        "acts": [
+          {
+            "on": "ancêtres",
+            "pose": "present",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "On allume de grands feux sur les collines, pour se protéger. Et on se déguise, pour que les esprits ne nous reconnaissent pas.",
+      "tension": 0.8,
+      "scene": {
+        "type": "verdict",
+        "claim": "Pourquoi se déguiser ?",
+        "stamp": "SE CACHER",
+        "stamp_on": "reconnaissent"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "déguise",
+            "pose": "shrug",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Au dix-neuvième siècle, des Irlandais et des Écossais partent vivre en Amérique. Et ils emportent la fête avec eux.",
+      "caption": "Au XIXe siècle, des Irlandais et des Écossais partent vivre en Amérique. Et ils emportent la fête avec eux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CAP SUR L'AMÉRIQUE",
+        "line": "au XIXe siècle"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Joyeux Halloween ! Abonne-toi et laisse un like pour d'autres histoires qui font peur.",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "JOYEUX HALLOWEEN",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

@@ -1,0 +1,153 @@
+{
+  "title": "Les sorcières de Salem (1692)",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En seize cent quatre-vingt-douze, deux fillettes se mettent à crier et à se tordre. Et tout un village va accuser ses voisins de sorcellerie.",
+      "caption": "En 1692, deux fillettes se mettent à crier et à se tordre. Et tout un village va accuser ses voisins de sorcellerie.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1692,
+        "from": 2026,
+        "place": "SALEM",
+        "land_on": "seize"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Elles ont neuf et onze ans. Personne ne comprend. Alors on parle d'ensorcellement.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ENSORCELÉES ?",
+        "line": "le verdict du village"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Les accusations se multiplient. Plus de deux cents personnes sont accusées.",
+      "caption": "Les accusations se multiplient. Plus de 200 personnes sont accusées.",
+      "tension": 0.8,
+      "scene": {
+        "type": "counter",
+        "value": 200,
+        "unit": "ACCUSÉS",
+        "label": "EN QUELQUES MOIS",
+        "from": 0,
+        "slam_on": "cents"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Les preuves ? Des témoins qui disent avoir vu l'esprit d'un accusé venir les tourmenter.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LA « PREUVE SPECTRALE »",
+        "sign": "— tribunal de Salem, 1692"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Dix-neuf personnes sont pendues. Un homme meurt écrasé sous des pierres.",
+      "caption": "19 personnes sont pendues. Un homme meurt écrasé sous des pierres.",
+      "tension": 0.7,
+      "scene": {
+        "type": "counter",
+        "value": 19,
+        "unit": "PERSONNES",
+        "label": "EXÉCUTÉES PAR PENDAISON",
+        "from": 0,
+        "slam_on": "Dix-neuf"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Quelques années plus tard, certains accusateurs avouent avoir menti.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des sorcières ?",
+        "stamp": "FAUX",
+        "stamp_on": "menti"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Et en deux mille vingt-deux, la dernière condamnée est enfin innocentée.",
+      "caption": "Et en 2022, la dernière condamnée est enfin innocentée.",
+      "tension": 0.5,
+      "scene": {
+        "type": "year",
+        "year": 2022,
+        "from": 1692,
+        "place": "MASSACHUSETTS",
+        "land_on": "deux"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "neutral"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Une histoire vraie, plus terrifiante qu'un film. Abonne-toi et laisse un like.",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "PLUS FORT QU'UN FILM",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

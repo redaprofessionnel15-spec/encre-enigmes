@@ -1,0 +1,163 @@
+{
+  "title": "Le vrai Dracula a existé",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Dracula a vraiment existé. Et il était peut-être plus effrayant que le vampire.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DRACULA",
+        "line": "il a vraiment existé"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious",
+        "acts": [
+          {
+            "on": "vampire",
+            "pose": "lean_in",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Il s'appelle Vlad Trois. En mille quatre cent cinquante-six, il devient prince de Valachie, dans l'actuelle Roumanie.",
+      "caption": "Il s'appelle Vlad III. En 1456, il devient prince de Valachie, dans l'actuelle Roumanie.",
+      "tension": 0.5,
+      "scene": {
+        "type": "year",
+        "year": 1456,
+        "from": 2026,
+        "place": "VALACHIE",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Son père faisait partie de l'ordre du Dragon. On l'appelait Dracul. Lui, c'est Dracula : le fils du dragon.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "DRACUL → DRACULA",
+        "sign": "— « le fils du dragon »"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Mais il a un autre surnom : l'Empaleur.",
+      "tension": 0.8,
+      "scene": {
+        "type": "verdict",
+        "claim": "Son autre surnom ?",
+        "stamp": "L'EMPALEUR",
+        "stamp_on": "Empaleur"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Selon un chroniqueur, en mille quatre cent soixante-deux, l'armée ottomane découvre devant une ville une véritable forêt de pieux.",
+      "caption": "Selon un chroniqueur, en 1462, l'armée ottomane découvre devant une ville une véritable forêt de pieux.",
+      "tension": 0.8,
+      "scene": {
+        "type": "year",
+        "year": 1462,
+        "from": 1456,
+        "place": "TÂRGOVIȘTE",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Mais les historiens pensent que certains récits ont été exagérés par ses ennemis.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Tout est vrai ?",
+        "stamp": "EXAGÉRÉ ?",
+        "stamp_on": "exagérés"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious",
+        "acts": [
+          {
+            "on": "ennemis",
+            "pose": "shrug",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Quatre siècles plus tard, en mille huit cent quatre-vingt-dix-sept, Bram Stoker publie Dracula, et lui emprunte son nom.",
+      "caption": "Quatre siècles plus tard, en 1897, Bram Stoker publie Dracula, et lui emprunte son nom.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1897,
+        "from": 1462,
+        "place": "LONDRES",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Joyeux Halloween ! Abonne-toi et laisse un like, si tu oses.",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "SI TU OSES…",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

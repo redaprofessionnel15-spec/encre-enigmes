@@ -1,0 +1,168 @@
+{
+  "title": "Frankenstein, né d'un été sans soleil",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En mille huit cent seize, l'été n'arrive jamais. Et c'est ce qui a donné naissance à Frankenstein.",
+      "caption": "En 1816, l'été n'arrive jamais. Et c'est ce qui a donné naissance à Frankenstein.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1816,
+        "from": 2026,
+        "place": "L'ANNÉE SANS ÉTÉ",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "Frankenstein",
+            "pose": "hands_up",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Un an plus tôt, un volcan géant explose en Indonésie : le Tambora. Ses cendres refroidissent la planète.",
+      "tension": 0.7,
+      "scene": {
+        "type": "scroll",
+        "big": "TAMBORA",
+        "line": "Indonésie, 1815"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "En Europe, il pleut sans arrêt. Les récoltes sont perdues.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un été normal ?",
+        "stamp": "NON",
+        "stamp_on": "perdues"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "En Suisse, un groupe d'amis reste coincé dans une villa à cause de la pluie. Parmi eux, le poète Lord Byron.",
+      "tension": 0.5,
+      "scene": {
+        "type": "scroll",
+        "big": "VILLA DIODATI",
+        "line": "Genève, juin 1816"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Pour passer le temps, Byron lance un défi : qui écrira l'histoire la plus effrayante ?",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LE DÉFI DE LORD BYRON",
+        "sign": "— Villa Diodati, 1816"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug",
+        "acts": [
+          {
+            "on": "effrayante",
+            "pose": "lean_in",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Une jeune femme de dix-huit ans relève le défi. Elle s'appelle Mary Shelley.",
+      "caption": "Une jeune femme de 18 ans relève le défi. Elle s'appelle Mary Shelley.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 18,
+        "unit": "ANS",
+        "label": "MARY SHELLEY",
+        "from": 0,
+        "slam_on": "dix-huit"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Son histoire ? Un savant qui donne vie à une créature. Frankenstein était né.",
+      "tension": 0.7,
+      "scene": {
+        "type": "scroll",
+        "big": "FRANKENSTEIN",
+        "line": "publié en 1818"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "né",
+            "pose": "present",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Et toi, tu aurais écrit quoi ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TON HISTOIRE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

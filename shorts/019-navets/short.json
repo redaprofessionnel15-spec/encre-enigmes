@@ -1,0 +1,151 @@
+{
+  "title": "Avant les citrouilles, on sculptait des navets",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Avant les citrouilles, à Halloween, on sculptait des navets. Et ils faisaient beaucoup plus peur.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des citrouilles ?",
+        "stamp": "DES NAVETS",
+        "stamp_on": "navets"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug",
+        "acts": [
+          {
+            "on": "peur",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "En Irlande et en Écosse, on creuse des navets et des betteraves, et on y grave des visages effrayants.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "NAVETS SCULPTÉS",
+        "line": "Irlande et Écosse"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Tout vient d'une vieille légende irlandaise : celle de Jack le radin.",
+      "tension": 0.5,
+      "scene": {
+        "type": "quote",
+        "title": "LA LÉGENDE DE JACK",
+        "sign": "— conte irlandais"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Jack réussit à piéger le diable. Mais à sa mort, ni le paradis, ni l'enfer ne veulent de lui.",
+      "tension": 0.8,
+      "scene": {
+        "type": "verdict",
+        "claim": "Paradis ou enfer ?",
+        "stamp": "REFUSÉ",
+        "stamp_on": "lui"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "diable",
+            "pose": "point",
+            "mood": "smug",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Le diable lui lance une braise. Jack la pose dans un navet creusé, pour éclairer sa route. Pour toujours.",
+      "tension": 0.7,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE BRAISE",
+        "line": "dans un navet creusé"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Plus tard, les Irlandais partent en Amérique. Là-bas, ils découvrent un légume bien plus grand : la citrouille.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 1,
+        "unit": "CITROUILLE",
+        "label": "ET UNE TRADITION EST NÉE",
+        "from": 0,
+        "slam_on": "citrouille"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "citrouille",
+            "pose": "cheer",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Et toi, tu préfères le navet ou la citrouille ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM NAVET ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}
