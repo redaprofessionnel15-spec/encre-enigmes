@@ -1,0 +1,130 @@
+{
+  "title": "Le cochon condamné à mort par un tribunal",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "En 1386, en Normandie, une truie a été jugée par un tribunal. Et condamnée à mort.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un procès ?",
+        "stamp": "COUPABLE",
+        "stamp_on": "condamnée"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Ça se passe à Falaise. La truie est accusée d'avoir blessé mortellement un bébé.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1386,
+        "from": 2026,
+        "place": "FALAISE",
+        "land_on": "falaise"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il y a un vrai procès, avec un juge. Et elle est déclarée coupable.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN VRAI PROCÈS",
+        "line": "avec un juge"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Pour l'exécution, on l'habille avec des vêtements humains : une veste, des culottes, et des gants.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une truie ?",
+        "stamp": "HABILLÉE",
+        "stamp_on": "vêtements"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Au Moyen Âge, ce n'est pas un cas isolé. Les historiens ont retrouvé des dizaines de procès d'animaux en Europe.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES DIZAINES",
+        "line": "de procès d'animaux"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Des cochons, des chiens, et même des insectes. Ils avaient parfois droit à un avocat.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un avocat ?",
+        "stamp": "OUI",
+        "stamp_on": "avocat"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu trouves ça juste ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "JUSTICE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

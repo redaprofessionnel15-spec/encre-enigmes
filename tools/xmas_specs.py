@@ -15,7 +15,7 @@ SHORTS = [
   ("Avant Noël, à Rome, il y avait une fête où les esclaves donnaient des ordres à leurs maîtres.", V("Les maîtres commandent ?", "INVERSÉ", "maîtres"), "smug"),
   ("Ce sont les Saturnales, en l'honneur du dieu Saturne. Fin décembre, pendant plusieurs jours.", S("SATURNALES", "fin décembre, à Rome"), "curious"),
   ("Les écoles ferment, on fait la fête dans les rues, on joue aux dés, et on s'offre des petits cadeaux.", S("DES CADEAUX", "et la fête dans les rues"), "happy"),
-  ("Et les maîtres servent le repas à leurs esclaves. Le monde est à l'envers.", V("Qui sert le repas ?", "LES MAÎTRES", "envers"), "surprised"),
+  ("Et les maîtres servent le repas à leurs esclaves. Le monde est à l'envers.", V("Qui sert le repas ?", "MAÎTRES", "monde"), "surprised"),
   ("Le poète Catulle disait même que c'était le meilleur des jours.", Q("LE MEILLEUR DES JOURS", "— Catulle"), "serious"),
   ("Au quatrième siècle, à Rome, on fête Noël le 25 décembre. Juste après les Saturnales. Simple hasard ? Les historiens en débattent encore.", Y(336, "ROME", "quatrième"), "curious"),
   CTA("ROME EN FÊTE", "Et toi, tu aurais aimé fêter les Saturnales ? Abonne-toi et laisse un like !")]),
@@ -72,7 +72,7 @@ SHORTS = [
 
  ("030-pere-fouettard", 7, "🎄 Le Père Fouettard serait né d'une blague", LANT,
   ["Wikipedia, Père Fouettard", "Atlas Obscura, Beware the Christmas Cannibal of France"], [
-  ("Le Père Fouettard, celui qui punit les enfants pas sages, serait né d'une moquerie contre un empereur.", V("Un monstre ?", "UNE MOQUERIE", "moquerie"), "smug"),
+  ("Le Père Fouettard, celui qui punit les enfants pas sages, serait né d'une moquerie contre un empereur.", V("Un monstre ?", "MOQUERIE", "moquerie"), "smug"),
   ("On est en 1552. L'empereur Charles Quint assiège la ville de Metz.", Y(1552, "METZ", "1552"), "serious"),
   ("Mais l'hiver est terrible, son armée est malade, et il doit abandonner le siège.", V("Metz tombe ?", "ÉCHEC", "abandonner"), "smug"),
   ("Selon une tradition de Metz, les habitants fabriquent alors un mannequin de l'empereur, et le promènent dans les rues.", S("UN MANNEQUIN", "de Charles Quint"), "happy"),
@@ -156,7 +156,7 @@ SHORTS = [
   ("Dans les campagnes, la veille de Noël, on choisit une énorme bûche, souvent d'arbre fruitier.", S("UNE ÉNORME BÛCHE", "choisie pour Noël"), "curious"),
   ("On la bénit, parfois avec du sel ou de l'eau bénite, puis on l'allume dans la cheminée.", S("BÉNIE", "puis allumée dans la cheminée"), "serious"),
   ("Elle doit brûler très longtemps. Dans certaines régions, jusqu'à douze jours.", C(12, "JOURS", "DE FEU", "douze"), "surprised"),
-  ("Ses cendres étaient précieuses : on les gardait pour protéger la maison de la foudre et des maladies.", V("Des cendres ?", "PROTECTION", "foudre"), "curious"),
+  ("Ses cendres étaient précieuses : on les gardait pour protéger la maison de la foudre et des maladies.", V("Des cendres ?", "PROTÈGE", "foudre"), "curious"),
   ("Puis les grandes cheminées disparaissent. Et au dix-neuvième siècle, des pâtissiers ont l'idée de la transformer en gâteau.", S("UN GÂTEAU", "pâtissiers, XIXe siècle"), "happy"),
   CTA("TEAM CHOCOLAT ?", "Team chocolat ou team glacée ? Abonne-toi et laisse un like !")]),
 
@@ -165,9 +165,9 @@ SHORTS = [
   ("Le 16 décembre 1965, des astronautes signalent un objet volant non identifié. En orbite.", V("Un OVNI ?", "SIGNALÉ", "orbite"), "shocked"),
   ("Ils sont à bord de la capsule Gemini 6 : Wally Schirra et Tom Stafford.", S("GEMINI 6", "Schirra et Stafford"), "serious"),
   ("À la radio, Stafford annonce un objet qui va du nord vers le sud. Avec un pilote… en costume rouge.", Q("UN PILOTE EN ROUGE", "— Tom Stafford, 1965"), "surprised"),
-  ("Au sol, silence total. Puis, on entend de la musique.", V("Une menace ?", "UNE MUSIQUE", "musique"), "curious"),
+  ("Au sol, silence total. Puis, on entend de la musique.", V("Une menace ?", "MUSIQUE", "musique"), "curious"),
   ("Les astronautes avaient caché un petit harmonica et des clochettes à bord. Et ils jouent Jingle Bells.", S("JINGLE BELLS", "un harmonica, des clochettes"), "happy", {"on": "jouent", "pose": "cheer", "hold": 1.0}),
-  ("C'était une blague. Mais c'est aussi la première musique jouée dans l'espace. L'harmonica est aujourd'hui dans un musée, à Washington.", V("Un vrai OVNI ?", "UNE BLAGUE", "blague"), "smug"),
+  ("C'était une blague. Mais c'est aussi la première musique jouée dans l'espace. L'harmonica est aujourd'hui dans un musée, à Washington.", V("Un vrai OVNI ?", "BLAGUE", "blague"), "smug"),
   CTA("VU DE L'ESPACE", "Le Père Noël, vu de l'espace. Abonne-toi et laisse un like !")]),
 
  ("040-norad", 17, "🎄 Un enfant appelle l'armée… pour parler au Père Noël", GIFT,
@@ -186,7 +186,7 @@ SHORTS = [
   ("On est en 1223, à Greccio, un petit village d'Italie.", Y(1223, "GRECCIO", "1223"), "curious"),
   ("François d'Assise veut que les gens voient de leurs yeux comment Jésus est né : dans la pauvreté.", S("FRANÇOIS D'ASSISE", "voir de ses propres yeux"), "serious"),
   ("Alors, dans une grotte, il installe une mangeoire avec du foin, un bœuf et un âne.", S("UNE MANGEOIRE", "du foin, un bœuf, un âne"), "happy"),
-  ("La nuit de Noël, les villageois arrivent avec des torches. Et la messe est célébrée là, au milieu des animaux.", V("Dans une église ?", "UNE GROTTE", "animaux"), "surprised"),
+  ("La nuit de Noël, les villageois arrivent avec des torches. Et la messe est célébrée là, au milieu des animaux.", V("Dans une église ?", "GROTTE", "animaux"), "surprised"),
   ("L'idée plaît tellement qu'elle se répand partout. Huit cents ans plus tard, on fait encore des crèches dans le monde entier.", C(800, "ANS", "DE CRÈCHES", "huit"), "happy"),
   CTA("TA CRÈCHE ?", "Chez toi, crèche ou pas crèche ? Abonne-toi et laisse un like !")]),
 
@@ -212,7 +212,7 @@ SHORTS = [
 
  ("044-newgrange", 21, "🎄 La tombe qui s'illumine un seul jour par an", LANT,
   ["Wikipedia, Newgrange", "World Heritage Ireland, Newgrange winter solstice"], [
-  ("En Irlande, une tombe plus vieille que les pyramides s'illumine quelques minutes par an. Et c'est aujourd'hui.", V("Une simple tombe ?", "ILLUMINÉE", "illumine"), "surprised"),
+  ("En Irlande, une tombe plus vieille que les pyramides s'illumine quelques minutes par an. Et c'est aujourd'hui.", V("Une simple tombe ?", "ILLUMINÉE", "minutes"), "surprised"),
   ("C'est Newgrange. Elle a été construite il y a plus de cinq mille ans.", C(5000, "ANS", "AVANT LES PYRAMIDES", "cinq"), "serious"),
   ("Au-dessus de l'entrée, ses bâtisseurs ont laissé une petite ouverture : une boîte à lumière.", S("BOÎTE À LUMIÈRE", "au-dessus de l'entrée"), "curious"),
   ("Au solstice d'hiver, à l'aube, le soleil entre par cette ouverture et remonte un couloir de dix-neuf mètres.", C(19, "MÈTRES", "DE COULOIR", "dix"), "curious"),
@@ -227,7 +227,7 @@ SHORTS = [
   ("Début mars 1978, on découvre sa tombe vide. Le cercueil a été déterré pendant la nuit.", S("TOMBE VIDE", "mars 1978"), "shocked"),
   ("Les voleurs appellent sa veuve, Oona. Ils réclament une rançon de six cent mille francs suisses.", C(600, "MILLE FRANCS", "DE RANÇON", "six"), "angry"),
   ("La famille refuse de payer. La police surveille son téléphone, et plus de deux cents cabines téléphoniques.", S("200 CABINES", "sur écoute"), "serious"),
-  ("Les voleurs sont arrêtés. Le cercueil était enterré dans un champ, pas très loin. Chaplin est enterré à nouveau. Cette fois, sous du béton.", V("Retrouvé ?", "SOUS LE BÉTON", "béton"), "smug"),
+  ("Les voleurs sont arrêtés. Le cercueil était enterré dans un champ, pas très loin. Chaplin est enterré à nouveau. Cette fois, sous du béton.", V("Retrouvé ?", "BÉTON", "béton"), "smug"),
   CTA("INCROYABLE ?", "Tu connaissais cette histoire ? Abonne-toi et laisse un like !")]),
 
  ("046-washington-noel", 23, "🎄 L'attaque surprise du soir de Noël 1776", LANT,
@@ -245,7 +245,7 @@ SHORTS = [
   ("Le soir de Noël 1914, en pleine guerre, des soldats ennemis ont arrêté de se tirer dessus. Pour chanter ensemble.", V("La guerre continue ?", "TRÊVE", "chanter"), "surprised"),
   ("Sur le front, en Belgique, des soldats allemands posent des petits sapins avec des bougies sur leurs tranchées.", S("DES BOUGIES", "sur les tranchées"), "curious"),
   ("Puis ils chantent des chants de Noël. En face, les Britanniques répondent en chantant aussi.", S("DES CHANTS", "d'une tranchée à l'autre"), "happy"),
-  ("Le lendemain, des soldats sortent sans armes. Ils se serrent la main, échangent du tabac et des boutons.", V("Des ennemis ?", "SANS ARMES", "armes"), "happy"),
+  ("Le lendemain, des soldats sortent sans armes. Ils se serrent la main, échangent du tabac et des boutons.", V("Des ennemis ?", "DÉSARMÉS", "armes"), "happy"),
   ("Ensemble, ils enterrent aussi leurs morts. Et selon plusieurs témoignages, certains jouent même au football.", S("UN MATCH ?", "selon plusieurs témoignages"), "sad"),
   ("Les généraux sont furieux. Les années suivantes, ce genre de trêve est interdit. Elle ne se répétera jamais à cette échelle.", V("Encore en 1915 ?", "INTERDIT", "interdit"), "serious"),
   CTA("JOYEUX NOËL", "Joyeux Noël à toi. Abonne-toi et laisse un like !")]),
@@ -255,7 +255,7 @@ SHORTS = [
   ("Le soir de Noël 1968, trois hommes fêtent Noël autour de la Lune.", V("Un Noël normal ?", "EN ORBITE", "lune"), "surprised"),
   ("C'est la mission Apollo 8. Pour la première fois, des humains font le tour de la Lune.", S("APOLLO 8", "Borman, Lovell, Anders"), "curious"),
   ("Le 24 décembre, en sortant de derrière la Lune, ils voient la Terre se lever à l'horizon.", S("LEVER DE TERRE", "24 décembre 1968"), "surprised"),
-  ("Bill Anders attrape un appareil photo, et prend une des photos les plus célèbres de l'histoire.", V("Une simple photo ?", "LÉGENDAIRE", "célèbres"), "happy"),
+  ("Bill Anders attrape un appareil photo, et prend une des photos les plus célèbres de l'histoire.", V("Une simple photo ?", "MYTHIQUE", "célèbres"), "happy"),
   ("Ce soir-là, ils lisent un texte en direct à la télévision. Le monde entier les écoute.", S("EN DIRECT", "depuis la Lune, le soir de Noël"), "serious"),
   ("Sur Terre, 1968 a été une année terrible. Un télégramme leur dira : merci, vous avez sauvé 1968.", Q("VOUS AVEZ SAUVÉ 1968", "— un télégramme reçu par Frank Borman"), "happy"),
   CTA("DEPUIS LA LUNE", "Joyeux Noël depuis la Lune ! Abonne-toi et laisse un like !")]),
@@ -272,7 +272,7 @@ SHORTS = [
 
  ("050-befana", 27, "🎄 En Italie, c'est une sorcière qui apporte les cadeaux", CANE,
   ["Wikipedia, Befana", "Italia.it, La Befana"], [
-  ("En Italie, les cadeaux ne sont pas apportés par le Père Noël. Mais par une sorcière.", V("Le Père Noël ?", "UNE SORCIÈRE", "sorcière"), "smug"),
+  ("En Italie, les cadeaux ne sont pas apportés par le Père Noël. Mais par une sorcière.", V("Le Père Noël ?", "SORCIÈRE", "sorcière"), "smug"),
   ("Elle s'appelle la Befana. Elle vole sur un balai, avec un vieux châle et des chaussures trouées.", S("LA BEFANA", "sur son balai"), "happy"),
   ("Selon la légende, les Rois mages frappent à sa porte, et lui demandent de les accompagner pour voir l'Enfant Jésus.", S("LES ROIS MAGES", "frappent à sa porte"), "curious"),
   ("Elle refuse : elle a trop de ménage. Puis elle regrette… mais trop tard, ils sont partis.", V("Elle les suit ?", "TROP TARD", "tard"), "sad"),
@@ -287,7 +287,7 @@ SHORTS = [
   ("Les gardiens fêtent le réveillon. Les voleurs entrent par un conduit d'aération.", S("UN CONDUIT", "pendant le réveillon"), "worried"),
   ("Le matin, il manque plus de cent vingt objets anciens. Des masques, des bijoux, des trésors mayas et aztèques.", C(120, "OBJETS", "VOLÉS EN UNE NUIT", "cent"), "shocked"),
   ("On imagine un gang international. Mais pendant des années, la police ne trouve rien.", V("Un gang ?", "RIEN", "rien"), "worried"),
-  ("En 1989, la vérité tombe : les voleurs sont deux anciens étudiants vétérinaires. Ils gardaient presque tout dans une armoire.", V("Des pros ?", "DES ÉTUDIANTS", "étudiants"), "surprised"),
+  ("En 1989, la vérité tombe : les voleurs sont deux anciens étudiants vétérinaires. Ils gardaient presque tout dans une armoire.", V("Des pros ?", "ÉTUDIANTS", "étudiants"), "surprised"),
   CTA("UN FILM !", "Cette histoire a même inspiré un film. Abonne-toi et laisse un like !")]),
 
  ("052-ecosse-noel", 29, "🎄 En Écosse, Noël n'était pas férié avant 1958", GIFT,
@@ -317,6 +317,6 @@ SHORTS = [
   ("Résultat : un vrai casse-tête pour dater les contrats et les lettres.", V("Pratique ?", "LE CHAOS", "casse"), "worried"),
   ("En 1564, le jeune roi Charles IX fait le tour de la France. Et au château de Roussillon, il signe un édit.", Y(1564, "ROUSSILLON", "1564"), "serious"),
   ("Désormais, dans tout le royaume, l'année commencera le premier janvier.", S("1ER JANVIER", "édit de Roussillon, 1564"), "happy"),
-  ("Une légende dit que ceux qui fêtaient encore l'ancienne date, au printemps, recevaient de faux cadeaux pour rire. Ce serait l'origine du poisson d'avril.", V("Le poisson d'avril ?", "PEUT-ÊTRE", "avril"), "curious"),
+  ("Une légende dit que ceux qui fêtaient encore l'ancienne date, au printemps, recevaient de faux cadeaux pour rire. Ce serait l'origine du poisson d'avril.", V("Le poisson d'avril ?", "PEUT-ÊTRE", "poisson"), "curious"),
   CTA("BONNE ANNÉE !", "Bonne année à toi ! Abonne-toi et laisse un like !")]),
 ]

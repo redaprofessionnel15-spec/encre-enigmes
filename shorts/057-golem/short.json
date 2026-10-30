@@ -1,0 +1,136 @@
+{
+  "title": "Le Golem de Prague dort-il encore au grenier ?",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Dans le grenier d'une synagogue de Prague, une créature d'argile dormirait encore.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une légende ?",
+        "stamp": "PEUT-ÊTRE",
+        "stamp_on": "dormirait"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Au seizième siècle, selon la légende, le rabbin Loew veut protéger les habitants du quartier juif.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LE RABBIN LOEW",
+        "line": "Prague, XVIe siècle"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Avec de l'argile de la rivière, il façonne un géant. Puis il lui donne vie avec un mot sacré : emet, la vérité.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "EMET",
+        "line": "la vérité"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Le Golem est fort, obéissant. Mais un jour, il devient incontrôlable et sème la destruction.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Toujours obéissant ?",
+        "stamp": "DÉCHAÎNÉ",
+        "stamp_on": "incontrôlable"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked",
+        "acts": [
+          {
+            "on": "incontrôlable",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Alors le rabbin efface une seule lettre. Emet devient met : la mort. Et le Golem retombe en poussière.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "MET",
+        "line": "la mort"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "On dit que ses restes sont cachés dans le grenier de la synagogue Vieille-Nouvelle. Et que l'escalier a été retiré.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "On peut monter ?",
+        "stamp": "INTERDIT",
+        "stamp_on": "retiré"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu monterais au grenier ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU MONTES ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

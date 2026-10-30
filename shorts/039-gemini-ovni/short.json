@@ -60,7 +60,7 @@
       "scene": {
         "type": "verdict",
         "claim": "Une menace ?",
-        "stamp": "UNE MUSIQUE",
+        "stamp": "MUSIQUE",
         "stamp_on": "musique"
       },
       "owl": {
@@ -99,7 +99,7 @@
       "scene": {
         "type": "verdict",
         "claim": "Un vrai OVNI ?",
-        "stamp": "UNE BLAGUE",
+        "stamp": "BLAGUE",
         "stamp_on": "blague"
       },
       "owl": {

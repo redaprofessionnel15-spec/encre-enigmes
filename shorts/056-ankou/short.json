@@ -1,0 +1,130 @@
+{
+  "title": "L'Ankou, le faucheur de Bretagne",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En Bretagne, si tu entends grincer une charrette la nuit, ne te retourne pas. C'est peut-être l'Ankou.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une charrette ?",
+        "stamp": "L'ANKOU",
+        "stamp_on": "peut"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "L'Ankou, c'est le serviteur de la Mort. Un grand squelette, avec une faux, et un chapeau à larges bords.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "L'ANKOU",
+        "line": "le serviteur de la Mort"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il passe dans les villages avec sa charrette, et il ramasse les âmes de ceux qui vont mourir.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "SA CHARRETTE",
+        "line": "grince dans la nuit"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Et qui devient l'Ankou ? Selon la légende, le dernier mort de l'année, dans chaque paroisse.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Qui le remplace ?",
+        "stamp": "LE DERNIER",
+        "stamp_on": "dernier"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Pendant un an, il fait la tournée. Puis il passe la faux au suivant.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 1,
+        "unit": "AN",
+        "label": "DE TOURNÉE",
+        "from": 0,
+        "slam_on": "an"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Aujourd'hui encore, on peut voir l'Ankou sculpté dans de vieilles églises bretonnes. En ce jour des morts, il veille.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "2 NOVEMBRE",
+        "line": "le jour des morts"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais l'Ankou ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "NE TE RETOURNE PAS",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

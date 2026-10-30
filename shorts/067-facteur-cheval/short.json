@@ -1,0 +1,139 @@
+{
+  "title": "Le facteur qui a construit un palais avec des cailloux",
+  "scene_packs": [],
+  "costume": {
+    "hat": "beret",
+    "coat": "green",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Un facteur français a construit un palais entier, tout seul, avec des cailloux ramassés pendant sa tournée.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Tout seul ?",
+        "stamp": "33 ANS",
+        "stamp_on": "seul"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Il s'appelle Ferdinand Cheval. Il est facteur dans la Drôme, et fait trente kilomètres à pied par jour.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "FERDINAND CHEVAL",
+        "line": "facteur dans la Drôme"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "En 1879, il trébuche sur une pierre à la forme étrange. Et il a une idée folle.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1879,
+        "from": 2026,
+        "place": "HAUTERIVES",
+        "land_on": "1879"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Chaque jour, il ramasse des pierres pendant sa tournée. Le soir, il construit. À la lueur d'une lampe.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA NUIT",
+        "line": "à la lueur d'une lampe"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Les voisins se moquent de lui. Ils le prennent pour un fou.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un génie ?",
+        "stamp": "UN FOU ?",
+        "stamp_on": "fou"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Trente-trois ans plus tard, son Palais idéal est terminé. Aujourd'hui, c'est un monument historique, visité par des milliers de gens.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 33,
+        "unit": "ANS",
+        "label": "DE TRAVAIL",
+        "from": 0,
+        "slam_on": "trente"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "terminé",
+            "pose": "cheer",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Respect au facteur Cheval. Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "RESPECT",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

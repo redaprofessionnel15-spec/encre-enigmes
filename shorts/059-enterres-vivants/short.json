@@ -1,0 +1,128 @@
+{
+  "title": "Les cercueils avec une cloche",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Au dix-neuvième siècle, des gens se faisaient enterrer avec une cloche. Au cas où ils se réveilleraient.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une cloche ?",
+        "stamp": "AU CAS OÙ",
+        "stamp_on": "réveilleraient"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "À l'époque, la peur d'être enterré vivant est partout. Les médecins ne savent pas toujours bien constater la mort.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ENTERRÉ VIVANT",
+        "line": "la grande peur du XIXe"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors, des inventeurs déposent des brevets pour des cercueils de sécurité.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES BREVETS",
+        "line": "cercueils de sécurité"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Une ficelle relie la main du défunt à une cloche, au-dessus de la tombe. S'il bouge, la cloche sonne.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE FICELLE",
+        "line": "reliée à une cloche"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Certains modèles avaient même un tube pour respirer, ou une petite fenêtre.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Pour respirer ?",
+        "stamp": "UN TUBE",
+        "stamp_on": "tube"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Et non : l'expression sauvé par le gong ne vient pas de là. Elle vient de la boxe.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le cimetière ?",
+        "stamp": "LA BOXE",
+        "stamp_on": "boxe"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Ça te fait flipper ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "FLIPPANT ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

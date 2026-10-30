@@ -1,0 +1,138 @@
+{
+  "title": "Le comte qui se disait immortel",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "À la cour de Louis XV, un homme mystérieux laissait entendre qu'il avait plusieurs siècles.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un simple noble ?",
+        "stamp": "IMMORTEL ?",
+        "stamp_on": "siècles"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "On l'appelle le comte de Saint-Germain. Personne ne sait d'où il vient, ni quel est son vrai nom.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "SAINT-GERMAIN",
+        "line": "un comte sans passé"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il parle une dizaine de langues, joue du violon, et raconte des scènes d'histoire comme s'il les avait vécues.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "COMME S'IL Y ÉTAIT",
+        "line": "des siècles de souvenirs"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "On dit qu'il ne mange jamais en public, et qu'il connaît le secret de l'élixir de longue vie.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il mange ?",
+        "stamp": "JAMAIS",
+        "stamp_on": "jamais"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Il meurt officiellement en 1784, en Allemagne.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1784,
+        "from": 2026,
+        "place": "ALLEMAGNE",
+        "land_on": "1784"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Mais pendant des années, des témoins affirment l'avoir revu. Bien vivant.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Mort ?",
+        "stamp": "REVU",
+        "stamp_on": "revu"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked",
+        "acts": [
+          {
+            "on": "vivant",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Fin d'Halloween ! Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "IMMORTEL ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,132 @@
+{
+  "title": "La malédiction de Toutânkhamon",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Le 4 novembre 1922, en Égypte, on découvre une marche. Et cette marche mène au tombeau de Toutânkhamon.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1922,
+        "from": 2026,
+        "place": "ÉGYPTE",
+        "land_on": "1922"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "L'archéologue Howard Carter et son mécène, Lord Carnarvon, découvrent des trésors incroyables.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES TRÉSORS",
+        "line": "Carter et Carnarvon"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Mais quelques mois plus tard, Carnarvon meurt. Une piqûre de moustique infectée.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un hasard ?",
+        "stamp": "MAUDIT ?",
+        "stamp_on": "meurt"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Les journaux s'emballent : c'est la malédiction du pharaon ! Ceux qui ouvrent le tombeau vont mourir.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA MALÉDICTION",
+        "line": "selon les journaux"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Sauf que Howard Carter, celui qui a ouvert le tombeau, a vécu encore seize ans.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 16,
+        "unit": "ANS",
+        "label": "DE PLUS POUR CARTER",
+        "from": 0,
+        "slam_on": "seize"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "La malédiction a surtout servi à vendre des journaux. Mais on en parle encore cent ans plus tard.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une vraie malédiction ?",
+        "stamp": "INVENTÉE",
+        "stamp_on": "journaux"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Et toi, tu y crois ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU Y CROIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

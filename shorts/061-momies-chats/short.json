@@ -1,0 +1,130 @@
+{
+  "title": "Des momies de chats transformées en engrais",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En 1888, des milliers de momies de chats ont fini… dans des champs anglais. Comme engrais.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Au musée ?",
+        "stamp": "EN ENGRAIS",
+        "stamp_on": "engrais"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Tout commence en Égypte, à Beni Hassan. Un paysan creuse, et tombe sur un immense cimetière de chats.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BENI HASSAN",
+        "line": "Égypte, 1888"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Les Égyptiens anciens momifiaient des chats par milliers, en offrande à la déesse Bastet.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BASTET",
+        "line": "déesse à tête de chat"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Mais en 1888, personne ne les protège. On en charge environ dix-neuf tonnes sur un bateau, direction Liverpool.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 19,
+        "unit": "TONNES",
+        "label": "DE CHATS MOMIFIÉS",
+        "from": 0,
+        "slam_on": "dix"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Là-bas, elles sont vendues aux enchères, broyées, et répandues dans les champs.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Conservées ?",
+        "stamp": "BROYÉES",
+        "stamp_on": "broyées"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Seules quelques-unes ont été sauvées. On peut encore en voir dans des musées anglais.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "QUELQUES-UNES",
+        "line": "sauvées dans des musées"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Les chats méritaient mieux. Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM CHAT ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

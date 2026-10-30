@@ -1,0 +1,130 @@
+{
+  "title": "Le dernier soldat français mort, 15 minutes avant la paix",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "navy",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Le 11 novembre 1918, la guerre doit s'arrêter à onze heures. Augustin Trébuchon meurt à dix heures quarante-cinq.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "La paix ?",
+        "stamp": "15 MINUTES",
+        "stamp_on": "quarante"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "L'armistice est signé à l'aube. Mais le cessez-le-feu n'est prévu qu'à onze heures. Les combats continuent.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ONZE HEURES",
+        "line": "11 novembre 1918"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Augustin est berger en Lozère. Soldat de première classe, il est estafette : il porte les messages.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "AUGUSTIN TRÉBUCHON",
+        "line": "berger de Lozère"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Ce matin-là, près de Vrigne-Meuse, il court porter un message aux soldats. Le message dit : soupe à onze heures trente.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "SOUPE À 11 H 30",
+        "sign": "— le dernier message"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Il est touché par une balle. Il meurt quinze minutes avant la fin de la guerre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 15,
+        "unit": "MINUTES",
+        "label": "AVANT L'ARMISTICE",
+        "from": 0,
+        "slam_on": "quinze"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Plus tard, sur sa tombe, on écrira le 10 novembre. Comme si l'armée ne voulait pas avouer des morts le jour de la paix.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le 11 ?",
+        "stamp": "LE 10",
+        "stamp_on": "novembre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Aujourd'hui, on se souvient. Abonne-toi et laisse un like pour ne pas oublier.",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "NE PAS OUBLIER",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

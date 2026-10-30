@@ -60,7 +60,7 @@
       "scene": {
         "type": "verdict",
         "claim": "Qui sert le repas ?",
-        "stamp": "LES MAÎTRES",
+        "stamp": "MAÎTRES",
         "stamp_on": "monde"
       },
       "owl": {

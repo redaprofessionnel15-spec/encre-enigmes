@@ -60,7 +60,7 @@
       "scene": {
         "type": "verdict",
         "claim": "Des ennemis ?",
-        "stamp": "SANS ARMES",
+        "stamp": "DÉSARMÉS",
         "stamp_on": "armes"
       },
       "owl": {

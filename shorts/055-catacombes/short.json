@@ -1,0 +1,140 @@
+{
+  "title": "Six millions de morts sous Paris",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Sous les rues de Paris, il y a plus de morts que de vivants au-dessus.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Juste des tunnels ?",
+        "stamp": "DES MORTS",
+        "stamp_on": "morts"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked",
+        "acts": [
+          {
+            "on": "morts",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "À la fin du dix-huitième siècle, les cimetières de Paris débordent. Celui des Innocents empeste tout le quartier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CIMETIÈRES PLEINS",
+        "line": "Paris, XVIIIe siècle"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors, à partir de 1785, on déplace les ossements, la nuit, vers d'anciennes carrières sous la ville.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1785,
+        "from": 2026,
+        "place": "PARIS",
+        "land_on": "1785"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Les restes d'environ six millions de personnes y sont rangés. Des murs entiers de crânes et d'os.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 6,
+        "unit": "MILLIONS",
+        "label": "DE PARISIENS",
+        "from": 0,
+        "slam_on": "six"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Et en 1793, un portier, Philibert Aspairt, descend dans les galeries avec une bougie. Il ne remonte jamais.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "PHILIBERT ASPAIRT",
+        "line": "disparu en 1793"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "On le retrouve onze ans plus tard. À quelques mètres seulement d'une sortie.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Si loin ?",
+        "stamp": "SI PRÈS",
+        "stamp_on": "mètres"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "sad"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu oserais descendre ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU DESCENDS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

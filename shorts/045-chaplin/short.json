@@ -96,7 +96,7 @@
       "scene": {
         "type": "verdict",
         "claim": "Retrouvé ?",
-        "stamp": "SOUS LE BÉTON",
+        "stamp": "BÉTON",
         "stamp_on": "béton"
       },
       "owl": {

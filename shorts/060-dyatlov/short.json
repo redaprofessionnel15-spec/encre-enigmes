@@ -1,0 +1,129 @@
+{
+  "title": "Le mystère du col Dyatlov",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En 1959, neuf randonneurs fuient leur tente en pleine nuit. Par moins vingt-cinq degrés. Certains pieds nus.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1959,
+        "from": 2026,
+        "place": "OURAL",
+        "land_on": "1959"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Ce sont des étudiants expérimentés, menés par Igor Dyatlov, dans les montagnes de l'Oural, en Russie.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "IGOR DYATLOV",
+        "line": "monts Oural"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Quand les secours arrivent, la tente est vide. Et elle a été découpée… de l'intérieur.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Ouverte normalement ?",
+        "stamp": "DÉCOUPÉE",
+        "stamp_on": "découpée"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Aucun d'eux n'a survécu. Pendant des décennies, on parle d'animaux, d'armes secrètes, et même d'extraterrestres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TOUTES LES THÉORIES",
+        "line": "pendant 60 ans"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "En 2021, des scientifiques proposent une explication : une petite avalanche de plaque, tombée sur la tente.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE AVALANCHE",
+        "line": "selon une étude de 2021"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Une explication solide. Mais certains détails restent troublants, et l'affaire divise encore.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Résolu ?",
+        "stamp": "PAS SÛR",
+        "stamp_on": "divise"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Et toi, tu penses quoi ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TA THÉORIE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

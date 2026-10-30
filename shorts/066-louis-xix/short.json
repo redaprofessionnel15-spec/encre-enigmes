@@ -1,0 +1,132 @@
+{
+  "title": "Le roi de France qui a régné 20 minutes",
+  "scene_packs": [],
+  "costume": {
+    "hat": "crown",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "La France aurait eu un roi qui a régné vingt minutes. Il s'appelait Louis dix-neuf.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un vrai règne ?",
+        "stamp": "20 MINUTES",
+        "stamp_on": "vingt"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "On est en 1830. Paris se soulève : c'est la révolution de Juillet.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1830,
+        "from": 2026,
+        "place": "PARIS",
+        "land_on": "1830"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Le roi Charles dix comprend qu'il a perdu. Le 2 août, il signe son abdication.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CHARLES X",
+        "line": "abdique le 2 août"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Son fils, Louis-Antoine, devient alors roi, en théorie. Mais il hésite.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LOUIS-ANTOINE",
+        "line": "roi en théorie"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Une vingtaine de minutes plus tard, il signe à son tour. Il renonce au trône.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 20,
+        "unit": "MINUTES",
+        "label": "DE RÈGNE",
+        "from": 0,
+        "slam_on": "vingtaine"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Alors, a-t-il vraiment été roi ? Les historiens en débattent encore. Mais ses partisans l'ont toujours appelé Louis dix-neuf.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un vrai roi ?",
+        "stamp": "DÉBAT",
+        "stamp_on": "débattent"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Pour toi, roi ou pas roi ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "ROI OU PAS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,130 @@
+{
+  "title": "Le Hollandais volant, le navire fantôme",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Un futur roi d'Angleterre a noté dans un journal de bord qu'il avait vu un navire fantôme.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un roi ?",
+        "stamp": "FANTÔME",
+        "stamp_on": "fantôme"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Ce navire, c'est le Hollandais volant. Selon la légende, il ne peut jamais rentrer au port.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "HOLLANDAIS VOLANT",
+        "line": "le navire maudit"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Son capitaine aurait juré de passer le cap de Bonne-Espérance, même s'il devait naviguer jusqu'au jugement dernier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BONNE-ESPÉRANCE",
+        "line": "le serment du capitaine"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Résultat : il est condamné à errer sur les mers. Pour toujours.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Rentré au port ?",
+        "stamp": "JAMAIS",
+        "stamp_on": "toujours"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "En 1881, à bord d'un navire de la Marine, le jeune prince George écrit qu'à quatre heures du matin, le Hollandais volant a croisé leur route.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1881,
+        "from": 2026,
+        "place": "EN MER",
+        "land_on": "1881"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Pour les marins, le voir annonce un malheur. Et justement, ce jour-là, un matelot est tombé du mât.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une coïncidence ?",
+        "stamp": "MALHEUR",
+        "stamp_on": "tombé"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Les navires fantômes, tu y crois ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU Y CROIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}
