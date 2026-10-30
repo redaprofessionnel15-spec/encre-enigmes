@@ -1,8 +1,14 @@
 {
   "title": "Il a fait la guerre 29 ans de trop : Hiroo Onoda",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/007-onoda.mp4",
   "costume": "tricorne, manteau vert, longue-vue",
   "voice": "ElevenLabs direct (George, eleven_multilingual_v2), 757 crédits",
-  "sources": ["Wikipedia, Hiroo Onoda", "BBC News, nécrologie de Hiroo Onoda (janvier 2014)"]
+  "sources": [
+    "Wikipedia, Hiroo Onoda",
+    "BBC News, nécrologie de Hiroo Onoda (janvier 2014)"
+  ],
+  "publish_at": "2026-11-04T16:00:00+01:00",
+  "metricool_id": 411316890,
+  "commit": "78082d62671c94c2630a2ce8de1e633266fb340e"
 }
