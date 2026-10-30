@@ -1,0 +1,11 @@
+{
+  "title": "🎃 Frankenstein, né d'un été sans soleil",
+  "status": "prêt",
+  "video": "videos/021-frankenstein.mp4",
+  "costume": "tricorne, manteau noir, lanterne",
+  "voice": "ElevenLabs direct (Guillaume, eleven_multilingual_v2), 675 crédits",
+  "sources": [
+    "Wikipedia, Year Without a Summer",
+    "Wikipedia, Frankenstein (publication en 1818)"
+  ]
+}

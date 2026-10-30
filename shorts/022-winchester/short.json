@@ -70,8 +70,8 @@
       "tension": 0.6,
       "scene": {
         "type": "verdict",
-        "claim": "Un médium ?",
-        "stamp": "AUCUNE TRACE",
+        "claim": "Une trace du médium ?",
+        "stamp": "AUCUN",
         "stamp_on": "trace"
       },
       "owl": {
