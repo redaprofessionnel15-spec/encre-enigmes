@@ -1,0 +1,133 @@
+{
+  "title": "La tombe qui s'illumine un seul jour par an",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En Irlande, une tombe plus vieille que les pyramides s'illumine quelques minutes par an. Et c'est aujourd'hui.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une simple tombe ?",
+        "stamp": "ILLUMINÉE",
+        "stamp_on": "minutes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "C'est Newgrange. Elle a été construite il y a plus de cinq mille ans.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 5000,
+        "unit": "ANS",
+        "label": "AVANT LES PYRAMIDES",
+        "from": 0,
+        "slam_on": "cinq"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Au-dessus de l'entrée, ses bâtisseurs ont laissé une petite ouverture : une boîte à lumière.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BOÎTE À LUMIÈRE",
+        "line": "au-dessus de l'entrée"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Au solstice d'hiver, à l'aube, le soleil entre par cette ouverture et remonte un couloir de dix-neuf mètres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 19,
+        "unit": "MÈTRES",
+        "label": "DE COULOIR",
+        "from": 0,
+        "slam_on": "dix"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Pendant environ dix-sept minutes, la chambre au fond de la tombe est éclairée. Puis tout redevient noir.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Combien de temps ?",
+        "stamp": "17 MINUTES",
+        "stamp_on": "minutes"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Chaque année, des milliers de personnes participent à un tirage au sort pour avoir une place à l'intérieur.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TIRAGE AU SORT",
+        "line": "pour une place à l'intérieur"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Le jour le plus court de l'année. Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "SOLSTICE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

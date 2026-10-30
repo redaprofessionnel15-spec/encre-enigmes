@@ -1,0 +1,131 @@
+{
+  "title": "Le casse du réveillon au musée de Mexico",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "La nuit de Noël 1985, pendant que tout le monde fait la fête, un musée de Mexico est cambriolé.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une nuit calme ?",
+        "stamp": "CAMBRIOLÉ",
+        "stamp_on": "cambriolé"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "C'est le Musée national d'anthropologie. Il garde les plus grands trésors de l'histoire du Mexique.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "MEXICO",
+        "line": "musée national d'anthropologie"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Les gardiens fêtent le réveillon. Les voleurs entrent par un conduit d'aération.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN CONDUIT",
+        "line": "pendant le réveillon"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Le matin, il manque plus de cent vingt objets anciens. Des masques, des bijoux, des trésors mayas et aztèques.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 120,
+        "unit": "OBJETS",
+        "label": "VOLÉS EN UNE NUIT",
+        "from": 0,
+        "slam_on": "cent"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "On imagine un gang international. Mais pendant des années, la police ne trouve rien.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un gang ?",
+        "stamp": "RIEN",
+        "stamp_on": "rien"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "En 1989, la vérité tombe : les voleurs sont deux anciens étudiants vétérinaires. Ils gardaient presque tout dans une armoire.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des pros ?",
+        "stamp": "DES ÉTUDIANTS",
+        "stamp_on": "étudiants"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Cette histoire a même inspiré un film. Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "UN FILM !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

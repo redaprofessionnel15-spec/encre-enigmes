@@ -1,0 +1,128 @@
+{
+  "title": "Les papillotes, nées d'un amour secret",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "Les papillotes de Noël seraient nées d'une histoire d'amour secrète, à Lyon.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un simple bonbon ?",
+        "stamp": "UN SECRET",
+        "stamp_on": "secrète"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Au dix-huitième siècle, un confiseur lyonnais nommé Papillot a un apprenti. Et cet apprenti est amoureux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "PAPILLOT",
+        "line": "confiseur à Lyon"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Pour séduire une jeune fille, il enveloppe des chocolats dans des petits mots d'amour.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES MOTS D'AMOUR",
+        "line": "autour des chocolats"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Mais le patron découvre que ses chocolats disparaissent. Et il renvoie l'apprenti.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Découvert ?",
+        "stamp": "RENVOYÉ",
+        "stamp_on": "renvoie"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Puis il a une idée : vendre des chocolats enveloppés de papier, avec un petit texte à l'intérieur.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA PAPILLOTE",
+        "line": "un chocolat, un petit texte"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Voilà ce que dit la légende. Vraie ou pas, chaque Noël, des millions de papillotes sont encore déballées en France.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Vraie histoire ?",
+        "stamp": "LÉGENDE",
+        "stamp_on": "légende"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Ta dernière papillote, elle disait quoi ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM PAPILLOTE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

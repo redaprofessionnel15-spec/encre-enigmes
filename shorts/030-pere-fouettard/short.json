@@ -1,0 +1,130 @@
+{
+  "title": "Le Père Fouettard serait né d'une blague",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Le Père Fouettard, celui qui punit les enfants pas sages, serait né d'une moquerie contre un empereur.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un monstre ?",
+        "stamp": "UNE MOQUERIE",
+        "stamp_on": "moquerie"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "On est en 1552. L'empereur Charles Quint assiège la ville de Metz.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1552,
+        "from": 2026,
+        "place": "METZ",
+        "land_on": "1552"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Mais l'hiver est terrible, son armée est malade, et il doit abandonner le siège.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Metz tombe ?",
+        "stamp": "ÉCHEC",
+        "stamp_on": "abandonner"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Selon une tradition de Metz, les habitants fabriquent alors un mannequin de l'empereur, et le promènent dans les rues.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN MANNEQUIN",
+        "line": "de Charles Quint"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Ce personnage sombre et grimaçant serait devenu le Père Fouettard, le compagnon de saint Nicolas.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "PÈRE FOUETTARD",
+        "line": "selon la tradition de Metz"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Mais attention, d'autres versions existent. Dans la plus connue, c'est le boucher de la légende, condamné à suivre saint Nicolas pour toujours.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une seule origine ?",
+        "stamp": "MYSTÈRE",
+        "stamp_on": "versions"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, il t'a déjà fait peur, le Père Fouettard ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "PEUR ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

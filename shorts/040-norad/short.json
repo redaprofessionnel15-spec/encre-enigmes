@@ -1,0 +1,130 @@
+{
+  "title": "Un enfant appelle l'armée… pour parler au Père Noël",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "En 1955, un enfant appelle l'armée américaine pour parler au Père Noël. Et l'armée répond.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "L'armée ?",
+        "stamp": "ALLÔ ?",
+        "stamp_on": "répond"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Une publicité dans un journal de Colorado Springs invite les enfants à appeler le Père Noël. Mais le numéro est faux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN NUMÉRO FAUX",
+        "line": "dans une publicité"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Ce numéro, c'est une ligne secrète de la défense aérienne. Le colonel Harry Shoup décroche.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LIGNE SECRÈTE",
+        "line": "défense aérienne"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Au bout du fil, une petite voix : c'est vraiment toi, le Père Noël ?",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "PÈRE NOËL ?",
+        "sign": "— un enfant, 1955"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le colonel joue le jeu. Et son équipe commence à donner aux enfants la position du traîneau sur les radars.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il raccroche ?",
+        "stamp": "IL JOUE",
+        "stamp_on": "jeu"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Soixante-dix ans plus tard, la tradition continue. Chaque 24 décembre, le NORAD suit le Père Noël en direct pour des millions d'enfants.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 70,
+        "unit": "ANS",
+        "label": "DE SUIVI RADAR",
+        "from": 0,
+        "slam_on": "soixante"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Le 24 décembre, regarde le radar ! Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "SUR LE RADAR",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

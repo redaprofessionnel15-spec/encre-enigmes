@@ -1,0 +1,136 @@
+{
+  "title": "À Noël, un crâne de cheval frappe à ta porte",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Au pays de Galles, à Noël, un crâne de cheval peut venir frapper à ta porte.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le Père Noël ?",
+        "stamp": "UN CRÂNE",
+        "stamp_on": "crâne"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked",
+        "acts": [
+          {
+            "on": "crâne",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "C'est la Mari Lwyd : un vrai crâne de cheval, sur un bâton, caché sous un drap blanc avec des rubans.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "MARI LWYD",
+        "line": "un crâne de cheval sous un drap"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Elle se promène de maison en maison avec sa troupe, entre Noël et le Nouvel An.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DE PORTE EN PORTE",
+        "line": "entre Noël et le Nouvel An"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "À la porte commence une bataille de chansons : la troupe chante des moqueries en rimes, et les habitants doivent répondre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN DUEL CHANTÉ",
+        "line": "des moqueries en rimes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Si les habitants perdent, la Mari Lwyd entre dans la maison, mange, boit, et sème la pagaille.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Ils perdent ?",
+        "stamp": "ELLE ENTRE",
+        "stamp_on": "entre"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "La tradition a failli disparaître. Mais aujourd'hui, elle revient dans plusieurs villages gallois.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Disparue ?",
+        "stamp": "DE RETOUR",
+        "stamp_on": "revient"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu lui ouvres la porte ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU OUVRES ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

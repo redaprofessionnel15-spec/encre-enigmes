@@ -1,0 +1,132 @@
+{
+  "title": "L'attaque surprise du soir de Noël 1776",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Le soir de Noël 1776, George Washington lance une attaque surprise. En pleine tempête de neige.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une trêve ?",
+        "stamp": "ATTAQUE",
+        "stamp_on": "attaque"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "La guerre d'indépendance américaine va mal. L'armée de Washington est épuisée, et beaucoup de soldats vont bientôt rentrer chez eux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TOUT VA MAL",
+        "line": "une armée épuisée"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "La nuit du 25 décembre, il fait traverser le fleuve Delaware, plein de glace, à environ deux mille quatre cents hommes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2400,
+        "unit": "SOLDATS",
+        "label": "À TRAVERS LE FLEUVE",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Le mot de passe de la nuit : victoire ou mort.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "VICTOIRE OU MORT",
+        "sign": "— mot de passe, 1776"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "angry"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Au petit matin, ils tombent sur les soldats hessois de Trenton, qui ne s'attendent à rien.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TRENTON",
+        "line": "26 décembre 1776, à l'aube"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "En à peine une heure, près de neuf cents soldats ennemis sont faits prisonniers.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 900,
+        "unit": "PRISONNIERS",
+        "label": "EN UNE MATINÉE",
+        "from": 0,
+        "slam_on": "neuf"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Un Noël qui a changé l'histoire. Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "QUEL NOËL !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

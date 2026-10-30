@@ -1,0 +1,130 @@
+{
+  "title": "Bruxelles envahie par 110 bonshommes de neige",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "En 1511, Bruxelles a été envahie par plus de cent bonshommes de neige.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une invasion ?",
+        "stamp": "DE NEIGE",
+        "stamp_on": "neige"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Cet hiver-là, il fait si froid qu'on l'appelle l'hiver de la mort. Il gèle pendant des semaines.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "HIVER DE LA MORT",
+        "line": "Bruxelles, 1511"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors, les habitants sortent, et transforment toute la ville en musée de neige.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN MUSÉE DE NEIGE",
+        "line": "dans toute la ville"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Plus d'une centaine de sculptures : des chevaliers, des sirènes, des animaux… et même des personnages pas très sages.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 110,
+        "unit": "SCULPTURES",
+        "label": "DE NEIGE",
+        "from": 0,
+        "slam_on": "centaine"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Certaines se moquent même des puissants. Et un poète de la ville, Jan Smeken, a tout raconté dans un long poème.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LE MIRACLE DE 1511",
+        "sign": "— Jan Smeken, poète de Bruxelles"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Et au dégel, tout disparaît. Il ne reste que le poème.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il en reste quoi ?",
+        "stamp": "UN POÈME",
+        "stamp_on": "poème"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "sad"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Et toi, il ressemble à quoi, ton bonhomme de neige ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TON BONHOMME ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

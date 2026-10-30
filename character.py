@@ -46,6 +46,7 @@ COATS = {
     "red":     ("#8E2B24", "#5E1A15", "#E2B661"),
     "white":   ("#E9E4D8", "#BDB6A6", "#8A7A5A"),
     "black":   ("#1A1A22", "#0E0E14", "#C9A04E"),
+    "noel":    ("#B3241E", "#7A1410", "#F4F1EA"),   # rouge Père Noël, fourrure blanche
 }
 
 # Face params: tilt = inner brow end (+ angry, - worried), lift = brow height per side,
@@ -208,6 +209,28 @@ def draw_accessory(cv, kind, t):
         cv.drawCircle(-18, -5, 18, P("#9AA3B5")); cv.drawCircle(25, -18, 7, P("#E2B661"))
         cv.drawLine(30, -40, 60, -110, P("#9AA3B5", 255, 5))
         cv.restore()
+    elif kind == "gift":
+        cv.save(); cv.rotate(6 * math.sin(t * 2.2))
+        box = skia.Rect.MakeXYWH(-55, -20, 110, 95)
+        cv.drawRRect(skia.RRect.MakeRectXY(box, 8, 8), grad_paint((0, -20), (0, 75), ["#2F7A45", "#1C4F2C"]))
+        cv.drawRect(skia.Rect.MakeXYWH(-62, -38, 124, 28), P("#256B3B"))
+        cv.drawRect(skia.Rect.MakeXYWH(-10, -38, 20, 113), P("#E2B661"))
+        cv.drawRect(skia.Rect.MakeXYWH(-62, 10, 124, 16), P("#E2B661"))
+        for s in (-1, 1):
+            bow = skia.Path(); bow.moveTo(0, -38)
+            bow.cubicTo(s * 30, -85, s * 62, -70, s * 40, -40); bow.close()
+            cv.drawPath(bow, P("#E2B661")); cv.drawPath(bow, P("#A8702E", 255, 4))
+        cv.drawCircle(0, -40, 11, P("#C48D3C"))
+        cv.restore()
+    elif kind == "candy_cane":
+        cv.save(); cv.rotate(-15)
+        cane = skia.Path(); cane.moveTo(0, 40); cane.lineTo(0, -120)
+        cane.cubicTo(0, -175, 70, -175, 70, -120)
+        cv.drawPath(cane, P("#F4F1EA", 255, 26))
+        stripes = P("#C0262B", 255, 26)
+        stripes.setPathEffect(skia.DashPathEffect.Make([18, 22], (t * 20) % 40))
+        cv.drawPath(cane, stripes)
+        cv.restore()
 
 def draw_hat(cv, kind, t):
     """Hat frame: (0,0) = top of the head between the ear tufts."""
@@ -248,6 +271,22 @@ def draw_hat(cv, kind, t):
         c.lineTo(150, 0); c.close()
         cv.drawPath(c, grad_paint((0, -120), (0, 0), ["#FBE7B0", "#C48D3C"]))
         for x in (-100, 0, 100): cv.drawCircle(x, -40, 14, P("#B23A2E"))
+    elif kind == "santa":
+        sway = 14 * math.sin(t * 2.4)
+        tipx, tipy = 225 + sway, -95 + 0.4 * sway
+        h = skia.Path(); h.moveTo(-185, 0)
+        h.cubicTo(-150, -150, -20, -235, 80, -215)
+        h.cubicTo(160, -200, 205, -150, tipx, tipy)
+        h.cubicTo(150, -140, 120, -120, 185, 0); h.close()
+        cv.drawPath(h, grad_paint((0, -235), (0, 0), ["#D8352C", "#8E1A14"]))
+        cv.drawPath(h, P(OUTLINE, 255, 5))
+        fur = skia.RRect.MakeRectXY(skia.Rect.MakeXYWH(-210, -38, 420, 66), 33, 33)
+        cv.drawRRect(fur, grad_paint((0, -38), (0, 28), ["#FFFFFF", "#D9D4C8"]))
+        cv.drawRRect(fur, P("#BDB6A6", 255, 4))
+        for k in range(-4, 5):   # touffes de fourrure
+            cv.drawCircle(k * 44, -6 + 6 * ((k % 2) - .5), 13, P("#E9E4D8"))
+        cv.drawCircle(tipx, tipy, 38, grad_paint((tipx, tipy - 38), (tipx, tipy + 38), ["#FFFFFF", "#D2CCBF"]))
+        cv.drawCircle(tipx, tipy, 38, P("#BDB6A6", 255, 4))
 
 def draw_coat(cv, kind):
     if kind not in COATS:
@@ -270,6 +309,13 @@ def draw_coat(cv, kind):
     for k in range(3):
         for s in (-1, 1):
             cv.drawCircle(s * 34, -175 + k * 50, 9, P(trim))
+    if kind == "noel":   # bordure de fourrure blanche en bas et au col
+        hem = skia.Path()
+        hem.moveTo(-160, -30); hem.cubicTo(-100, -14, 100, -14, 160, -30)
+        cv.drawPath(hem, P(trim, 255, 34))
+        for s in (-1, 1):
+            col_ = skia.Path(); col_.moveTo(s * 70, -330); col_.lineTo(0, -230)
+            cv.drawPath(col_, P(trim, 255, 22))
     if kind == "navy":   # epaulettes
         for s in (-1, 1):
             cv.drawOval(skia.Rect.MakeXYWH(s * 205 - 50, -335, 100, 34), P(trim))

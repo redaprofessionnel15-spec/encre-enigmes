@@ -1,0 +1,128 @@
+{
+  "title": "S'embrasser sous le gui : une idée gauloise",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "S'embrasser sous le gui, c'est une tradition qui remonte aux Gaulois.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une idée romantique ?",
+        "stamp": "GAULOISE",
+        "stamp_on": "gaulois"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Le Romain Pline l'Ancien raconte une cérémonie étonnante chez les druides.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LA CUEILLETTE DU GUI",
+        "sign": "— Pline l'Ancien"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Un druide vêtu de blanc grimpe dans un chêne, et coupe le gui avec une serpe d'or.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE SERPE D'OR",
+        "line": "un druide dans un chêne"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Pour eux, le gui qui pousse sur un chêne est très rare. Et il guérirait tout.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une simple plante ?",
+        "stamp": "SACRÉE",
+        "stamp_on": "guérirait"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Bien plus tard, en Angleterre, on accroche du gui dans les maisons. Et celui qui passe dessous… doit donner un baiser.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN BAISER",
+        "line": "sous le gui"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Mais attention : les baies de gui sont toxiques. À regarder, pas à manger.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Ça se mange ?",
+        "stamp": "TOXIQUE",
+        "stamp_on": "toxiques"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu as déjà eu un bisou sous le gui ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "BISOU ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

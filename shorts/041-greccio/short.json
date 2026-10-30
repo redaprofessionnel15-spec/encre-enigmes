@@ -1,0 +1,132 @@
+{
+  "title": "La toute première crèche était vivante",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "La toute première crèche de Noël avait un vrai bœuf et un vrai âne. Et elle était dans une grotte.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des santons ?",
+        "stamp": "VIVANTE",
+        "stamp_on": "vrai"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "On est en 1223, à Greccio, un petit village d'Italie.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1223,
+        "from": 2026,
+        "place": "GRECCIO",
+        "land_on": "1223"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "François d'Assise veut que les gens voient de leurs yeux comment Jésus est né : dans la pauvreté.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "FRANÇOIS D'ASSISE",
+        "line": "voir de ses propres yeux"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Alors, dans une grotte, il installe une mangeoire avec du foin, un bœuf et un âne.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE MANGEOIRE",
+        "line": "du foin, un bœuf, un âne"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "La nuit de Noël, les villageois arrivent avec des torches. Et la messe est célébrée là, au milieu des animaux.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Dans une église ?",
+        "stamp": "UNE GROTTE",
+        "stamp_on": "animaux"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "L'idée plaît tellement qu'elle se répand partout. Huit cents ans plus tard, on fait encore des crèches dans le monde entier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 800,
+        "unit": "ANS",
+        "label": "DE CRÈCHES",
+        "from": 0,
+        "slam_on": "huit"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Chez toi, crèche ou pas crèche ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TA CRÈCHE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

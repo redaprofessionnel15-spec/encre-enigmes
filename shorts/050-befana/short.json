@@ -1,0 +1,128 @@
+{
+  "title": "En Italie, c'est une sorcière qui apporte les cadeaux",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "En Italie, les cadeaux ne sont pas apportés par le Père Noël. Mais par une sorcière.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le Père Noël ?",
+        "stamp": "UNE SORCIÈRE",
+        "stamp_on": "sorcière"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Elle s'appelle la Befana. Elle vole sur un balai, avec un vieux châle et des chaussures trouées.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA BEFANA",
+        "line": "sur son balai"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Selon la légende, les Rois mages frappent à sa porte, et lui demandent de les accompagner pour voir l'Enfant Jésus.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LES ROIS MAGES",
+        "line": "frappent à sa porte"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Elle refuse : elle a trop de ménage. Puis elle regrette… mais trop tard, ils sont partis.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Elle les suit ?",
+        "stamp": "TROP TARD",
+        "stamp_on": "tard"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Depuis, elle cherche l'enfant. Dans la nuit du 5 au 6 janvier, elle passe dans chaque maison, par la cheminée.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "5 AU 6 JANVIER",
+        "line": "par la cheminée"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Les enfants sages reçoivent des bonbons. Les autres… du charbon. Mais souvent, c'est du charbon en sucre.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Du charbon ?",
+        "stamp": "EN SUCRE",
+        "stamp_on": "sucre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu mérites bonbons ou charbon ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "CHARBON ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

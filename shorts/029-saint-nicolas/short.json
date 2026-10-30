@@ -1,0 +1,137 @@
+{
+  "title": "La légende terrifiante de saint Nicolas",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "La légende de saint Nicolas commence par un crime horrible : un boucher qui tue trois enfants.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une jolie légende ?",
+        "stamp": "HORRIBLE",
+        "stamp_on": "horrible"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Trois petits enfants se perdent en allant glaner aux champs. La nuit tombe. Ils frappent chez un boucher.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TROIS ENFANTS",
+        "line": "perdus dans la nuit"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Le boucher les fait entrer… et les cache dans son saloir, comme du petit salé.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LE SALOIR",
+        "line": "chez le boucher"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Sept ans plus tard, saint Nicolas passe par là. Et il demande du petit salé.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 7,
+        "unit": "ANS",
+        "label": "PLUS TARD",
+        "from": 0,
+        "slam_on": "sept"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le boucher panique. Saint Nicolas étend trois doigts au-dessus du saloir… et les trois enfants se relèvent, vivants.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Perdus ?",
+        "stamp": "VIVANTS",
+        "stamp_on": "vivants"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "vivants",
+            "pose": "cheer",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Voilà pourquoi saint Nicolas protège les enfants. Et pourquoi, chaque 6 décembre, en Lorraine et en Belgique, il leur apporte des cadeaux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "6 DÉCEMBRE",
+        "line": "Lorraine, Belgique"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Bonne Saint-Nicolas ! Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "SAINT-NICOLAS !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

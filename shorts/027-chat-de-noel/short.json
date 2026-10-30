@@ -1,0 +1,136 @@
+{
+  "title": "Le chat géant qui mange les enfants à Noël",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En Islande, à Noël, un chat géant dévore ceux qui n'ont pas reçu de vêtements neufs.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un simple chat ?",
+        "stamp": "GÉANT",
+        "stamp_on": "géant"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked",
+        "acts": [
+          {
+            "on": "dévore",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Il s'appelle Jólakötturinn : le chat de Noël. Selon la légende, il est plus grand qu'une maison.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LE CHAT DE NOËL",
+        "line": "plus grand qu'une maison"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "La nuit de Noël, il rôde dans la neige, et il regarde par les fenêtres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "IL RÔDE",
+        "line": "la nuit de Noël"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Si un enfant n'a pas de vêtement neuf… il le mange. Et son repas de Noël avec.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Pas de vêtement neuf ?",
+        "stamp": "DÉVORÉ",
+        "stamp_on": "mange"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Pourquoi une histoire aussi cruelle ? Autrefois, il fallait finir de travailler la laine avant Noël. Ceux qui avaient bien travaillé recevaient un vêtement neuf.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA LAINE",
+        "line": "à finir avant Noël"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Les autres risquaient de finir dans le ventre du chat. Une façon très efficace de motiver tout le monde.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Motivant ?",
+        "stamp": "TRÈS",
+        "stamp_on": "efficace"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Et toi, tu as eu un pull neuf cette année ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "PULL NEUF ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,132 @@
+{
+  "title": "Qui répond vraiment aux lettres au Père Noël ?",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "En France, chaque lettre au Père Noël reçoit une réponse. Et la toute première a été écrite par une célèbre psychanalyste.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une réponse ?",
+        "stamp": "TOUJOURS",
+        "stamp_on": "réponse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Au début des années 1960, des milliers d'enfants écrivent au Père Noël. Mais la Poste ne sait pas quoi faire de toutes ces lettres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES MILLIERS",
+        "line": "de lettres sans réponse"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors, en 1962, la Poste crée le secrétariat du Père Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1962,
+        "from": 2026,
+        "place": "FRANCE",
+        "land_on": "1962"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Et pour écrire la première réponse, on fait appel à Françoise Dolto, la célèbre spécialiste des enfants.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "FRANÇOISE DOLTO",
+        "sign": "— psychanalyste"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Aujourd'hui, le secrétariat est à Libourne, près de Bordeaux. Et il reçoit plus d'un million de lettres chaque année.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 1,
+        "unit": "MILLION",
+        "label": "DE LETTRES PAR AN",
+        "from": 0,
+        "slam_on": "million"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "La règle : écrire avant le 20 décembre, à l'adresse Père Noël. Pas besoin de timbre. Et le Père Noël répond.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un timbre ?",
+        "stamp": "INUTILE",
+        "stamp_on": "timbre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Et toi, tu lui demandes quoi cette année ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TA LETTRE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

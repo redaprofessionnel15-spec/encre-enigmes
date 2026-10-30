@@ -1,0 +1,130 @@
+{
+  "title": "Avant d'être un gâteau, la bûche brûlait pendant des jours",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "La bûche de Noël, avant d'être un gâteau, c'était une vraie bûche. Qu'on faisait brûler pendant des jours.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un gâteau ?",
+        "stamp": "DU BOIS",
+        "stamp_on": "vraie"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Dans les campagnes, la veille de Noël, on choisit une énorme bûche, souvent d'arbre fruitier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE ÉNORME BÛCHE",
+        "line": "choisie pour Noël"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "On la bénit, parfois avec du sel ou de l'eau bénite, puis on l'allume dans la cheminée.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BÉNIE",
+        "line": "puis allumée dans la cheminée"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Elle doit brûler très longtemps. Dans certaines régions, jusqu'à douze jours.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 12,
+        "unit": "JOURS",
+        "label": "DE FEU",
+        "from": 0,
+        "slam_on": "douze"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Ses cendres étaient précieuses : on les gardait pour protéger la maison de la foudre et des maladies.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des cendres ?",
+        "stamp": "PROTECTION",
+        "stamp_on": "foudre"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Puis les grandes cheminées disparaissent. Et au dix-neuvième siècle, des pâtissiers ont l'idée de la transformer en gâteau.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN GÂTEAU",
+        "line": "pâtissiers, XIXe siècle"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Team chocolat ou team glacée ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM CHOCOLAT ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

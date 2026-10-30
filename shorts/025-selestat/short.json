@@ -1,0 +1,129 @@
+{
+  "title": "Le premier sapin de Noël est… français",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "La plus vieille trace écrite d'un sapin de Noël n'est pas en Allemagne. Elle est en France.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "En Allemagne ?",
+        "stamp": "EN FRANCE",
+        "stamp_on": "france"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "On est en 1521, à Sélestat, en Alsace.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1521,
+        "from": 2026,
+        "place": "SÉLESTAT",
+        "land_on": "1521"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Dans un livre de comptes de la ville, une ligne toute simple : quatre schillings pour faire surveiller les sapins, à partir du 21 décembre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "4 SCHILLINGS",
+        "line": "pour garder les sapins"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Pourquoi les surveiller ? Parce que les habitants venaient en couper en douce, pour décorer leur maison.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Coupés en douce ?",
+        "stamp": "VOLÉS",
+        "stamp_on": "douce"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Selon la tradition, on les décorait avec des pommes rouges, des hosties et des petits gâteaux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES POMMES ROUGES",
+        "line": "et des petits gâteaux"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Et une légende raconte qu'en 1858, faute de pommes, des souffleurs de verre de Lorraine les ont remplacées par des boules en verre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BOULES EN VERRE",
+        "line": "Lorraine, 1858 (légende)"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Ton sapin, il est déjà prêt ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM SAPIN ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

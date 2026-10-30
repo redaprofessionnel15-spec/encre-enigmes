@@ -1,0 +1,147 @@
+{
+  "title": "Le jour où la France a brûlé le Père Noël",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En 1951, en France, on a brûlé le Père Noël. En public. Devant une cathédrale.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le Père Noël ?",
+        "stamp": "BRÛLÉ",
+        "stamp_on": "brûlé"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked",
+        "acts": [
+          {
+            "on": "brûlé",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "C'est le 23 décembre, à Dijon, devant la cathédrale Saint-Bénigne.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1951,
+        "from": 2026,
+        "place": "DIJON",
+        "land_on": "dijon"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Des membres du clergé l'accusent de faire oublier Jésus, et d'être une invention païenne venue d'Amérique.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ACCUSÉ",
+        "line": "d'être un païen venu d'Amérique"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Alors, devant environ deux cent cinquante enfants, ils accrochent un mannequin du Père Noël aux grilles. Et ils y mettent le feu.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 250,
+        "unit": "ENFANTS",
+        "label": "DEVANT LE BÛCHER",
+        "from": 0,
+        "slam_on": "cinquante"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le lendemain soir, la mairie réplique : le Père Noël réapparaît, bien vivant, sur le toit de l'hôtel de ville.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Mort ?",
+        "stamp": "VIVANT",
+        "stamp_on": "vivant"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "vivant",
+            "pose": "cheer",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "L'affaire fait tellement de bruit que l'anthropologue Claude Lévi-Strauss y consacre un texte : Le Père Noël supplicié.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LE PÈRE NOËL SUPPLICIÉ",
+        "sign": "— Claude Lévi-Strauss, 1952"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Team Père Noël ou team clergé ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM PÈRE NOËL ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

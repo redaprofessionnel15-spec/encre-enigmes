@@ -1,0 +1,131 @@
+{
+  "title": "Le chant de Noël né d'un orgue en panne",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Le chant de Noël le plus célèbre du monde serait né à cause d'un orgue en panne.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une grande idée ?",
+        "stamp": "UNE PANNE",
+        "stamp_on": "panne"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "On est le 24 décembre 1818, à Oberndorf, un village d'Autriche.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1818,
+        "from": 2026,
+        "place": "OBERNDORF",
+        "land_on": "1818"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Selon la tradition, l'orgue de l'église ne marche plus. Certains accusent même des souris d'avoir rongé le soufflet.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES SOURIS ?",
+        "line": "l'orgue ne marche plus"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Le prêtre, Joseph Mohr, a écrit un poème. Il demande à l'instituteur, Franz Xaver Gruber, d'en faire une mélodie. Pour guitare.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "POUR GUITARE",
+        "line": "Mohr et Gruber"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le soir même, ils chantent Stille Nacht pour la première fois. En français : Douce nuit.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "STILLE NACHT",
+        "sign": "— Oberndorf, 24 décembre 1818"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, ce chant serait traduit dans plus de trois cents langues et dialectes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 300,
+        "unit": "LANGUES",
+        "label": "ET DIALECTES",
+        "from": 0,
+        "slam_on": "trois"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu la connais par cœur ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "DOUCE NUIT",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

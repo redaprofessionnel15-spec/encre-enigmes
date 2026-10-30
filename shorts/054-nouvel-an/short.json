@@ -1,0 +1,130 @@
+{
+  "title": "Pourquoi l'année commence le 1er janvier",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Avant 1564, en France, la nouvelle année ne commençait pas le premier janvier.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le 1er janvier ?",
+        "stamp": "PAS AVANT",
+        "stamp_on": "janvier"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Selon les régions, elle commençait à Noël, le 25 mars, ou même à Pâques. Une date qui change chaque année !",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "À PÂQUES ?",
+        "line": "ou à Noël, ou le 25 mars"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Résultat : un vrai casse-tête pour dater les contrats et les lettres.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Pratique ?",
+        "stamp": "LE CHAOS",
+        "stamp_on": "casse"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "En 1564, le jeune roi Charles IX fait le tour de la France. Et au château de Roussillon, il signe un édit.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1564,
+        "from": 2026,
+        "place": "ROUSSILLON",
+        "land_on": "1564"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Désormais, dans tout le royaume, l'année commencera le premier janvier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "1ER JANVIER",
+        "line": "édit de Roussillon, 1564"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Une légende dit que ceux qui fêtaient encore l'ancienne date, au printemps, recevaient de faux cadeaux pour rire. Ce serait l'origine du poisson d'avril.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le poisson d'avril ?",
+        "stamp": "PEUT-ÊTRE",
+        "stamp_on": "poisson"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Bonne année à toi ! Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "BONNE ANNÉE !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

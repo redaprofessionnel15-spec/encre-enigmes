@@ -1,0 +1,128 @@
+{
+  "title": "Noël 1914 : les ennemis ont arrêté la guerre",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Le soir de Noël 1914, en pleine guerre, des soldats ennemis ont arrêté de se tirer dessus. Pour chanter ensemble.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "La guerre continue ?",
+        "stamp": "TRÊVE",
+        "stamp_on": "chanter"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Sur le front, en Belgique, des soldats allemands posent des petits sapins avec des bougies sur leurs tranchées.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES BOUGIES",
+        "line": "sur les tranchées"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Puis ils chantent des chants de Noël. En face, les Britanniques répondent en chantant aussi.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES CHANTS",
+        "line": "d'une tranchée à l'autre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Le lendemain, des soldats sortent sans armes. Ils se serrent la main, échangent du tabac et des boutons.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des ennemis ?",
+        "stamp": "SANS ARMES",
+        "stamp_on": "armes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Ensemble, ils enterrent aussi leurs morts. Et selon plusieurs témoignages, certains jouent même au football.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN MATCH ?",
+        "line": "selon plusieurs témoignages"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Les généraux sont furieux. Les années suivantes, ce genre de trêve est interdit. Elle ne se répétera jamais à cette échelle.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Encore en 1915 ?",
+        "stamp": "INTERDIT",
+        "stamp_on": "interdit"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Joyeux Noël à toi. Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "JOYEUX NOËL",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

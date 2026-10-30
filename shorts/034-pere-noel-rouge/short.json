@@ -1,0 +1,130 @@
+{
+  "title": "Non, Coca-Cola n'a pas habillé le Père Noël en rouge",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Non, ce n'est pas Coca-Cola qui a habillé le Père Noël en rouge.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Coca-Cola ?",
+        "stamp": "FAUX",
+        "stamp_on": "rouge"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "En 1863, un dessinateur américain, Thomas Nast, commence à le dessiner pour un journal. Un petit bonhomme joyeux, avec une barbe blanche.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1863,
+        "from": 2026,
+        "place": "NEW YORK",
+        "land_on": "1863"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Dans les années suivantes, il est souvent habillé de rouge, avec de la fourrure blanche. Des cartes postales le montrent déjà comme ça vers 1900.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DÉJÀ EN ROUGE",
+        "line": "cartes postales, vers 1900"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Les publicités de Coca-Cola, dessinées par Haddon Sundblom, arrivent seulement en 1931.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Les premiers ?",
+        "stamp": "EN RETARD",
+        "stamp_on": "seulement"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Mais elles sont partout, pendant des décennies. Et elles fixent son image : gros, souriant, rouge et blanc.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "L'IMAGE FIXÉE",
+        "line": "gros, souriant, rouge et blanc"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Coca-Cola ne l'a pas inventé. Mais l'a rendu célèbre dans le monde entier.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Inventé ?",
+        "stamp": "NON",
+        "stamp_on": "célèbre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu le savais ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU LE SAVAIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

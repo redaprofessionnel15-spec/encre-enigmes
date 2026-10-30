@@ -1,0 +1,132 @@
+{
+  "title": "Le cercueil volé de Charlie Chaplin",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Charlie Chaplin est mort le jour de Noël. Et deux mois plus tard, son cercueil a disparu.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Repose en paix ?",
+        "stamp": "VOLÉ",
+        "stamp_on": "disparu"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Il meurt le 25 décembre 1977, en Suisse, à Corsier-sur-Vevey.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1977,
+        "from": 2026,
+        "place": "SUISSE",
+        "land_on": "1977"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Début mars 1978, on découvre sa tombe vide. Le cercueil a été déterré pendant la nuit.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TOMBE VIDE",
+        "line": "mars 1978"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Les voleurs appellent sa veuve, Oona. Ils réclament une rançon de six cent mille francs suisses.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 600,
+        "unit": "MILLE FRANCS",
+        "label": "DE RANÇON",
+        "from": 0,
+        "slam_on": "six"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "angry"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "La famille refuse de payer. La police surveille son téléphone, et plus de deux cents cabines téléphoniques.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "200 CABINES",
+        "line": "sur écoute"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Les voleurs sont arrêtés. Le cercueil était enterré dans un champ, pas très loin. Chaplin est enterré à nouveau. Cette fois, sous du béton.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Retrouvé ?",
+        "stamp": "SOUS LE BÉTON",
+        "stamp_on": "béton"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais cette histoire ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "INCROYABLE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

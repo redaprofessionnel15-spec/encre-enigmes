@@ -1,0 +1,129 @@
+{
+  "title": "En Écosse, Noël n'était pas férié avant 1958",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "En Écosse, Noël n'est devenu un jour férié qu'en 1958.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Noël, férié ?",
+        "stamp": "EN 1958",
+        "stamp_on": "1958"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Tout commence en 1640. Le Parlement écossais interdit de fêter Yule, le vieux nom de Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1640,
+        "from": 2026,
+        "place": "ÉCOSSE",
+        "land_on": "1640"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Pour l'Église d'Écosse, Noël n'est pas dans la Bible. Et cette fête rappelle trop les vieilles fêtes païennes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TROP PAÏEN",
+        "line": "selon l'Église d'Écosse"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Pendant des siècles, beaucoup d'Écossais travaillent le 25 décembre, comme un jour normal.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un jour de fête ?",
+        "stamp": "AU TRAVAIL",
+        "stamp_on": "travaillent"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Alors, la grande fête de l'hiver devient le Nouvel An. En Écosse, on l'appelle Hogmanay.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "HOGMANAY",
+        "line": "le Nouvel An écossais"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Et la tradition dit qu'il faut être le premier à franchir la porte d'une maison après minuit, avec un cadeau. Ça porte bonheur.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LE PREMIER PAS",
+        "line": "après minuit, avec un cadeau"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu préfères Noël ou le Nouvel An ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TON CAMP ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

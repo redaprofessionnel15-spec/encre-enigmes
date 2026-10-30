@@ -1,0 +1,132 @@
+{
+  "title": "Quand fêter Noël était interdit",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Pendant plus de vingt ans, fêter Noël était interdit. Et puni d'une amende.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Fêter Noël ?",
+        "stamp": "INTERDIT",
+        "stamp_on": "interdit"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "On est en 1659, dans la colonie du Massachusetts, en Amérique.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1659,
+        "from": 2026,
+        "place": "BOSTON",
+        "land_on": "1659"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Les puritains qui dirigent la colonie trouvent que Noël, c'est trop de fête, trop d'alcool. Et ce n'est pas dans la Bible.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TROP DE FÊTE",
+        "line": "et pas dans la Bible"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "La loi est claire : celui qui fête Noël paie cinq shillings d'amende.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 5,
+        "unit": "SHILLINGS",
+        "label": "D'AMENDE",
+        "from": 0,
+        "slam_on": "cinq"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "En Angleterre aussi, sous Cromwell, Noël a été aboli. Les boutiques devaient rester ouvertes le 25 décembre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CROMWELL",
+        "line": "les boutiques restent ouvertes"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Au Massachusetts, la loi est annulée en 1681. Mais pendant longtemps encore, Noël reste mal vu à Boston.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Fini ?",
+        "stamp": "EN 1681",
+        "stamp_on": "annulée"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu aurais payé l'amende ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "L'AMENDE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

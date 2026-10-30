@@ -1,0 +1,135 @@
+{
+  "title": "Le jour où des astronautes ont vu le Père Noël",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Le 16 décembre 1965, des astronautes signalent un objet volant non identifié. En orbite.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un OVNI ?",
+        "stamp": "SIGNALÉ",
+        "stamp_on": "orbite"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Ils sont à bord de la capsule Gemini 6 : Wally Schirra et Tom Stafford.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "GEMINI 6",
+        "line": "Schirra et Stafford"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "À la radio, Stafford annonce un objet qui va du nord vers le sud. Avec un pilote… en costume rouge.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "UN PILOTE EN ROUGE",
+        "sign": "— Tom Stafford, 1965"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Au sol, silence total. Puis, on entend de la musique.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une menace ?",
+        "stamp": "UNE MUSIQUE",
+        "stamp_on": "musique"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Les astronautes avaient caché un petit harmonica et des clochettes à bord. Et ils jouent Jingle Bells.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "JINGLE BELLS",
+        "line": "un harmonica, des clochettes"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "jouent",
+            "pose": "cheer",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "C'était une blague. Mais c'est aussi la première musique jouée dans l'espace. L'harmonica est aujourd'hui dans un musée, à Washington.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un vrai OVNI ?",
+        "stamp": "UNE BLAGUE",
+        "stamp_on": "blague"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Le Père Noël, vu de l'espace. Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "VU DE L'ESPACE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,130 @@
+{
+  "title": "La nuit où les Suédoises portent du feu sur la tête",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En Suède, le 13 décembre, des jeunes filles portent une couronne de bougies allumées sur la tête.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Dangereux ?",
+        "stamp": "TRADITION",
+        "stamp_on": "bougies"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "C'est la Sainte-Lucie. Lucie, ça vient du latin lux : la lumière.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LUX",
+        "line": "la lumière"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Avec l'ancien calendrier, la nuit du 13 décembre était considérée comme la plus longue de l'année.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 13,
+        "unit": "DÉCEMBRE",
+        "label": "LA NUIT LA PLUS LONGUE",
+        "from": 0,
+        "slam_on": "13"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Selon les vieilles croyances, cette nuit-là, des esprits et des créatures rôdaient dehors. Mieux valait rester éveillé.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES ESPRITS",
+        "line": "rôdent dans la nuit"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Alors, au petit matin, une jeune fille en blanc apporte la lumière, du café, et des petits pains au safran.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "PAINS AU SAFRAN",
+        "line": "et du café, à l'aube"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, dans les écoles et les villes, il y a même une Lucie de l'année. Avec de vraies bougies… ou électriques, c'est plus prudent.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "De vraies bougies ?",
+        "stamp": "PARFOIS",
+        "stamp_on": "électriques"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu aimerais voir ça ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "LUMIÈRE !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}
