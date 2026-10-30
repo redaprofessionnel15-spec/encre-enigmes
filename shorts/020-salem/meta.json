@@ -1,10 +1,13 @@
 {
   "title": "🎃 Les sorcières de Salem (1692)",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/020-salem.mp4",
   "costume": "tricorne, manteau noir, lanterne",
   "voice": "ElevenLabs direct (George, eleven_multilingual_v2), 683 crédits",
   "sources": [
     "Wikipedia, Salem witch trials"
-  ]
+  ],
+  "publish_at": "2026-11-04T16:00:00+01:00",
+  "metricool_id": 411387968,
+  "commit": "23839897542ade7a9c8aead2c5460229b52b7d9e"
 }
