@@ -1,0 +1,130 @@
+{
+  "title": "L'évasion d'Alcatraz : sont-ils vivants ?",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En 1962, trois hommes se sont évadés d'Alcatraz, la prison dont on ne s'évade pas. On ne les a jamais retrouvés.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Impossible ?",
+        "stamp": "ÉVADÉS",
+        "stamp_on": "évadés"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Frank Morris et les frères Anglin creusent les murs de leur cellule pendant des mois, avec des cuillères.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES CUILLÈRES",
+        "line": "des mois à creuser"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Pour tromper les gardiens, ils fabriquent de fausses têtes en papier mâché, avec de vrais cheveux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "FAUSSES TÊTES",
+        "line": "en papier mâché"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Le 11 juin 1962, la nuit, ils montent sur le toit et partent sur un radeau fait de cirés.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1962,
+        "from": 2026,
+        "place": "ALCATRAZ",
+        "land_on": "1962"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le FBI conclut qu'ils se sont sûrement noyés. Mais on n'a jamais retrouvé leurs corps.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Noyés ?",
+        "stamp": "INTROUVÉS",
+        "stamp_on": "corps"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Et des années plus tard, des proches ont affirmé avoir reçu des nouvelles. Le mystère reste ouvert.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Fin de l'histoire ?",
+        "stamp": "MYSTÈRE",
+        "stamp_on": "mystère"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Pour toi, ils ont survécu ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "VIVANTS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,130 @@
+{
+  "title": "L'Atlantide : la vraie origine du mythe",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "Tout ce qu'on sait sur l'Atlantide vient d'un seul homme. Et ce n'était pas un explorateur.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une vraie cité ?",
+        "stamp": "UN SEUL",
+        "stamp_on": "homme"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "C'est le philosophe grec Platon, il y a environ deux mille quatre cents ans.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2400,
+        "unit": "ANS",
+        "label": "ENVIRON",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Dans deux de ses livres, il décrit une île puissante, au-delà des colonnes d'Hercule.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "AU-DELÀ D'HERCULE",
+        "line": "une île immense"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Un peuple riche et orgueilleux, qui veut conquérir le monde. Jusqu'à ce que, en un jour et une nuit, l'île soit engloutie.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "UN JOUR ET UNE NUIT",
+        "sign": "— Platon"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Aucune autre source ancienne n'en parle avant lui. Pour la plupart des historiens, c'est une fable pour faire réfléchir.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Réelle ?",
+        "stamp": "UNE FABLE",
+        "stamp_on": "fable"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Mais certains y voient le souvenir d'une vraie catastrophe : l'éruption de Santorin, il y a plus de trois mille ans.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "SANTORIN",
+        "line": "une éruption géante"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "L'Atlantide, mythe ou souvenir ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU Y CROIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,130 @@
+{
+  "title": "La statue de la Liberté est française",
+  "scene_packs": [],
+  "costume": {
+    "hat": "beret",
+    "coat": "red",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "La statue de la Liberté, symbole de l'Amérique, a été construite à Paris. En pleine rue.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Américaine ?",
+        "stamp": "FRANÇAISE",
+        "stamp_on": "paris"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Elle est imaginée par le sculpteur français Bartholdi, comme un cadeau de la France aux États-Unis.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BARTHOLDI",
+        "line": "un cadeau de la France"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Et à l'intérieur, la structure en fer est conçue par… Gustave Eiffel.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "GUSTAVE EIFFEL",
+        "line": "le squelette en fer"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Elle est d'abord assemblée à Paris. Pendant un moment, elle domine les toits du dix-septième arrondissement.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "À PARIS",
+        "line": "dans le 17e arrondissement"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Puis on la démonte, et on l'envoie en bateau dans plus de deux cents caisses.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 200,
+        "unit": "CAISSES",
+        "label": "EN BATEAU",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Et elle n'était pas verte. Elle était couleur cuivre, et c'est l'oxydation qui l'a rendue verte.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Verte ?",
+        "stamp": "CUIVRÉE",
+        "stamp_on": "verte"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu le savais ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU SAVAIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

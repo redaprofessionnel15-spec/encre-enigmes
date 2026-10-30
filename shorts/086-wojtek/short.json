@@ -1,0 +1,129 @@
+{
+  "title": "L'ours qui est devenu soldat",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "green",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "Pendant la Seconde Guerre mondiale, un ours brun a été soldat dans l'armée polonaise.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un ours ?",
+        "stamp": "SOLDAT",
+        "stamp_on": "soldat"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "En 1942, des soldats polonais adoptent un petit ourson orphelin en Iran. Ils l'appellent Wojtek.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1942,
+        "from": 2026,
+        "place": "IRAN",
+        "land_on": "1942"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il grandit avec eux. Il boit dans un biberon, lutte pour jouer, et adore les cigarettes. Il les mange.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "WOJTEK",
+        "line": "l'ours de la compagnie"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Pour qu'il puisse monter dans les bateaux, l'armée l'inscrit officiellement comme soldat. Avec un grade.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Officiel ?",
+        "stamp": "ENRÔLÉ",
+        "stamp_on": "officiellement"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Selon ses camarades, pendant la bataille du Mont-Cassin, il aidait à porter des caisses d'obus.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "MONT-CASSIN",
+        "line": "il porte des caisses d'obus"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Après la guerre, il finit ses jours au zoo d'Édimbourg. Et il a aujourd'hui des statues en Pologne et en Écosse.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN HÉROS",
+        "line": "statues en Pologne et en Écosse"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Le meilleur soldat de l'histoire ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM WOJTEK",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

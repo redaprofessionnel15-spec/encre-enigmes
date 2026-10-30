@@ -1,0 +1,133 @@
+{
+  "title": "Des mammouths vivaient encore à l'époque des pyramides",
+  "scene_packs": [],
+  "costume": {
+    "hat": "headphones",
+    "coat": "white",
+    "accessory": "radio"
+  },
+  "segments": [
+    {
+      "tts": "Quand les Égyptiens construisaient les pyramides, il y avait encore des mammouths vivants.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Disparus avant ?",
+        "stamp": "VIVANTS",
+        "stamp_on": "vivants"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "La plupart des mammouths ont disparu il y a environ dix mille ans.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 10000,
+        "unit": "ANS",
+        "label": "LA PLUPART DISPARUS",
+        "from": 0,
+        "slam_on": "dix"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Mais un petit groupe a survécu sur une île isolée, au nord de la Sibérie : l'île Wrangel.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ÎLE WRANGEL",
+        "line": "au nord de la Sibérie"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Ils y ont vécu jusqu'à il y a environ quatre mille ans.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 4000,
+        "unit": "ANS",
+        "label": "LES DERNIERS",
+        "from": 0,
+        "slam_on": "quatre"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "La grande pyramide de Gizeh, elle, a environ quatre mille cinq cents ans. Les deux ont existé en même temps.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "En même temps ?",
+        "stamp": "OUI",
+        "stamp_on": "temps"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Pourquoi ont-ils fini par disparaître ? Peut-être un événement brutal. Les scientifiques cherchent encore.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN MYSTÈRE",
+        "line": "la fin des derniers mammouths"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "sad"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Ça te paraît fou ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "FOU, NON ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

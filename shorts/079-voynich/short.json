@@ -1,0 +1,127 @@
+{
+  "title": "Le livre que personne n'arrive à lire",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "Il existe un livre de plus de deux cents pages que personne au monde n'arrive à lire.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Personne ?",
+        "stamp": "PERSONNE",
+        "stamp_on": "personne"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "C'est le manuscrit de Voynich. Le parchemin date du début du quinzième siècle.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "MANUSCRIT DE VOYNICH",
+        "line": "XVe siècle"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il est écrit dans un alphabet inconnu, qui n'existe nulle part ailleurs.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ALPHABET INCONNU",
+        "line": "nulle part ailleurs"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Et il est rempli de dessins étranges : des plantes qui n'existent pas, des étoiles, des femmes dans des bassins.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "PLANTES INCONNUES",
+        "line": "et des dessins étranges"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Des cryptographes de l'armée, des linguistes, et même des intelligences artificielles ont essayé. Sans succès.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Déchiffré ?",
+        "stamp": "ÉCHEC",
+        "stamp_on": "succès"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Langue perdue, code secret, ou canular génial ? Il est aujourd'hui conservé à l'université Yale, et il résiste toujours.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNIVERSITÉ YALE",
+        "line": "il résiste toujours"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Code, langue ou canular ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TA THÉORIE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

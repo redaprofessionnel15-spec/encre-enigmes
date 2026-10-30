@@ -1,0 +1,133 @@
+{
+  "title": "Cléopâtre est plus proche de nous que des pyramides",
+  "scene_packs": [],
+  "costume": {
+    "hat": "beret",
+    "coat": "red",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "Cléopâtre a vécu plus près de nous… que de la construction des pyramides.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Impossible ?",
+        "stamp": "VRAI",
+        "stamp_on": "pyramides"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "La grande pyramide de Khéops est construite vers 2560 avant Jésus-Christ.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "KHÉOPS",
+        "line": "vers 2560 av. J.-C."
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Cléopâtre, elle, meurt en l'an 30 avant Jésus-Christ. Environ deux mille cinq cents ans plus tard.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2500,
+        "unit": "ANS",
+        "label": "APRÈS LES PYRAMIDES",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Et les premiers pas sur la Lune, en 1969 ? Environ deux mille ans après Cléopâtre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2000,
+        "unit": "ANS",
+        "label": "AVANT LA LUNE",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Donc oui : Cléopâtre est plus proche des astronautes que des bâtisseurs de pyramides.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Plus proche ?",
+        "stamp": "DE LA LUNE",
+        "stamp_on": "astronautes"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Pour elle, les pyramides étaient déjà des monuments très, très anciens.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DÉJÀ ANCIENNES",
+        "line": "pour Cléopâtre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Ça te retourne le cerveau ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "ÇA RETOURNE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

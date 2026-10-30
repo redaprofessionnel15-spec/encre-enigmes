@@ -1,0 +1,133 @@
+{
+  "title": "La pierre de Stonehenge venue d'Écosse",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "green",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "Une des pierres de Stonehenge vient d'Écosse. À plus de sept cents kilomètres.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Du coin ?",
+        "stamp": "D'ÉCOSSE",
+        "stamp_on": "vient"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Stonehenge, en Angleterre, a été construit il y a environ cinq mille ans.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 5000,
+        "unit": "ANS",
+        "label": "ENVIRON",
+        "from": 0,
+        "slam_on": "cinq"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "On savait déjà que certaines pierres venaient du pays de Galles, à plus de deux cents kilomètres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "PAYS DE GALLES",
+        "line": "à plus de 200 km"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Mais en 2024, des chercheurs analysent la Pierre de l'autel, au centre. Elle pèse environ six tonnes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA PIERRE DE L'AUTEL",
+        "line": "environ 6 tonnes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Résultat : elle vient du nord-est de l'Écosse. Environ sept cent cinquante kilomètres de voyage.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 750,
+        "unit": "KILOMÈTRES",
+        "label": "DE VOYAGE",
+        "from": 0,
+        "slam_on": "sept"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Sans roues, sans chevaux. Par la terre, ou par la mer ? Personne ne sait encore comment.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Expliqué ?",
+        "stamp": "MYSTÈRE",
+        "stamp_on": "comment"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu ferais comment ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TA THÉORIE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

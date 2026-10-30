@@ -1,0 +1,130 @@
+{
+  "title": "Napoléon n'était pas petit",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "Napoléon n'était pas petit. C'est une erreur de mesure… et un peu de propagande.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Petit ?",
+        "stamp": "FAUX",
+        "stamp_on": "petit"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "À sa mort, on le mesure : cinq pieds, deux pouces. Ça a l'air minuscule.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "5 PIEDS 2 POUCES",
+        "line": "à sa mort, en 1821"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Mais ce sont des pieds français, plus grands que les pieds anglais. En réalité, il mesure environ un mètre soixante-neuf.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 169,
+        "unit": "CENTIMÈTRES",
+        "label": "ENVIRON",
+        "from": 0,
+        "slam_on": "soixante"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "C'est même un peu plus que la moyenne des Français de l'époque.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Petit ?",
+        "stamp": "MOYEN",
+        "stamp_on": "moyenne"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Mais les caricaturistes anglais le dessinent tout petit et colérique. Une image qui reste.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CARICATURES",
+        "line": "made in England"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Et on l'appelle le petit caporal. Un surnom affectueux de ses soldats, pas une question de taille.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LE PETIT CAPORAL",
+        "sign": "— surnom donné par ses soldats"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu le croyais petit ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU SAVAIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

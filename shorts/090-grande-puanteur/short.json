@@ -1,0 +1,129 @@
+{
+  "title": "L'été où Londres a pué si fort que le Parlement a fui",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "En 1858, Londres a tellement pué que le Parlement a failli déménager.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une odeur ?",
+        "stamp": "INFECTE",
+        "stamp_on": "pué"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "À l'époque, les égouts de la ville se jettent directement dans la Tamise.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA TAMISE",
+        "line": "le grand égout de Londres"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Et cet été-là, il fait très chaud. Le fleuve se met à fermenter.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1858,
+        "from": 2026,
+        "place": "LONDRES",
+        "land_on": "été"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Au Parlement, au bord de l'eau, on accroche des rideaux trempés dans de la chaux pour couvrir l'odeur.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "RIDEAUX À LA CHAUX",
+        "line": "contre l'odeur"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Les députés n'en peuvent plus. En quelques semaines, ils votent un énorme projet d'égouts.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Ils agissent ?",
+        "stamp": "VITE",
+        "stamp_on": "semaines"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "L'ingénieur Joseph Bazalgette construit des centaines de kilomètres de tunnels. Une partie est encore utilisée aujourd'hui.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BAZALGETTE",
+        "line": "des égouts toujours utilisés"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu aurais tenu combien de temps ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "BEURK !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

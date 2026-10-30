@@ -1,0 +1,130 @@
+{
+  "title": "Le trésor caché du curé de Rennes-le-Château",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Un curé d'un tout petit village est devenu riche du jour au lendemain. Et personne ne sait vraiment comment.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un curé pauvre ?",
+        "stamp": "RICHE",
+        "stamp_on": "riche"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "En 1885, l'abbé Bérenger Saunière arrive à Rennes-le-Château, un village perché dans l'Aude.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1885,
+        "from": 2026,
+        "place": "AUDE",
+        "land_on": "1885"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Selon la légende, en restaurant son église, il découvre de mystérieux parchemins cachés dans un pilier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES PARCHEMINS",
+        "line": "cachés dans un pilier"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Peu après, il dépense des sommes énormes : une villa, une tour, des jardins. Bien plus qu'un curé de campagne.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA TOUR MAGDALA",
+        "line": "une folie de curé"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Un trésor caché ? Les enquêtes de l'époque montrent surtout un trafic de messes : il en vendait beaucoup trop.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un trésor ?",
+        "stamp": "DES MESSES",
+        "stamp_on": "messes"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Mais la légende a explosé. Aujourd'hui encore, des chasseurs de trésor viennent creuser en cachette. Pourtant, c'est interdit.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Fouilles permises ?",
+        "stamp": "INTERDITES",
+        "stamp_on": "interdit"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Trésor ou arnaque, à ton avis ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TON AVIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

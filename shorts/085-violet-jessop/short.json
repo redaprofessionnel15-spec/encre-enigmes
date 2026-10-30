@@ -1,0 +1,132 @@
+{
+  "title": "La femme qui a survécu à trois naufrages",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "Une femme était à bord du Titanic. Et ce n'était même pas son pire voyage.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le pire ?",
+        "stamp": "PAS LE PIRE",
+        "stamp_on": "pire"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Elle s'appelle Violet Jessop. Elle est hôtesse sur les grands paquebots.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "VIOLET JESSOP",
+        "line": "hôtesse sur les paquebots"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "En 1911, elle est à bord de l'Olympic, quand il percute un navire de guerre. Elle s'en sort.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1911,
+        "from": 2026,
+        "place": "OLYMPIC",
+        "land_on": "1911"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "En 1912, elle est sur le Titanic. Elle monte dans un canot de sauvetage. Et elle survit.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TITANIC",
+        "line": "1912, canot numéro 16"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "En 1916, pendant la guerre, elle est infirmière sur le Britannic. Il heurte une mine et coule. Elle survit encore.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 3,
+        "unit": "NAUFRAGES",
+        "label": "ET TOUJOURS VIVANTE",
+        "from": 0,
+        "slam_on": "survit"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "On l'a surnommée Miss Insubmersible. Elle a continué à naviguer pendant des années.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Elle arrête ?",
+        "stamp": "JAMAIS",
+        "stamp_on": "continué"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Chanceuse ou malchanceuse ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "QUELLE CHANCE !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

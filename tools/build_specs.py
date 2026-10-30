@@ -35,6 +35,8 @@ for name, when, title, costume, sources, segs in mod.SHORTS:
             if k.endswith("_on") and not any(tk.startswith(v.split("#")[0].lower()) for tk in toks): problems.append((name, i, k, v))
         if act and not any(tk.startswith(act["on"]) for tk in toks): problems.append((name, i, "act", act["on"]))
         if scene["type"] == "verdict" and skia.Font(TITLE, 130).measureText(scene["stamp"]) > 880: problems.append((name, i, "stamp trop large", scene["stamp"]))
+        if scene["type"] == "quote" and skia.Font(TITLE, 50).measureText(scene["title"]) > 780: problems.append((name, i, "titre de citation trop large", scene["title"]))
+        if scene["type"] == "cta" and skia.Font(TITLE, 84).measureText(scene["big"]) > 960: problems.append((name, i, "CTA trop large", scene["big"]))
         out.append(seg)
     d = f"{ROOT}/shorts/{name}"; os.makedirs(d, exist_ok=True)
     json.dump({"title": title.split(" ", 1)[1] if title[0] in "🎄🎃" else title, "scene_packs": [], "costume": costume,

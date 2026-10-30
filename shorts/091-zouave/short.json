@@ -1,0 +1,132 @@
+{
+  "title": "Le zouave qui mesure les crues de Paris",
+  "scene_packs": [],
+  "costume": {
+    "hat": "beret",
+    "coat": "red",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "À Paris, une statue de soldat sert à mesurer les inondations. Et en 1910, l'eau lui arrive aux épaules.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une décoration ?",
+        "stamp": "MESURE",
+        "stamp_on": "mesurer"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "C'est le zouave du pont de l'Alma, une statue d'un soldat de l'armée française.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LE ZOUAVE",
+        "line": "pont de l'Alma"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Les Parisiens regardent jusqu'où monte l'eau sur lui pour savoir si la Seine déborde.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LES PIEDS ?",
+        "line": "la Seine monte"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "En janvier 1910, c'est la grande crue. Le métro est inondé, des rues deviennent des canaux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1910,
+        "from": 2026,
+        "place": "PARIS",
+        "land_on": "1910"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "L'eau monte jusqu'aux épaules du zouave. Plus de huit mètres au-dessus de la normale.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 8,
+        "unit": "MÈTRES",
+        "label": "AU-DESSUS DE LA NORMALE",
+        "from": 0,
+        "slam_on": "huit"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, les experts disent qu'une crue comme celle-là reviendra un jour. La question, c'est quand.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Plus jamais ?",
+        "stamp": "UN JOUR",
+        "stamp_on": "reviendra"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais le zouave ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU CONNAISSAIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,140 @@
+{
+  "title": "Le casse du siècle par les égouts de Nice",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "En 1976, des voleurs ont creusé un tunnel depuis les égouts jusqu'au coffre d'une banque, à Nice.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Par la porte ?",
+        "stamp": "ÉGOUTS",
+        "stamp_on": "égouts"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Pendant des semaines, ils creusent huit mètres de tunnel, sous la Société générale.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 8,
+        "unit": "MÈTRES",
+        "label": "DE TUNNEL",
+        "from": 0,
+        "slam_on": "huit"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Un week-end de juillet, ils entrent dans la salle des coffres. Et ils prennent tout leur temps.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1976,
+        "from": 2026,
+        "place": "NICE",
+        "land_on": "juillet"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Ils ouvrent des centaines de coffres, pique-niquent sur place, et repartent avec des millions.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN PIQUE-NIQUE",
+        "line": "dans la salle des coffres"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Sur le mur, ils laissent un message : sans armes, ni haine, ni violence.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "SANS ARMES NI HAINE",
+        "sign": "— message sur le mur"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Le cerveau présumé, Albert Spaggiari, est arrêté. Mais pendant son interrogatoire, il saute par une fenêtre et s'enfuit. On ne l'a jamais repris.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Repris ?",
+        "stamp": "JAMAIS",
+        "stamp_on": "jamais"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "saute",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais ce casse ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "LE CASSE DU SIÈCLE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

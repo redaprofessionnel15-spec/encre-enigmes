@@ -1,0 +1,129 @@
+{
+  "title": "Le premier selfie de l'histoire date de 1839",
+  "scene_packs": [],
+  "costume": {
+    "hat": "headphones",
+    "coat": "white",
+    "accessory": "radio"
+  },
+  "segments": [
+    {
+      "tts": "Le premier selfie de l'histoire a été pris en 1839. Et il a fallu ne pas bouger pendant plusieurs minutes.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Avec un téléphone ?",
+        "stamp": "EN 1839",
+        "stamp_on": "1839"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Robert Cornelius est un jeune Américain passionné par une nouvelle invention : la photographie.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ROBERT CORNELIUS",
+        "line": "Philadelphie"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il installe son appareil devant le magasin de sa famille, retire le cache de l'objectif, et court se placer devant.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "IL COURT",
+        "line": "se placer devant l'objectif"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Il reste immobile pendant de longues minutes. Puis il remet le cache.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 3,
+        "unit": "MINUTES",
+        "label": "OU PLUS, IMMOBILE",
+        "from": 0,
+        "slam_on": "minutes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Résultat : un portrait un peu flou, les cheveux en bataille, les bras croisés.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CHEVEUX EN BATAILLE",
+        "line": "un peu flou"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Au dos, il écrit : la première photo de lumière jamais prise. C'est l'un des plus vieux portraits photographiques connus.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LA PREMIÈRE PHOTO",
+        "sign": "— Robert Cornelius, 1839"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Ton prochain selfie, pense à lui. Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "PRENDS UN SELFIE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

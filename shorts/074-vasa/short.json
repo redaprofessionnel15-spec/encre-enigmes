@@ -1,0 +1,132 @@
+{
+  "title": "Le navire qui a coulé au bout de 1 300 mètres",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "Le navire de guerre le plus puissant de son époque a coulé… au bout de mille trois cents mètres.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Puissant ?",
+        "stamp": "COULÉ",
+        "stamp_on": "coulé"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "On est en 1628, à Stockholm. Le Vasa, fierté du roi de Suède, part pour son premier voyage.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1628,
+        "from": 2026,
+        "place": "STOCKHOLM",
+        "land_on": "1628"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il est magnifique : des centaines de sculptures, et soixante-quatre canons.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 64,
+        "unit": "CANONS",
+        "label": "À BORD",
+        "from": 0,
+        "slam_on": "soixante"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Mais il est trop haut, et pas assez lesté. Au premier coup de vent, il penche.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Stable ?",
+        "stamp": "TROP HAUT",
+        "stamp_on": "penche"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "L'eau entre par les sabords des canons. Et devant la foule, le Vasa coule dans le port.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DEVANT LA FOULE",
+        "line": "dans le port de Stockholm"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "En 1961, on le remonte presque intact. Aujourd'hui, il est exposé dans son propre musée.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "REMONTÉ",
+        "line": "en 1961, presque intact"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Le pire premier voyage de l'histoire ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "QUEL FLOP !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

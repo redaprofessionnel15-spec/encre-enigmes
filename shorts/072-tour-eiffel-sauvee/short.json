@@ -1,0 +1,136 @@
+{
+  "title": "La tour Eiffel devait être démolie",
+  "scene_packs": [],
+  "costume": {
+    "hat": "beret",
+    "coat": "red",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "La tour Eiffel devait être démolie après vingt ans. Elle a été sauvée par une antenne.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Pour toujours ?",
+        "stamp": "20 ANS",
+        "stamp_on": "vingt"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Elle est construite pour l'Exposition universelle de 1889. Et beaucoup de Parisiens la détestent.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1889,
+        "from": 2026,
+        "place": "PARIS",
+        "land_on": "1889"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Des artistes signent une lettre contre cette tour inutile et monstrueuse.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "INUTILE ET MONSTRUEUSE",
+        "sign": "— lettre des artistes, 1887"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Et l'autorisation n'est que de vingt ans. En 1909, elle doit être démontée.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "1909",
+        "line": "date prévue de démolition"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Mais Gustave Eiffel a une idée : en faire un laboratoire. Et surtout, une antenne de radio militaire.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE ANTENNE",
+        "line": "pour l'armée"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Pendant la Première Guerre mondiale, elle intercepte même des messages ennemis. Plus personne n'ose la démolir.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Démolie ?",
+        "stamp": "SAUVÉE",
+        "stamp_on": "démolir"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "démolir",
+            "pose": "cheer",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Heureusement qu'elle est restée ! Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM TOUR EIFFEL",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

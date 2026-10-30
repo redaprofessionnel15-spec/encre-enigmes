@@ -1,0 +1,133 @@
+{
+  "title": "Les dessins géants du désert de Nazca",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "green",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "Dans un désert du Pérou, il y a des dessins si grands qu'on ne peut les voir que du ciel.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Du sol ?",
+        "stamp": "DU CIEL",
+        "stamp_on": "ciel"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Ce sont les lignes de Nazca. Un singe, une araignée, un colibri. Certains font des centaines de mètres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LIGNES DE NAZCA",
+        "line": "un singe, une araignée, un colibri"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Ils ont été tracés il y a environ deux mille ans, par le peuple Nazca.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2000,
+        "unit": "ANS",
+        "label": "ENVIRON",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Comment ? En retirant les cailloux sombres, pour laisser apparaître le sol plus clair en dessous.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES CAILLOUX",
+        "line": "retirés un par un"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Et grâce au désert, l'un des plus secs du monde, ils sont restés presque intacts.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Effacés ?",
+        "stamp": "INTACTS",
+        "stamp_on": "intacts"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Pourquoi ? Rituels pour l'eau, chemins sacrés… Et en 2024, grâce à l'IA, on en a découvert plus de trois cents nouveaux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 300,
+        "unit": "NOUVEAUX DESSINS",
+        "label": "DÉCOUVERTS EN 2024",
+        "from": 0,
+        "slam_on": "trois"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu aimerais les voir d'avion ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "FASCINANT ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

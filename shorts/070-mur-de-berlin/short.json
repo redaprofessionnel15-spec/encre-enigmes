@@ -1,0 +1,139 @@
+{
+  "title": "Le mur de Berlin est tombé à cause d'une erreur",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "Le mur de Berlin est tombé à cause d'une petite phrase mal préparée. En direct à la télévision.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un plan ?",
+        "stamp": "ERREUR",
+        "stamp_on": "phrase"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Le 9 novembre 1989, Günter Schabowski, un dirigeant de l'Allemagne de l'Est, donne une conférence de presse.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1989,
+        "from": 2026,
+        "place": "BERLIN",
+        "land_on": "1989"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "On lui a passé une note sur une nouvelle règle pour voyager. Mais il ne l'a pas vraiment lue avant.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE NOTE",
+        "line": "qu'il n'a pas lue"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Un journaliste demande : quand est-ce que ça commence ? Il cherche dans ses papiers, et répond : immédiatement.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "IMMÉDIATEMENT",
+        "sign": "— Günter Schabowski, 1989"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le soir même, des milliers de Berlinois se pressent devant les postes-frontières.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 1000,
+        "unit": "BERLINOIS",
+        "label": "ET BIEN PLUS",
+        "from": 0,
+        "slam_on": "milliers"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Les gardes n'ont aucun ordre. Peu avant minuit, ils ouvrent les barrières. Le mur vient de tomber.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Ils tirent ?",
+        "stamp": "OUVERT",
+        "stamp_on": "ouvrent"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "ouvrent",
+            "pose": "cheer",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "La meilleure erreur de l'histoire ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "QUELLE ERREUR !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

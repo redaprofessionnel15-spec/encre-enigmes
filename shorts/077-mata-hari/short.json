@@ -1,0 +1,129 @@
+{
+  "title": "Mata Hari : espionne ou bouc émissaire ?",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "La plus célèbre espionne de l'histoire était peut-être une très mauvaise espionne.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une super espionne ?",
+        "stamp": "PAS SÛR",
+        "stamp_on": "mauvaise"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Elle s'appelle Margaretha Zelle, elle est néerlandaise. Mais à Paris, elle devient Mata Hari, une danseuse célèbre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "MATA HARI",
+        "line": "danseuse à Paris"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Pendant la Première Guerre mondiale, elle voyage, rencontre des officiers de tous les camps.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TOUS LES CAMPS",
+        "line": "pendant la guerre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "En 1917, la France l'arrête. On l'accuse d'avoir livré des secrets à l'Allemagne.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1917,
+        "from": 2026,
+        "place": "PARIS",
+        "land_on": "1917"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Après un procès très rapide, elle est condamnée et fusillée à Vincennes.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Coupable ?",
+        "stamp": "FUSILLÉE",
+        "stamp_on": "fusillée"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Mais beaucoup d'historiens pensent que les preuves étaient faibles. En pleine année noire, la France cherchait un coupable.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN COUPABLE IDÉAL",
+        "line": "selon des historiens"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Coupable ou pas, à ton avis ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TON AVIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

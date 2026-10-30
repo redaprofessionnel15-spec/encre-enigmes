@@ -1,0 +1,135 @@
+{
+  "title": "Le casse du Louvre en moins de 8 minutes",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "Un dimanche matin, en plein jour, des voleurs ont pillé le Louvre en moins de huit minutes.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Impossible ?",
+        "stamp": "8 MINUTES",
+        "stamp_on": "minutes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Le 19 octobre 2025, vers neuf heures et demie, un camion avec une nacelle se gare au pied du musée. Comme pour des travaux.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 2025,
+        "from": 2026,
+        "place": "LE LOUVRE",
+        "land_on": "2025"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Les voleurs montent jusqu'à une fenêtre de la galerie d'Apollon, et découpent les vitrines avec des disqueuses.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "GALERIE D'APOLLON",
+        "line": "les vitrines découpées"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Ils emportent huit bijoux de la Couronne de France, ayant appartenu à des reines et des impératrices.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 8,
+        "unit": "BIJOUX",
+        "label": "DE LA COURONNE",
+        "from": 0,
+        "slam_on": "huit"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Valeur estimée : environ quatre-vingt-huit millions d'euros. Dans leur fuite, ils font même tomber la couronne de l'impératrice Eugénie.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 88,
+        "unit": "MILLIONS D'EUROS",
+        "label": "ESTIMÉS",
+        "from": 0,
+        "slam_on": "quatre"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Des suspects ont été arrêtés. Mais selon eux, le reste du butin a été remis à un commanditaire, toujours inconnu.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Affaire résolue ?",
+        "stamp": "EN COURS",
+        "stamp_on": "inconnu"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu penses qu'on retrouvera les bijoux ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "CASSE DU SIÈCLE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

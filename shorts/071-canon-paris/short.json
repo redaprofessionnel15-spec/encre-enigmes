@@ -1,0 +1,135 @@
+{
+  "title": "Le canon qui bombardait Paris à 120 km",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "En 1918, des obus tombent sur Paris. Mais l'ennemi est à plus de cent kilomètres.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un avion ?",
+        "stamp": "UN CANON",
+        "stamp_on": "kilomètres"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Le 23 mars 1918, des explosions secouent la ville. Il n'y a aucun avion dans le ciel. Personne ne comprend.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1918,
+        "from": 2026,
+        "place": "PARIS",
+        "land_on": "1918"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "En fait, l'Allemagne a construit un canon géant : le canon de Paris. Son tube mesure plus de trente mètres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 30,
+        "unit": "MÈTRES",
+        "label": "DE CANON",
+        "from": 0,
+        "slam_on": "trente"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Il tire à environ cent vingt kilomètres. Ses obus montent jusqu'à quarante kilomètres d'altitude.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 120,
+        "unit": "KILOMÈTRES",
+        "label": "DE PORTÉE",
+        "from": 0,
+        "slam_on": "cent"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Ils font environ trois minutes de vol avant de retomber sur Paris.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "3 MINUTES",
+        "line": "de vol pour chaque obus"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "À la fin de la guerre, les Allemands détruisent le canon. On n'en a jamais retrouvé un seul exemplaire.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Retrouvé ?",
+        "stamp": "JAMAIS",
+        "stamp_on": "jamais"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais ce canon ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "INCROYABLE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

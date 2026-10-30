@@ -1,0 +1,129 @@
+{
+  "title": "Les graffitis de Pompéi",
+  "scene_packs": [],
+  "costume": {
+    "hat": "beret",
+    "coat": "red",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "À Pompéi, les murs sont couverts de graffitis. Et certains ressemblent à des messages d'aujourd'hui.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des Romains sérieux ?",
+        "stamp": "GRAFFITIS",
+        "stamp_on": "graffitis"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "En l'an 79, le Vésuve ensevelit la ville. Et les cendres conservent tout, même les murs.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 79,
+        "from": 2026,
+        "place": "POMPÉI",
+        "land_on": "79"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "On y trouve des pubs électorales : votez pour untel, c'est un homme honnête.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "VOTEZ POUR LUI",
+        "sign": "— affiche électorale, Pompéi"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Des déclarations d'amour, des insultes entre voisins, et des avis sur les tavernes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES AVIS",
+        "line": "sur les tavernes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Et un passant a même écrit : je m'étonne, ô mur, que tu ne te sois pas effondré sous tant de bêtises.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "Ô MUR…",
+        "sign": "— graffiti de Pompéi"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Deux mille ans plus tard, on écrit toujours sur les murs. Les humains n'ont pas tant changé.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Si différents ?",
+        "stamp": "PAREILS",
+        "stamp_on": "changé"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu écrirais quoi sur un mur ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU ÉCRIRAIS QUOI ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

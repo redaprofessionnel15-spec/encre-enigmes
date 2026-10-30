@@ -1,0 +1,132 @@
+{
+  "title": "La photo du monstre du Loch Ness était un jouet",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "La photo la plus célèbre du monstre du Loch Ness était un jouet de trente centimètres.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le monstre ?",
+        "stamp": "UN JOUET",
+        "stamp_on": "jouet"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "En 1934, un chirurgien londonien publie une photo : un long cou qui sort de l'eau, en Écosse.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1934,
+        "from": 2026,
+        "place": "LOCH NESS",
+        "land_on": "1934"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Un chirurgien, c'est sérieux. Pendant soixante ans, la photo fait le tour du monde.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 60,
+        "unit": "ANS",
+        "label": "DE MYSTÈRE",
+        "from": 0,
+        "slam_on": "soixante"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Mais en 1994, on révèle les aveux d'un complice : c'était un faux.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Authentique ?",
+        "stamp": "UN FAUX",
+        "stamp_on": "faux"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le monstre était un petit sous-marin jouet, avec une tête et un cou en bois.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN SOUS-MARIN JOUET",
+        "line": "et un cou en bois"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Et pourtant, chaque année, des gens fouillent encore le lac. Une étude d'ADN en 2018 n'y a trouvé que… beaucoup d'anguilles.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES ANGUILLES",
+        "line": "étude ADN, 2018"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Nessie, tu y crois encore ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU Y CROIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,132 @@
+{
+  "title": "L'hiver où le vin gelait sur la table du roi",
+  "scene_packs": [],
+  "costume": {
+    "hat": "headphones",
+    "coat": "white",
+    "accessory": "radio"
+  },
+  "segments": [
+    {
+      "tts": "En 1709, il faisait si froid à Versailles que le vin gelait sur la table du roi.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "À Versailles ?",
+        "stamp": "GELÉ",
+        "stamp_on": "gelait"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Dans la nuit du 5 au 6 janvier, les températures s'effondrent dans toute l'Europe.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1709,
+        "from": 2026,
+        "place": "VERSAILLES",
+        "land_on": "janvier"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "À Paris, on mesure moins quinze degrés, et parfois bien moins encore. Pendant des semaines.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 15,
+        "unit": "DEGRÉS",
+        "label": "SOUS ZÉRO",
+        "from": 0,
+        "slam_on": "quinze"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Les rivières gèlent, les arbres éclatent sous le froid, et la mer gèle même près des côtes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LES ARBRES ÉCLATENT",
+        "line": "et la mer gèle"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Et le pire vient après : les récoltes sont détruites. Le pain manque, et c'est la famine.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Fini au printemps ?",
+        "stamp": "LA FAMINE",
+        "stamp_on": "famine"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "On l'a appelé le Grand Hiver. C'est l'un des plus terribles de l'histoire de France.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LE GRAND HIVER",
+        "line": "1709"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Ça donne froid, non ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU AS FROID ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

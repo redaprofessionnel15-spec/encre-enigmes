@@ -22,7 +22,7 @@ SHORTS = [
   ("Et qui devient l'Ankou ? Selon la légende, le dernier mort de l'année, dans chaque paroisse.", V("Qui le remplace ?", "LE DERNIER", "dernier"), "shocked"),
   ("Pendant un an, il fait la tournée. Puis il passe la faux au suivant.", C(1, "AN", "DE TOURNÉE", "an"), "serious"),
   ("Aujourd'hui encore, on peut voir l'Ankou sculpté dans de vieilles églises bretonnes. En ce jour des morts, il veille.", S("2 NOVEMBRE", "le jour des morts"), "curious"),
-  CTA("NE TE RETOURNE PAS", "Tu connaissais l'Ankou ? Abonne-toi et laisse un like !")]),
+  CTA("FRISSONS ?", "Tu connaissais l'Ankou ? Abonne-toi et laisse un like !")]),
 
  ("057-golem", "2026-11-03T19:00:00+01:00", "🎃 Le Golem de Prague dort-il encore au grenier ?", HALLO,
   ["Wikipedia, Golem de Prague", "Prague.eu, The Legend of the Golem"], [
