@@ -1,10 +1,13 @@
 {
   "title": "🎃 L'Homme au masque de fer",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/014-masque-de-fer.mp4",
   "costume": "tricorne, manteau noir, lanterne",
   "voice": "ElevenLabs direct (George, eleven_multilingual_v2), 650 crédits",
   "sources": [
     "Wikipedia, Man in the Iron Mask"
-  ]
+  ],
+  "publish_at": "2026-11-06T16:00:00+01:00",
+  "metricool_id": 411372575,
+  "commit": "ec8dad978bb94f219702b4f2ed2a3b915f804eb9"
 }
