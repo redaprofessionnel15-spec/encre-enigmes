@@ -1,0 +1,175 @@
+{
+  "title": "L'Homme au masque de fer",
+  "scene_packs": [],
+  "costume": {
+    "hat": "tricorne",
+    "coat": "black",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Pendant trente-quatre ans, sous Louis Quatorze, un prisonnier a été enfermé. Et personne ne savait qui il était.",
+      "caption": "Pendant 34 ans, sous Louis XIV, un prisonnier a été enfermé. Et personne ne savait qui il était.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 34,
+        "unit": "ANS",
+        "label": "DE PRISON",
+        "from": 0,
+        "slam_on": "trente-quatre"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious",
+        "acts": [
+          {
+            "on": "était",
+            "pose": "shrug",
+            "mood": "curious",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "On l'arrête en mille six cent soixante-neuf, sous le nom d'Eustache Dauger.",
+      "caption": "On l'arrête en 1669, sous le nom d'Eustache Dauger.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1669,
+        "from": 2026,
+        "place": "PIGNEROL",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Le même geôlier le garde pendant trente-quatre ans, de prison en prison, jusqu'à la Bastille.",
+      "caption": "Le même geôlier le garde pendant 34 ans, de prison en prison, jusqu'à la Bastille.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA BASTILLE",
+        "line": "sa dernière prison"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Pendant ses voyages, il porte un masque. Mais pas en fer : en velours noir.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un masque de fer ?",
+        "stamp": "VELOURS",
+        "stamp_on": "velours"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug",
+        "acts": [
+          {
+            "on": "velours",
+            "pose": "point",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Il meurt à la Bastille en dix-sept cent trois, et il est enterré sous un faux nom.",
+      "caption": "Il meurt à la Bastille en 1703, et il est enterré sous un faux nom.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1703,
+        "from": 1669,
+        "place": "LA BASTILLE",
+        "land_on": "dix-sept"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Voltaire affirme que c'est un frère caché du roi. Les historiens n'y croient pas.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LA THÉORIE DE VOLTAIRE",
+        "sign": "— le frère du roi ?"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious",
+        "acts": [
+          {
+            "on": "roi",
+            "pose": "think",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Plus de cinquante noms ont été proposés. Aucun n'a jamais été prouvé.",
+      "caption": "Plus de 50 noms ont été proposés. Aucun n'a jamais été prouvé.",
+      "tension": 0.7,
+      "scene": {
+        "type": "counter",
+        "value": 50,
+        "unit": "SUSPECTS",
+        "label": "AUCUN PROUVÉ",
+        "from": 0,
+        "slam_on": "cinquante"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Selon toi, qui était-il ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "QUI ÉTAIT-IL ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

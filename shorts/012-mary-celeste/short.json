@@ -1,0 +1,161 @@
+{
+  "title": "La Mary Celeste, le navire fantôme",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "En décembre mille huit cent soixante-douze, un navire est retrouvé en plein Atlantique. Personne à bord.",
+      "caption": "En décembre 1872, un navire est retrouvé en plein Atlantique. Personne à bord.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1872,
+        "from": 2026,
+        "place": "OCÉAN ATLANTIQUE",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "Personne",
+            "pose": "shrug",
+            "mood": "worried",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "C'est la Mary Celeste. Au départ de New York, il y avait dix personnes à bord, dont le capitaine, sa femme et leur petite fille.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 10,
+        "unit": "PERSONNES",
+        "label": "À BORD AU DÉPART",
+        "from": 0,
+        "slam_on": "dix"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Le bateau flotte encore. La cargaison est intacte, les affaires de l'équipage aussi. Il reste même des provisions.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "INTACT",
+        "line": "cargaison, affaires, provisions"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Seul le petit canot de sauvetage a disparu.",
+      "tension": 0.8,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le canot est à bord ?",
+        "stamp": "DISPARU",
+        "stamp_on": "disparu"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Alors que s'est-il passé ? Mutinerie, pirates, tempête, vapeurs d'alcool dans la cale…",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "LES THÉORIES",
+        "sign": "— depuis 1872"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious",
+        "acts": [
+          {
+            "on": "cale",
+            "pose": "think",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Aucune n'a jamais été prouvée.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une preuve ?",
+        "stamp": "AUCUNE",
+        "stamp_on": "prouvée"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Et les dix personnes à bord n'ont jamais été revues.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "JAMAIS REVUES",
+        "line": "dix personnes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu crois à quelle théorie ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TA THÉORIE ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

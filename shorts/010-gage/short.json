@@ -1,0 +1,176 @@
+{
+  "title": "Phineas Gage, la barre de fer dans le crâne",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "brown",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En mille huit cent quarante-huit, une barre de fer traverse le crâne de cet homme. Et il survit.",
+      "caption": "En 1848, une barre de fer traverse le crâne de cet homme. Et il survit.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1848,
+        "from": 2026,
+        "place": "VERMONT, ÉTATS-UNIS",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked",
+        "acts": [
+          {
+            "on": "survit",
+            "pose": "hands_up",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Il s'appelle Phineas Gage. Il prépare une explosion pour construire une voie ferrée.",
+      "tension": 0.5,
+      "scene": {
+        "type": "scroll",
+        "big": "PHINEAS GAGE",
+        "line": "ouvrier des chemins de fer"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "La charge explose trop tôt. La barre, longue d'un mètre et lourde de six kilos, part comme une flèche.",
+      "tension": 0.8,
+      "scene": {
+        "type": "counter",
+        "value": 6,
+        "unit": "KILOS",
+        "label": "PLUS D'UN MÈTRE DE FER",
+        "from": 0,
+        "slam_on": "six"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried",
+        "acts": [
+          {
+            "on": "flèche",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Elle entre sous sa joue gauche, passe derrière l'œil, et ressort par le haut du crâne.",
+      "tension": 0.8,
+      "scene": {
+        "type": "scroll",
+        "big": "DE PART EN PART",
+        "line": "de la joue au sommet du crâne"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Quelques minutes plus tard, il parle. Il marche. Il monte même dans une charrette.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il a survécu ?",
+        "stamp": "VRAI",
+        "stamp_on": "parle"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "charrette",
+            "pose": "shrug",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Mais ses proches disent qu'il a changé. Ce n'est plus tout à fait le même Gage.",
+      "tension": 0.5,
+      "scene": {
+        "type": "quote",
+        "title": "SELON SES PROCHES",
+        "sign": "— rapporté par le Dr Harlow"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Il vivra encore près de douze ans. Son crâne et la barre sont toujours exposés à Harvard.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 12,
+        "unit": "ANS",
+        "label": "DE VIE APRÈS L'ACCIDENT",
+        "from": 0,
+        "slam_on": "douze"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "Harvard",
+            "pose": "present",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais cette histoire ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TU SAVAIS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

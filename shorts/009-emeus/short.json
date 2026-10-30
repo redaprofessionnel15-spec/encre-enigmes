@@ -1,0 +1,192 @@
+{
+  "title": "La guerre des émeus (1932)",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "brown",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "En mille neuf cent trente-deux, l'armée australienne a déclaré la guerre à des oiseaux. Et elle a perdu.",
+      "caption": "En 1932, l'armée australienne a déclaré la guerre à des oiseaux. Et elle a perdu.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1932,
+        "from": 2026,
+        "place": "AUSTRALIE",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "perdu",
+            "pose": "hands_up",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Environ vingt mille émeus dévastent les champs de blé.",
+      "caption": "Environ 20 000 émeus dévastent les champs de blé.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 20000,
+        "unit": "ÉMEUS",
+        "label": "DANS LES CHAMPS DE BLÉ",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Les fermiers, souvent d'anciens soldats, appellent l'armée au secours.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "À L'AIDE !",
+        "line": "les fermiers appellent l'armée"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "L'armée envoie des soldats, avec deux mitrailleuses.",
+      "tension": 0.7,
+      "scene": {
+        "type": "counter",
+        "value": 2,
+        "unit": "MITRAILLEUSES",
+        "label": "ET DES MILLIERS DE BALLES",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug",
+        "acts": [
+          {
+            "on": "mitrailleuses",
+            "pose": "present",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Problème : les émeus courent vite, et se dispersent dès qu'on tire.",
+      "tension": 0.8,
+      "scene": {
+        "type": "scroll",
+        "big": "TROP RAPIDES !",
+        "line": "jusqu'à 50 km/h"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "dispersent",
+            "pose": "shrug",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le commandant, le major Meredith, écrit qu'ils encaissent les balles comme des chars d'assaut.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "RAPPORT DU MAJOR MEREDITH",
+        "sign": "— Australie, 1932"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Après des milliers de balles tirées, l'armée se retire.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Victoire de l'armée ?",
+        "stamp": "NON",
+        "stamp_on": "retire"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Les émeus, eux, sont toujours là.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "1 – 0",
+        "line": "pour les émeus"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy",
+        "acts": [
+          {
+            "on": "là",
+            "pose": "cheer",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Et toi, tu aurais parié sur qui ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM ÉMEU ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

@@ -1,0 +1,188 @@
+{
+  "title": "D.B. Cooper, le pirate de l'air jamais retrouvé",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "black",
+    "accessory": "magnifier"
+  },
+  "segments": [
+    {
+      "tts": "En novembre mille neuf cent soixante et onze, un homme détourne un avion, puis saute en parachute. On ne l'a jamais retrouvé.",
+      "caption": "En novembre 1971, un homme détourne un avion, puis saute en parachute. On ne l'a jamais retrouvé.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1971,
+        "from": 2026,
+        "place": "ÉTATS-UNIS",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "jamais",
+            "pose": "shrug",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Il se fait appeler Dan Cooper. Dans l'avion, il montre une mallette. Selon lui : une bombe.",
+      "tension": 0.7,
+      "scene": {
+        "type": "scroll",
+        "big": "DAN COOPER",
+        "line": "et sa mallette"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il réclame deux cent mille dollars et quatre parachutes.",
+      "caption": "Il réclame 200 000 dollars et 4 parachutes.",
+      "tension": 0.7,
+      "scene": {
+        "type": "counter",
+        "value": 200000,
+        "unit": "DOLLARS",
+        "label": "ET 4 PARACHUTES",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "À Seattle, il libère les passagers, récupère l'argent, et fait redécoller l'avion.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "SEATTLE",
+        "line": "les passagers libérés"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56
+      }
+    },
+    {
+      "tts": "En pleine nuit, au-dessus des forêts, il ouvre l'escalier arrière, et il saute.",
+      "tension": 0.8,
+      "scene": {
+        "type": "quote",
+        "title": "VOL 305",
+        "sign": "— 24 novembre 1971"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried",
+        "acts": [
+          {
+            "on": "saute",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le FBI fouille pendant des années. Rien. Ni corps, ni parachute.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le corps retrouvé ?",
+        "stamp": "NON",
+        "stamp_on": "Rien"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "En mille neuf cent quatre-vingt, un enfant trouve près d'une rivière environ cinq mille huit cents dollars de la rançon.",
+      "caption": "En 1980, un enfant trouve près d'une rivière environ 5 800 dollars de la rançon.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 5800,
+        "unit": "DOLLARS",
+        "label": "RETROUVÉS EN 1980",
+        "from": 0,
+        "slam_on": "huit"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "rançon",
+            "pose": "point",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "En deux mille seize, le FBI suspend l'enquête. Le mystère reste entier.",
+      "caption": "En 2016, le FBI suspend l'enquête. Le mystère reste entier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Affaire résolue ?",
+        "stamp": "JAMAIS",
+        "stamp_on": "mystère"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Selon toi, il a survécu ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "SURVÉCU ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

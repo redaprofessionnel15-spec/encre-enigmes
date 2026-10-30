@@ -1,0 +1,177 @@
+{
+  "title": "Napoléon attaqué par des lapins",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "navy",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "En mille huit cent sept, Napoléon, l'homme qui a conquis l'Europe, a battu en retraite devant des lapins.",
+      "caption": "En 1807, Napoléon, l'homme qui a conquis l'Europe, a battu en retraite devant des lapins.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1807,
+        "from": 2026,
+        "place": "APRÈS TILSIT",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug",
+        "acts": [
+          {
+            "on": "lapins",
+            "pose": "hands_up",
+            "mood": "shocked",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Pour fêter la paix, son chef d'état-major, Berthier, organise une chasse au lapin.",
+      "tension": 0.5,
+      "scene": {
+        "type": "scroll",
+        "big": "PARTIE DE CHASSE",
+        "line": "organisée par Berthier"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il fait acheter des centaines de lapins. Certains récits parlent même de trois mille.",
+      "caption": "Il fait acheter des centaines de lapins. Certains récits parlent même de 3 000.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 3000,
+        "unit": "LAPINS",
+        "label": "SELON CERTAINS RÉCITS",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Petit problème : ce sont des lapins domestiques, pas des lapins sauvages.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des lapins sauvages ?",
+        "stamp": "NON",
+        "stamp_on": "domestiques"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried",
+        "acts": [
+          {
+            "on": "sauvages",
+            "pose": "shrug",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "On ouvre les cages. Au lieu de fuir, les lapins foncent droit sur l'empereur. Ils ont faim.",
+      "tension": 0.9,
+      "scene": {
+        "type": "scroll",
+        "big": "À L'ATTAQUE !",
+        "line": "les lapins foncent"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "acts": [
+          {
+            "on": "foncent",
+            "pose": "recoil",
+            "mood": "shocked",
+            "hold": 1.2
+          }
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Les hommes sortent les fouets et les bâtons. Rien à faire, les lapins reviennent.",
+      "tension": 0.8,
+      "scene": {
+        "type": "verdict",
+        "claim": "Les lapins reculent ?",
+        "stamp": "JAMAIS",
+        "stamp_on": "reviennent"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Napoléon se réfugie dans sa voiture. Et certains lapins sautent même à l'intérieur.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "MÉMOIRES DU GÉNÉRAL THIÉBAULT",
+        "sign": "— selon son récit"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug",
+        "acts": [
+          {
+            "on": "intérieur",
+            "pose": "cheer",
+            "mood": "happy",
+            "hold": 1.0
+          }
+        ]
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu savais qu'il avait perdu contre des lapins ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "LAPINS : 1",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

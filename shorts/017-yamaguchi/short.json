@@ -1,0 +1,153 @@
+{
+  "title": "L'homme qui a survécu à deux bombes atomiques",
+  "scene_packs": [],
+  "costume": {
+    "hat": "detective",
+    "coat": "navy",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Cet homme a survécu à deux bombes atomiques. En trois jours.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2,
+        "unit": "BOMBES ATOMIQUES",
+        "label": "EN 3 JOURS",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Il s'appelle Tsutomu Yamaguchi. Ingénieur, il est en voyage de travail à Hiroshima.",
+      "tension": 0.5,
+      "scene": {
+        "type": "scroll",
+        "big": "TSUTOMU YAMAGUCHI",
+        "line": "ingénieur"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Le six août mille neuf cent quarante-cinq, la bombe explose à environ trois kilomètres de lui.",
+      "caption": "Le 6 août 1945, la bombe explose à environ 3 kilomètres de lui.",
+      "tension": 0.7,
+      "scene": {
+        "type": "year",
+        "year": 1945,
+        "from": 2026,
+        "place": "HIROSHIMA",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Brûlé, les tympans percés, il rentre le lendemain dans sa ville. À Nagasaki.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "NAGASAKI",
+        "line": "sa ville"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      }
+    },
+    {
+      "tts": "Le neuf août, il est au travail. Une deuxième bombe explose, encore à environ trois kilomètres.",
+      "caption": "Le 9 août, il est au travail. Une deuxième bombe explose, encore à environ 3 kilomètres.",
+      "tension": 0.8,
+      "scene": {
+        "type": "counter",
+        "value": 3,
+        "unit": "KILOMÈTRES",
+        "label": "UNE DEUXIÈME FOIS",
+        "from": 0,
+        "slam_on": "trois"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Et il survit encore.",
+      "tension": 0.6,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il survit ?",
+        "stamp": "VRAI",
+        "stamp_on": "survit"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Il deviendra un militant contre les armes nucléaires, et vivra jusqu'à quatre-vingt-treize ans.",
+      "caption": "Il deviendra un militant contre les armes nucléaires, et vivra jusqu'à 93 ans.",
+      "tension": 0.4,
+      "scene": {
+        "type": "counter",
+        "value": 93,
+        "unit": "ANS",
+        "label": "UNE VIE POUR LA PAIX",
+        "from": 0,
+        "slam_on": "treize"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "neutral"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Une histoire à ne pas oublier. Abonne-toi et laisse un like.",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "À RETENIR",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}

@@ -1,0 +1,184 @@
+{
+  "title": "Cher Ami, le pigeon héros de 1918",
+  "scene_packs": [],
+  "costume": {
+    "hat": "bicorne",
+    "coat": "green",
+    "accessory": "spyglass"
+  },
+  "segments": [
+    {
+      "tts": "En mille neuf cent dix-huit, un pigeon blessé aurait sauvé près de deux cents soldats américains.",
+      "caption": "En 1918, un pigeon blessé aurait sauvé près de 200 soldats américains.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1918,
+        "from": 2026,
+        "place": "FORÊT D'ARGONNE",
+        "land_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised",
+        "acts": [
+          {
+            "on": "soldats",
+            "pose": "present",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Environ cinq cent cinquante soldats sont encerclés dans une forêt de l'Argonne, en France.",
+      "caption": "Environ 550 soldats sont encerclés dans une forêt de l'Argonne, en France.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 550,
+        "unit": "SOLDATS",
+        "label": "ENCERCLÉS",
+        "from": 0,
+        "slam_on": "cinquante"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Et le pire arrive : leur propre artillerie leur tire dessus, par erreur.",
+      "tension": 0.9,
+      "scene": {
+        "type": "verdict",
+        "claim": "Des tirs ennemis ?",
+        "stamp": "ALLIÉS",
+        "stamp_on": "erreur"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Leur dernier espoir : un pigeon voyageur nommé Cher Ami, avec un message accroché à la patte.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CHER AMI",
+        "line": "pigeon voyageur"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious",
+        "acts": [
+          {
+            "on": "patte",
+            "pose": "point",
+            "hold": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "tts": "Il est touché par une balle. Mais il continue de voler.",
+      "tension": 0.8,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il abandonne ?",
+        "stamp": "JAMAIS",
+        "stamp_on": "continue"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Environ quarante kilomètres en vingt-cinq minutes. Le message arrive, et les tirs s'arrêtent.",
+      "caption": "Environ 40 kilomètres en 25 minutes. Le message arrive, et les tirs s'arrêtent.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 40,
+        "unit": "KILOMÈTRES",
+        "label": "EN 25 MINUTES",
+        "from": 0,
+        "slam_on": "quarante"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Cent quatre-vingt-quatorze soldats sortiront vivants de la forêt. Le pigeon, lui, a perdu une patte.",
+      "caption": "194 soldats sortiront vivants de la forêt. Le pigeon, lui, a perdu une patte.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 194,
+        "unit": "SURVIVANTS",
+        "label": "SORTIS DE LA FORÊT",
+        "from": 0,
+        "slam_on": "quatorze"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "sad"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Il est aujourd'hui exposé dans un musée, à Washington.",
+      "tension": 0.4,
+      "scene": {
+        "type": "scroll",
+        "big": "SMITHSONIAN",
+        "line": "Washington"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Tu connaissais ce héros ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "UN HÉROS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0
+}
