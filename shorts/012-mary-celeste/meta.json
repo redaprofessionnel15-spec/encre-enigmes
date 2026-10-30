@@ -1,11 +1,13 @@
 {
   "title": "🎃 La Mary Celeste, le navire fantôme",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/012-mary-celeste.mp4",
   "costume": "bicorne, manteau bleu marine, longue-vue",
   "voice": "ElevenLabs direct (Guillaume, eleven_multilingual_v2), 627 crédits",
   "sources": [
-    "Wikipedia, Mary Celeste",
-    "Smithsonian Magazine, « Abandoned Ship: The Mary Celeste »"
-  ]
+    "Wikipedia, Mary Celeste"
+  ],
+  "publish_at": "2026-11-02T16:00:00+01:00",
+  "metricool_id": 411357554,
+  "commit": "81e17338d47e7669bf76df7eaadbd7ab83441bc0"
 }

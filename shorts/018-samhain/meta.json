@@ -1,11 +1,14 @@
 {
   "title": "🎃 Les vraies origines d'Halloween",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/018-samhain.mp4",
   "costume": "tricorne, manteau noir, lanterne",
   "voice": "ElevenLabs direct (Guillaume, eleven_multilingual_v2), 767 crédits",
   "sources": [
     "Wikipedia, Samhain",
     "Wikipedia, Halloween (origines gaéliques et immigration au XIXe siècle)"
-  ]
+  ],
+  "publish_at": "2026-11-01T16:00:00+01:00",
+  "metricool_id": 411357426,
+  "commit": "81e17338d47e7669bf76df7eaadbd7ab83441bc0"
 }
