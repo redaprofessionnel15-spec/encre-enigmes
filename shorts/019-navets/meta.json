@@ -1,11 +1,14 @@
 {
   "title": "🎃 Avant les citrouilles, on sculptait des navets",
-  "status": "prêt",
+  "status": "programmé",
   "video": "videos/019-navets.mp4",
   "costume": "tricorne, manteau noir, lanterne",
   "voice": "ElevenLabs direct (Guillaume, eleven_multilingual_v2), 661 crédits",
   "sources": [
     "Wikipedia, Jack-o'-lantern",
     "Wikipedia, Samhain"
-  ]
+  ],
+  "publish_at": "2026-11-03T16:00:00+01:00",
+  "metricool_id": 411361861,
+  "commit": "53956976d697e589ef05a6abc89056fc11ccb20a"
 }
