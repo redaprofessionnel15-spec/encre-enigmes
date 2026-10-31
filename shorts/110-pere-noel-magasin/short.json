@@ -1,0 +1,129 @@
+{
+  "title": "Le premier Père Noël de magasin",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "Le premier Père Noël de grand magasin, c'était un commerçant écossais. Qui avait juste envie de faire rire les enfants.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un acteur payé ?",
+        "stamp": "LE PATRON",
+        "stamp_on": "commerçant"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "On est en 1890, à Brockton, près de Boston. James Edgar possède un grand magasin.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1890,
+        "from": 2026,
+        "place": "BROCKTON",
+        "land_on": "1890"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Pour Noël, il se fabrique un costume rouge, avec une grande barbe blanche, et il se promène dans son magasin.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "BARBE BLANCHE",
+        "line": "et costume rouge"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Les enfants n'en reviennent pas. Le Père Noël est là, en vrai ! Ils viennent de toute la région pour le voir.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Quelques curieux ?",
+        "stamp": "LA FOULE",
+        "stamp_on": "région"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Les autres magasins comprennent vite. Et partout, des Pères Noël s'installent dans les rayons.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "PARTOUT",
+        "line": "des Pères Noël en magasin"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, se faire prendre en photo sur ses genoux, c'est devenu une tradition dans le monde entier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA PHOTO",
+        "line": "sur les genoux du Père Noël"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu as une photo avec le Père Noël ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "PHOTO ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

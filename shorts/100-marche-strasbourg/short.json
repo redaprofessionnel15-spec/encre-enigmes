@@ -1,0 +1,128 @@
+{
+  "title": "Le marché de Noël qui a remplacé saint Nicolas",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Le marché de Noël de Strasbourg existe depuis plus de quatre cent cinquante ans. Et il est né d'une dispute religieuse.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une idée de commerçants ?",
+        "stamp": "RELIGION",
+        "stamp_on": "religieuse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Avant, à Strasbourg, il y avait un marché de la Saint-Nicolas, au début du mois de décembre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "SAINT-NICOLAS",
+        "line": "le marché d'avant"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Mais la ville est devenue protestante. Et les protestants n'aiment pas trop qu'on fête les saints.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "PROTESTANTS",
+        "line": "pas de fête des saints"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "Alors, en 1570, le marché est déplacé juste avant Noël. Et rebaptisé : le marché de l'Enfant Jésus.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1570,
+        "from": 2026,
+        "place": "STRASBOURG",
+        "land_on": "1570"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "En alsacien, ça se dit Christkindelsmärik. C'est l'un des plus vieux marchés de Noël de France.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "CHRISTKINDELSMÄRIK",
+        "sign": "— le marché de l'Enfant Jésus"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, il attire des millions de visiteurs chaque hiver. Entre le vin chaud et les bredele.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES MILLIONS",
+        "line": "de visiteurs chaque hiver"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu y es déjà allé ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "VIN CHAUD ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

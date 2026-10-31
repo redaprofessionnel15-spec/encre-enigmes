@@ -1,0 +1,129 @@
+{
+  "title": "En Islande, 13 trolls viennent à Noël",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En Islande, ce n'est pas un Père Noël qui passe. Ce sont treize trolls.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 13,
+        "unit": "TROLLS",
+        "label": "POUR NOËL",
+        "from": 0,
+        "slam_on": "treize"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "On les appelle les Jólasveinar : les gars de Noël. Ils sont les fils de Grýla, une ogresse qui mange les enfants pas sages.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "GRÝLA",
+        "line": "l'ogresse des montagnes"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "À partir du 12 décembre, ils descendent des montagnes, un par nuit. Et chacun a sa spécialité.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN PAR NUIT",
+        "line": "à partir du 12 décembre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Il y a le lécheur de cuillères, le claqueur de portes, le voleur de saucisses. Et même celui qui renifle aux portes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LE VOLEUR",
+        "line": "de saucisses"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Les enfants posent une chaussure sur le rebord de la fenêtre. S'ils ont été sages, ils trouvent un bonbon. Sinon… une pomme de terre.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Toujours un bonbon ?",
+        "stamp": "PATATE",
+        "stamp_on": "pomme"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Autrefois, ils faisaient vraiment peur. Aujourd'hui, ils portent souvent un costume rouge. Comme le Père Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "EN ROUGE",
+        "line": "comme le Père Noël"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu aurais eu le bonbon ou la patate ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "13 TROLLS",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

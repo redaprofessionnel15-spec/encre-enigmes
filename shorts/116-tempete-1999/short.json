@@ -1,0 +1,134 @@
+{
+  "title": "La tempête qui a gâché le Noël 1999",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Juste après Noël 1999, deux tempêtes ont frappé la France en deux jours.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2,
+        "unit": "TEMPÊTES",
+        "label": "EN DEUX JOURS",
+        "from": 0,
+        "slam_on": "deux"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Le 26 décembre, la tempête Lothar traverse le nord du pays. Le lendemain, la tempête Martin frappe le sud.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1999,
+        "from": 2026,
+        "place": "FRANCE",
+        "land_on": "décembre"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Des vents à plus de cent cinquante kilomètres heure. Des toits arrachés, des forêts entières couchées.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "150 KM/H",
+        "line": "et parfois bien plus"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Des millions de foyers se retrouvent sans électricité. Certains pendant des semaines, en plein hiver.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Courant coupé une heure ?",
+        "stamp": "SEMAINES",
+        "stamp_on": "semaines"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "À Versailles, le parc du château perd plus de dix mille arbres. Certains plantés à l'époque des rois.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 10000,
+        "unit": "ARBRES",
+        "label": "PERDUS À VERSAILLES",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Au total, quatre-vingt-douze morts en France. L'une des pires catastrophes naturelles du pays.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "92 MORTS",
+        "line": "en France"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tes parents s'en souviennent ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "DÉCEMBRE 1999",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

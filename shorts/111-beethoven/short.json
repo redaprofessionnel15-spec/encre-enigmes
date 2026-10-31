@@ -1,0 +1,129 @@
+{
+  "title": "Personne ne connaît l'anniversaire de Beethoven",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Le jour de naissance de Beethoven ? Personne ne le connaît vraiment.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "On connaît la date ?",
+        "stamp": "INCONNUE",
+        "stamp_on": "personne"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Ce qu'on sait, c'est qu'il a été baptisé à Bonn, le 17 décembre 1770.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1770,
+        "from": 2026,
+        "place": "BONN",
+        "land_on": "1770"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "À l'époque, on baptisait les bébés le lendemain de leur naissance. Alors on pense qu'il est né le 16 décembre. Mais aucune preuve.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "16 DÉCEMBRE ?",
+        "line": "sans aucune preuve"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Et le plus étrange : pendant longtemps, Beethoven lui-même pensait être né en 1772. Deux ans plus tard.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il connaît son âge ?",
+        "stamp": "FAUX",
+        "stamp_on": "1772"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Selon certains biographes, son père l'aurait rajeuni pour le faire passer pour un enfant prodige, comme Mozart.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ENFANT PRODIGE",
+        "line": "comme Mozart"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Plus tard, il devient sourd. Et il compose quand même certaines des plus grandes musiques de l'histoire.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "SOURD",
+        "line": "et génial"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais ce mystère ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "BEETHOVEN",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

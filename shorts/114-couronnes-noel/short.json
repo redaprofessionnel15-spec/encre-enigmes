@@ -1,0 +1,131 @@
+{
+  "title": "Les rois couronnés le jour de Noël",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Plusieurs grands rois ont été couronnés le jour de Noël. Et l'un d'eux a fini dans les flammes.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une fête tranquille ?",
+        "stamp": "FLAMMES",
+        "stamp_on": "flammes"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "D'abord Clovis, roi des Francs, baptisé à Reims un jour de Noël. L'année exacte reste discutée.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CLOVIS",
+        "line": "baptisé à Reims, un 25 décembre"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Puis Charlemagne. Le 25 décembre de l'an 800, à Rome, le pape le couronne empereur.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 800,
+        "from": 2026,
+        "place": "ROME",
+        "land_on": "800"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Et le 25 décembre 1066, Guillaume le Conquérant est couronné roi d'Angleterre, à Westminster.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1066,
+        "from": 2026,
+        "place": "WESTMINSTER",
+        "land_on": "1066"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Mais pendant la cérémonie, on entend des cris de joie. Ses soldats normands croient à une attaque. Et ils mettent le feu aux maisons autour.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une attaque ?",
+        "stamp": "PANIQUE",
+        "stamp_on": "attaque"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Les invités fuient l'église en plein couronnement. Un Noël qu'on n'oublie pas.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "SAUVE QUI PEUT",
+        "line": "en plein couronnement"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais ces Noëls royaux ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "COURONNÉS",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

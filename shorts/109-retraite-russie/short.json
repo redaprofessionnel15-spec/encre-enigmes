@@ -1,0 +1,132 @@
+{
+  "title": "L'hiver qui a détruit l'armée de Napoléon",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En décembre 1812, l'hiver russe a presque entièrement détruit la plus grande armée d'Europe.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Vaincus au combat ?",
+        "stamp": "LE FROID",
+        "stamp_on": "russe"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Napoléon est entré en Russie avec environ six cent mille hommes. Il a pris Moscou… mais la ville est vide, puis elle brûle.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 600000,
+        "unit": "SOLDATS",
+        "label": "ENTRÉS EN RUSSIE",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors il ordonne la retraite. Et le froid arrive. Parfois moins trente degrés.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "-30 °C",
+        "line": "pendant la retraite"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Les soldats n'ont plus de nourriture. Les chevaux meurent. Des hommes s'endorment dans la neige… et ne se réveillent pas.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Ils tiennent le coup ?",
+        "stamp": "GELÉS",
+        "stamp_on": "neige"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le 5 décembre, Napoléon quitte ce qui reste de son armée, et file vers Paris en traîneau.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1812,
+        "from": 2026,
+        "place": "RUSSIE",
+        "land_on": "décembre"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "angry"
+      }
+    },
+    {
+      "tts": "De cette immense armée, seules quelques dizaines de milliers d'hommes reviendront.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "QUELQUES MILLIERS",
+        "line": "reviennent de Russie"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu aurais survécu ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "HIVER 1812",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

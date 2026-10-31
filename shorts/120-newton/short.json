@@ -1,0 +1,129 @@
+{
+  "title": "Isaac Newton est né le jour de Noël… ou pas",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Isaac Newton est né le jour de Noël. Enfin… presque.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Né à Noël ?",
+        "stamp": "PRESQUE",
+        "stamp_on": "presque"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Sur son acte, c'est écrit : 25 décembre 1642. En Angleterre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1642,
+        "from": 2026,
+        "place": "ANGLETERRE",
+        "land_on": "1642"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Mais à l'époque, l'Angleterre utilise encore un vieux calendrier, le calendrier julien. Avec dix jours de décalage.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "10 JOURS",
+        "line": "de décalage"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Avec notre calendrier à nous, il est né le 4 janvier 1643. Pas à Noël, et même pas la même année.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Même année ?",
+        "stamp": "1643",
+        "stamp_on": "1643"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Et il a failli ne pas survivre. Il est né si petit que sa mère disait qu'il tenait dans un pot d'un litre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN POT",
+        "line": "d'un litre"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Ce bébé fragile deviendra l'un des plus grands savants de l'histoire. Celui qui a expliqué la gravité.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LA GRAVITÉ",
+        "line": "et la lumière"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Joyeux Noël, Isaac ! Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "JOYEUX NOËL",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

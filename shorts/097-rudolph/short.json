@@ -1,0 +1,132 @@
+{
+  "title": "Le renne au nez rouge vient d'une pub",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "Rudolph, le renne au nez rouge, n'est pas une vieille légende. C'est une publicité.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une vieille légende ?",
+        "stamp": "PUB",
+        "stamp_on": "publicité"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "En 1939, aux États-Unis, le grand magasin Montgomery Ward veut offrir un petit livre aux enfants pour Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1939,
+        "from": 2026,
+        "place": "CHICAGO",
+        "land_on": "1939"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Un employé, Robert May, invente l'histoire d'un renne moqué à cause de son nez qui brille.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN NEZ QUI BRILLE",
+        "line": "et tout le monde se moque"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Jusqu'au soir où le brouillard est si épais que le Père Noël a besoin de lui pour guider le traîneau.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le renne raté ?",
+        "stamp": "HÉROS",
+        "stamp_on": "traîneau"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "happy"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Cette année-là, le magasin distribue plus de deux millions de livres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2,
+        "unit": "MILLIONS",
+        "label": "DE LIVRES OFFERTS",
+        "from": 0,
+        "slam_on": "millions"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "En 1949, le beau-frère de Robert May en fait une chanson. Elle devient l'un des plus grands tubes de Noël de l'histoire.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN TUBE",
+        "line": "chanté par Gene Autry"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais l'origine de Rudolph ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "NEZ ROUGE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

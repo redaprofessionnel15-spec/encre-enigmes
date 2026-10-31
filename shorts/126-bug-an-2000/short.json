@@ -1,0 +1,129 @@
+{
+  "title": "Le bug de l'an 2000 : la fin du monde qui n'est pas venue",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Le 31 décembre 1999, le monde entier avait peur que les ordinateurs s'arrêtent à minuit.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une fête tranquille ?",
+        "stamp": "PANIQUE",
+        "stamp_on": "peur"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Le problème : pour gagner de la place, beaucoup d'ordinateurs ne notaient l'année qu'avec deux chiffres. 99 pour 1999.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "99 = 1999",
+        "line": "deux chiffres seulement"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors à minuit, 99 devient 00. Et l'ordinateur risque de croire qu'on est revenu en 1900.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1900,
+        "from": 2026,
+        "place": "RETOUR EN",
+        "land_on": "1900"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "On imagine des avions qui tombent, des banques qui bloquent, des centrales en panne. Certains font même des réserves de nourriture.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES RÉSERVES",
+        "line": "au cas où"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Dans le monde, on dépense des centaines de milliards pour corriger les programmes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES MILLIARDS",
+        "line": "pour corriger le bug"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Et à minuit… presque rien. Quelques petites pannes. Le travail avait payé.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le chaos ?",
+        "stamp": "RIEN",
+        "stamp_on": "rien"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Bonne année à toi ! Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "BONNE ANNÉE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

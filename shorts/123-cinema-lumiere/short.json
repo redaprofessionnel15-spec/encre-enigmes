@@ -1,0 +1,131 @@
+{
+  "title": "La première séance de cinéma : 33 spectateurs",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Le 28 décembre 1895, a lieu la première séance de cinéma payante de l'histoire. Il y a seulement trente-trois spectateurs.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 33,
+        "unit": "SPECTATEURS",
+        "label": "SEULEMENT",
+        "from": 0,
+        "slam_on": "trente"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "C'est à Paris, dans le sous-sol d'un café, boulevard des Capucines. Les frères Lumière présentent leur cinématographe.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1895,
+        "from": 2026,
+        "place": "PARIS",
+        "land_on": "Paris"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "L'entrée coûte un franc. Au programme : dix petits films de moins d'une minute.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "1 FRANC",
+        "line": "pour 10 petits films"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "On raconte que les spectateurs se sont enfuis en voyant un train arriver vers eux. Mais ce film n'était même pas au programme ce soir-là.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Ils ont fui le train ?",
+        "stamp": "LÉGENDE",
+        "stamp_on": "train"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le bouche-à-oreille fonctionne : quelques semaines plus tard, il y a des files d'attente dans la rue.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "FILE D'ATTENTE",
+        "line": "devant le café"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Pourtant, Louis Lumière aurait dit que le cinéma était une invention sans avenir.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "SANS AVENIR",
+        "sign": "— attribué à Louis Lumière"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, c'est quoi ton film de Noël préféré ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "MOTEUR !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,132 @@
+{
+  "title": "La première carte de Noël a fait scandale",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "La toute première carte de Noël a fait scandale. À cause d'un enfant qui boit du vin.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une carte sage ?",
+        "stamp": "SCANDALE",
+        "stamp_on": "scandale"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "On est à Londres, en 1843. Henry Cole a trop de lettres à écrire pour les fêtes.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1843,
+        "from": 2026,
+        "place": "LONDRES",
+        "land_on": "1843"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors il a une idée : faire imprimer une carte avec un message déjà écrit. Joyeux Noël et bonne année.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "JOYEUX NOËL",
+        "line": "déjà imprimé"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Un ami peintre dessine une famille qui lève son verre. Mais au milieu, un petit enfant boit lui aussi du vin.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un enfant boit du vin ?",
+        "stamp": "CHOQUANT",
+        "stamp_on": "vin"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Certains sont choqués. Mais l'idée plaît. Environ mille cartes sont imprimées.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 1000,
+        "unit": "CARTES",
+        "label": "IMPRIMÉES",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, une de ces premières cartes peut se vendre plusieurs milliers d'euros aux enchères.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES MILLIERS",
+        "line": "d'euros aux enchères"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu envoies encore des cartes ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "CARTE OU SMS ?",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

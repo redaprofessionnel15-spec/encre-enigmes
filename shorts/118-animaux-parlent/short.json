@@ -1,0 +1,127 @@
+{
+  "title": "La nuit de Noël, les animaux parlent",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Selon une vieille croyance, la nuit de Noël, à minuit, les animaux se mettent à parler.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Ils restent muets ?",
+        "stamp": "PARLENT",
+        "stamp_on": "parler"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Dans les campagnes de France et d'Europe, on racontait qu'au moment de la messe de minuit, les bœufs et les ânes discutent dans l'étable.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "MINUIT",
+        "line": "les bêtes discutent"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Pourquoi eux ? Parce que, selon la tradition, un bœuf et un âne ont réchauffé l'Enfant Jésus dans la crèche.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LE BŒUF ET L'ÂNE",
+        "line": "les témoins de la crèche"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Mais attention : il ne fallait surtout pas les écouter.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "On peut écouter ?",
+        "stamp": "INTERDIT",
+        "stamp_on": "écouter"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Une légende raconte l'histoire d'un fermier qui se cache dans l'étable. Et il entend ses bêtes dire qu'elles porteront bientôt son cercueil.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "SON CERCUEIL",
+        "line": "porté par ses propres bêtes"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Alors cette nuit-là, on laissait les animaux tranquilles. Et on leur donnait même une ration en plus.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DOUBLE RATION",
+        "line": "pour la nuit de Noël"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu oserais écouter ton chat ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "CHUT…",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

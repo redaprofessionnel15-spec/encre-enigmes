@@ -1,0 +1,129 @@
+{
+  "title": "Les crackers anglais sont nés à Paris",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Les crackers de Noël, ces papillotes qui font pan chez les Anglais, ont été inspirés par… des bonbons français.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une idée anglaise ?",
+        "stamp": "FRANÇAISE",
+        "stamp_on": "français"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Dans les années 1840, un confiseur londonien, Tom Smith, visite Paris. Et il découvre des bonbons emballés dans du papier qu'on tortille.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1840,
+        "from": 2026,
+        "place": "PARIS",
+        "land_on": "1840"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "De retour à Londres, il les vend avec un petit mot d'amour à l'intérieur. Ça marche bien. Mais il veut plus.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN MOT D'AMOUR",
+        "line": "dans chaque papillote"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Un soir, en entendant crépiter une bûche dans la cheminée, il a une idée : ajouter un petit pétard.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Juste un bonbon ?",
+        "stamp": "PAN !",
+        "stamp_on": "pétard"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Quand on tire à deux sur le papier, ça claque. Et le bonbon est bientôt remplacé par un petit cadeau et une couronne en papier.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE COURONNE",
+        "line": "en papier sur la tête"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, au Royaume-Uni, on en ouvre des dizaines de millions chaque Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES MILLIONS",
+        "line": "chaque Noël au Royaume-Uni"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu as déjà ouvert un cracker ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "PAN !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,129 @@
+{
+  "title": "Raspoutine, l'homme qui ne voulait pas mourir",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Dans la nuit du 29 au 30 décembre 1916, des princes russes tentent d'assassiner Raspoutine. Et selon la légende, il ne veut pas mourir.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1916,
+        "from": 2026,
+        "place": "PETROGRAD",
+        "land_on": "1916"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Raspoutine est un moine mystérieux, très proche de la famille du tsar. Beaucoup le détestent.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "RASPOUTINE",
+        "line": "le moine du tsar"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Le prince Félix Ioussoupov l'invite chez lui. Il lui sert des gâteaux et du vin, empoisonnés au cyanure.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Le poison agit ?",
+        "stamp": "RIEN",
+        "stamp_on": "cyanure"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Selon le récit du prince, il ne se passe rien. Alors on lui tire dessus. Il tombe… puis il se relève et s'enfuit dans la cour.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "IL SE RELÈVE",
+        "line": "selon le prince"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Il est abattu à nouveau, puis jeté dans le fleuve gelé.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il est mort ?",
+        "stamp": "LE FLEUVE",
+        "stamp_on": "fleuve"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Mais attention : l'autopsie n'aurait trouvé aucune trace de poison. Le prince a peut-être enjolivé son histoire.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "AUCUN POISON ?",
+        "line": "selon l'autopsie"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "smug"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu crois la légende ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "RASPOUTINE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

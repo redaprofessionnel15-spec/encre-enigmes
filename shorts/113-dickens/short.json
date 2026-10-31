@@ -1,0 +1,132 @@
+{
+  "title": "Le conte de Noël écrit en six semaines",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "L'histoire de Noël la plus célèbre du monde a été écrite en seulement six semaines. Par un auteur fauché.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un auteur riche ?",
+        "stamp": "FAUCHÉ",
+        "stamp_on": "fauché"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "En 1843, Charles Dickens a des dettes. Son dernier livre se vend mal.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1843,
+        "from": 2026,
+        "place": "LONDRES",
+        "land_on": "1843"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors il écrit vite, très vite, l'histoire de Scrooge, un vieil avare visité par trois fantômes la nuit de Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TROIS FANTÔMES",
+        "line": "et un vieil avare"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Dickens paie lui-même l'impression. Avec une belle couverture, des dorures, des illustrations en couleur.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "À SES FRAIS",
+        "line": "dorures et couleurs"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le livre sort le 19 décembre. Les six mille exemplaires sont vendus avant le soir de Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 6000,
+        "unit": "EXEMPLAIRES",
+        "label": "VENDUS EN 5 JOURS",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Mais le livre coûtait tellement cher à fabriquer que Dickens gagne beaucoup moins que prévu. Un vrai conte de Noël… à l'envers.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il devient riche ?",
+        "stamp": "DÉÇU",
+        "stamp_on": "moins"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu as déjà lu ou vu ce conte ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "SCROOGE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

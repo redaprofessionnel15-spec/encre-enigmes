@@ -1,0 +1,132 @@
+{
+  "title": "Le garçon sauvé par Pasteur",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "Le 27 décembre 1822 naît Louis Pasteur. Et un jour, il va sauver un petit garçon que tout le monde croyait condamné.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1822,
+        "from": 2026,
+        "place": "DOLE",
+        "land_on": "1822"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "En 1885, Joseph Meister, neuf ans, est mordu par un chien enragé. À l'époque, la rage tue presque à coup sûr.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il peut guérir ?",
+        "stamp": "CONDAMNÉ",
+        "stamp_on": "rage"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Sa mère l'emmène à Paris, chez Pasteur. Il travaille sur un vaccin, mais il ne l'a jamais testé sur un humain.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "JAMAIS TESTÉ",
+        "line": "sur un humain"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Pasteur prend le risque. Pendant dix jours, l'enfant reçoit des injections.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 10,
+        "unit": "JOURS",
+        "label": "D'INJECTIONS",
+        "from": 0,
+        "slam_on": "dix"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Et Joseph survit. Le premier humain sauvé de la rage par un vaccin.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il survit ?",
+        "stamp": "SAUVÉ",
+        "stamp_on": "survit"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Devenu adulte, Joseph Meister travaillera toute sa vie à l'Institut Pasteur. Comme gardien.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "GARDIEN",
+        "line": "de l'Institut Pasteur"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais cette histoire ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "MERCI PASTEUR",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

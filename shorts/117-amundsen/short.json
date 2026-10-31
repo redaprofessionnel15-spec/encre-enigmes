@@ -1,0 +1,131 @@
+{
+  "title": "La course au pôle Sud, perdue de 34 jours",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En décembre 1911, une course mortelle se joue au pôle Sud. Et le perdant arrive trente-quatre jours trop tard.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 34,
+        "unit": "JOURS",
+        "label": "DE RETARD",
+        "from": 0,
+        "slam_on": "trente"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "D'un côté, le Norvégien Roald Amundsen, avec des chiens de traîneau. De l'autre, le Britannique Robert Scott, avec des poneys.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "CHIENS / PONEYS",
+        "line": "Amundsen contre Scott"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Le 14 décembre 1911, Amundsen atteint le pôle Sud. Il plante le drapeau norvégien, et laisse une tente.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1911,
+        "from": 2026,
+        "place": "PÔLE SUD",
+        "land_on": "1911"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Un mois plus tard, Scott arrive enfin. Et il découvre la tente, avec une lettre d'Amundsen.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Scott est premier ?",
+        "stamp": "DEUXIÈME",
+        "stamp_on": "tente"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Le retour est terrible. Scott et ses quatre compagnons meurent dans le froid, à quelques kilomètres d'un dépôt de vivres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "À 18 KM",
+        "line": "d'un dépôt de vivres"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "On retrouvera son journal. Ses derniers mots : pour l'amour de Dieu, prenez soin des nôtres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "quote",
+        "title": "PRENEZ SOIN DES NÔTRES",
+        "sign": "— Robert Scott, 1912"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu aurais choisi les chiens ou les poneys ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "PÔLE SUD",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

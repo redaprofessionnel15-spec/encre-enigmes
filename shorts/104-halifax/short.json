@@ -1,0 +1,132 @@
+{
+  "title": "Pourquoi le Canada offre un sapin à Boston",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Chaque année, le Canada offre un énorme sapin de Noël à la ville de Boston. Pour dire merci.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un simple cadeau ?",
+        "stamp": "MERCI",
+        "stamp_on": "merci"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Le 6 décembre 1917, dans le port d'Halifax, un cargo français chargé d'explosifs, le Mont-Blanc, entre en collision avec un autre navire.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1917,
+        "from": 2026,
+        "place": "HALIFAX",
+        "land_on": "1917"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il prend feu. Puis il explose. C'est l'une des plus grosses explosions jamais provoquées par l'homme avant la bombe atomique.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un simple incendie ?",
+        "stamp": "EXPLOSION",
+        "stamp_on": "explose"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Une partie de la ville est rasée. Environ deux mille morts, et des milliers de blessés.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 2000,
+        "unit": "MORTS",
+        "label": "À HALIFAX",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Boston envoie aussitôt un train rempli de médecins, d'infirmières et de matériel, en pleine tempête de neige.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN TRAIN",
+        "line": "de médecins et d'infirmières"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "L'année suivante, Halifax envoie un sapin pour remercier Boston. Et depuis 1971, c'est devenu une tradition chaque Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UN SAPIN",
+        "line": "chaque année depuis 1971"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Une belle histoire, non ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "MERCI BOSTON",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

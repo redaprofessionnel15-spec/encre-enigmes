@@ -1,0 +1,132 @@
+{
+  "title": "Le premier sapin électrique",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "candy_cane"
+  },
+  "segments": [
+    {
+      "tts": "Avant l'électricité, on mettait de vraies bougies allumées dans les sapins. Et ça finissait parfois très mal.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Sans danger ?",
+        "stamp": "INCENDIE",
+        "stamp_on": "mal"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "En 1882, à New York, Edward Johnson travaille avec l'inventeur Thomas Edison.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1882,
+        "from": 2026,
+        "place": "NEW YORK",
+        "land_on": "1882"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Il a une idée folle : brancher des ampoules électriques sur son sapin. Quatre-vingts ampoules rouges, blanches et bleues, câblées à la main.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 80,
+        "unit": "AMPOULES",
+        "label": "CÂBLÉES À LA MAIN",
+        "from": 0,
+        "slam_on": "quatre"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Et en plus, son sapin tourne sur lui-même grâce à un moteur.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Il reste immobile ?",
+        "stamp": "IL TOURNE",
+        "stamp_on": "tourne"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Un journaliste vient le voir, et en parle dans le journal. Mais pendant longtemps, les guirlandes électriques restent très chères.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TRÈS CHER",
+        "line": "réservé aux riches"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "Il faut attendre le vingtième siècle pour qu'elles entrent dans toutes les maisons. Et que les bougies quittent enfin les sapins.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ADIEU BOUGIES",
+        "line": "bonjour guirlandes"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Chez toi, guirlande qui clignote ou fixe ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "ÇA BRILLE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

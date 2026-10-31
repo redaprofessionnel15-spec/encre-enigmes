@@ -1,0 +1,132 @@
+{
+  "title": "Le calendrier de l'Avent est né d'une maman",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Le calendrier de l'Avent a été inventé grâce à une maman qui en avait marre qu'on lui demande : c'est quand, Noël ?",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Inventé par un magasin ?",
+        "stamp": "MAMAN",
+        "stamp_on": "maman"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "En Allemagne, à la fin du dix-neuvième siècle, le petit Gerhard Lang n'arrête pas de demander combien de jours il reste avant Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "C'EST QUAND ?",
+        "line": "demande le petit Gerhard"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Alors sa mère colle vingt-quatre petits gâteaux sur un carton. Un par jour, jusqu'à Noël.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 24,
+        "unit": "GÂTEAUX",
+        "label": "SUR UN CARTON",
+        "from": 0,
+        "slam_on": "vingt"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Devenu adulte, Gerhard travaille dans une imprimerie à Munich. Et vers 1908, il imprime les premiers calendriers de l'Avent.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1908,
+        "from": 2026,
+        "place": "MUNICH",
+        "land_on": "1908"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "serious"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Les petites portes à ouvrir arrivent un peu plus tard. Et le chocolat encore après.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "LES PORTES",
+        "line": "puis le chocolat"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, on en vend des millions chaque année, avec des bonbons, des jouets, et même du fromage.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Seulement du chocolat ?",
+        "stamp": "FROMAGE",
+        "stamp_on": "fromage"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Toi, tu as déjà ouvert la première case ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "1ER DÉCEMBRE",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

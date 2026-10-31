@@ -1,0 +1,131 @@
+{
+  "title": "Le brouillard qui a tué des milliers de Londoniens",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "En décembre 1952, un brouillard s'installe sur Londres. Et il va tuer des milliers de personnes.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un simple brouillard ?",
+        "stamp": "MORTEL",
+        "stamp_on": "tuer"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Il fait froid. Tout le monde brûle du charbon pour se chauffer. Et il n'y a pas de vent.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DU CHARBON",
+        "line": "et pas un souffle de vent"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "La fumée reste coincée au-dessus de la ville. Un brouillard jaune et épais, qui sent le soufre.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1952,
+        "from": 2026,
+        "place": "LONDRES",
+        "land_on": "fumée"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      }
+    },
+    {
+      "tts": "On ne voit plus ses pieds. Les bus roulent guidés par des hommes à pied avec des torches. Dans les cinémas, on ne voit même plus l'écran.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "ZÉRO VISIBILITÉ",
+        "line": "même dans les cinémas"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "surprised"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "En cinq jours, au moins quatre mille personnes meurent. Et selon des études récentes, peut-être bien plus.",
+      "tension": 0.6,
+      "scene": {
+        "type": "counter",
+        "value": 4000,
+        "unit": "MORTS",
+        "label": "AU MOINS",
+        "from": 0,
+        "slam_on": "mille"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "worried"
+      }
+    },
+    {
+      "tts": "Ce drame pousse le pays à voter une grande loi pour un air plus propre, en 1956.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "AIR PROPRE",
+        "line": "loi de 1956"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu connaissais cette histoire ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "LE GRAND SMOG",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

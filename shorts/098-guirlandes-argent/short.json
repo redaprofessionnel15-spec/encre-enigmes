@@ -1,0 +1,129 @@
+{
+  "title": "Les premières guirlandes étaient en vrai argent",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "gift"
+  },
+  "segments": [
+    {
+      "tts": "Les premières guirlandes de Noël étaient faites en vrai argent.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "En plastique ?",
+        "stamp": "ARGENT",
+        "stamp_on": "argent"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      }
+    },
+    {
+      "tts": "Selon la tradition, elles apparaissent vers 1610, à Nuremberg, en Allemagne.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1610,
+        "from": 2026,
+        "place": "NUREMBERG",
+        "land_on": "1610"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "curious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Des artisans écrasent de l'argent en fils très fins, pour faire briller les sapins à la lueur des bougies.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DES FILS D'ARGENT",
+        "line": "pour refléter les bougies"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "Mais il y a un problème : la fumée des bougies noircit l'argent. Très vite, les guirlandes deviennent toutes ternes.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Elles brillent longtemps ?",
+        "stamp": "NOIRCIES",
+        "stamp_on": "noircit"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "worried"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Alors on essaie d'autres métaux. Plus tard, on en fabrique même en plomb. Ce qui n'est pas une très bonne idée.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DU PLOMB",
+        "line": "pas une très bonne idée"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "shocked"
+      }
+    },
+    {
+      "tts": "Aujourd'hui, nos guirlandes sont en plastique brillant. Moins précieuses, mais beaucoup plus sûres.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "DU PLASTIQUE",
+        "line": "moins précieux, plus sûr"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Chez toi, guirlandes ou pas ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "TEAM GUIRLANDES",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}

@@ -1,0 +1,129 @@
+{
+  "title": "L'étoile de Noël peinte comme une comète",
+  "scene_packs": [],
+  "costume": {
+    "hat": "santa",
+    "coat": "noel",
+    "accessory": "lantern"
+  },
+  "segments": [
+    {
+      "tts": "Sur l'une des plus célèbres peintures de Noël, l'étoile des Rois mages est une comète.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Une étoile ?",
+        "stamp": "COMÈTE",
+        "stamp_on": "comète"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "curious"
+      }
+    },
+    {
+      "tts": "Vers 1305, le peintre Giotto décore une chapelle à Padoue, en Italie. Et il peint l'adoration des mages.",
+      "tension": 0.6,
+      "scene": {
+        "type": "year",
+        "year": 1305,
+        "from": 2026,
+        "place": "PADOUE",
+        "land_on": "1305"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "serious"
+      },
+      "transition": "whip"
+    },
+    {
+      "tts": "Au-dessus de l'étable, il ne peint pas une petite étoile. Mais une boule de feu avec une longue queue.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "UNE QUEUE DE FEU",
+        "line": "au-dessus de l'étable"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "surprised"
+      }
+    },
+    {
+      "tts": "Pourquoi ? Quelques années plus tôt, en 1301, une comète très brillante est passée dans le ciel. La comète de Halley.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "HALLEY",
+        "line": "passée en 1301"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.56,
+        "mood": "smug"
+      },
+      "transition": "flash"
+    },
+    {
+      "tts": "Giotto l'a sûrement vue de ses propres yeux. Et elle l'a tellement marqué qu'il l'a peinte.",
+      "tension": 0.6,
+      "scene": {
+        "type": "scroll",
+        "big": "TÉMOIN",
+        "line": "Giotto l'a sans doute vue"
+      },
+      "owl": {
+        "x": 230,
+        "face": 1,
+        "scale": 0.54,
+        "mood": "happy"
+      }
+    },
+    {
+      "tts": "En 1986, l'Europe envoie une sonde spatiale vers cette même comète. Son nom : Giotto.",
+      "tension": 0.7,
+      "scene": {
+        "type": "verdict",
+        "claim": "Un nom au hasard ?",
+        "stamp": "GIOTTO",
+        "stamp_on": "nom"
+      },
+      "owl": {
+        "x": 850,
+        "face": -1,
+        "scale": 0.54,
+        "mood": "happy"
+      },
+      "transition": "zoom"
+    },
+    {
+      "tts": "Tu as déjà vu une comète ? Abonne-toi et laisse un like !",
+      "tension": 0.3,
+      "scene": {
+        "type": "cta",
+        "big": "COMÈTE !",
+        "sub_on": "Abonne",
+        "like_on": "laisse"
+      },
+      "owl": {
+        "x": 540,
+        "face": 1,
+        "scale": 0.62
+      },
+      "tail": 0.5
+    }
+  ],
+  "narration": "voice_final.wav",
+  "voice_raw": "voice_raw.mp3",
+  "voice_tempo": 1.0,
+  "voice_id": "ohItIVrXTBI80RrUECOD",
+  "voice_name": "Guillaume"
+}
