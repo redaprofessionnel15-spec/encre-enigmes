@@ -18,7 +18,7 @@ SHORTS = [
   ("Ils emportent huit bijoux de la Couronne de France, ayant appartenu à des reines et des impératrices.", C(8, "BIJOUX", "DE LA COURONNE", "huit"), "shocked"),
   ("Valeur estimée : environ quatre-vingt-huit millions d'euros. Dans leur fuite, ils font même tomber la couronne de l'impératrice Eugénie.", C(88, "MILLIONS D'EUROS", "ESTIMÉS", "quatre"), "surprised"),
   ("Des suspects ont été arrêtés. Mais selon eux, le reste du butin a été remis à un commanditaire, toujours inconnu.", V("Affaire résolue ?", "EN COURS", "inconnu"), "serious"),
-  CTA("CASSE DU SIÈCLE", "Tu penses qu'on retrouvera les bijoux ? Abonne-toi et laisse un like !")]),
+  CTA("CASSE DU SIÈCLE", "Crois-tu qu'on retrouvera un jour ces bijoux ? Abonne-toi et laisse un like !")]),
 
  ("069-rennes-le-chateau", at(15, 19), "Le trésor caché du curé de Rennes-le-Château", DARK,
   ["Wikipedia, Bérenger Saunière", "Wikipedia, Affaire de Rennes-le-Château"], [

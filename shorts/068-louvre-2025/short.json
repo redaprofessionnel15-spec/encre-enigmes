@@ -111,7 +111,7 @@
       "transition": "zoom"
     },
     {
-      "tts": "Tu penses qu'on retrouvera les bijoux ? Abonne-toi et laisse un like !",
+      "tts": "Crois-tu qu'on retrouvera un jour ces bijoux ? Abonne-toi et laisse un like !",
       "tension": 0.3,
       "scene": {
         "type": "cta",
