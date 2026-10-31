@@ -1,6 +1,6 @@
 {
   "title": "🎄 Le jour où la France a brûlé le Père Noël",
-  "status": "script",
+  "status": "programmé",
   "series": "Noël 2026",
   "video": "videos/026-dijon.mp4",
   "costume": "santa, noel, lantern",
@@ -12,5 +12,6 @@
   "publish_at": "2026-12-03T16:00:00+01:00",
   "yt_title": "🎄 Le jour où la France a brûlé le Père Noël",
   "yt_description": "En 1951, en France, on a brûlé le Père Noël. En public. Devant une cathédrale. 🦉 Une énigme de l'histoire chaque jour sur Encre & Énigmes.\n\n#shorts #histoire #noel #mystere",
-  "yt_tags": "noël, histoire, mystère, encre et énigmes,"
+  "yt_tags": "noël, histoire, mystère, encre et énigmes,",
+  "metricool_id": 412083949
 }

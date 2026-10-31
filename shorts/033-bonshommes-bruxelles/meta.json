@@ -1,6 +1,6 @@
 {
   "title": "🎄 Bruxelles envahie par 110 bonshommes de neige",
-  "status": "script",
+  "status": "programmé",
   "series": "Noël 2026",
   "video": "videos/033-bonshommes-bruxelles.mp4",
   "costume": "santa, noel, candy_cane",
@@ -12,5 +12,6 @@
   "publish_at": "2026-12-10T16:00:00+01:00",
   "yt_title": "🎄 Bruxelles envahie par 110 bonshommes de neige",
   "yt_description": "En 1511, Bruxelles a été envahie par plus de cent bonshommes de neige. 🦉 Une énigme de l'histoire chaque jour sur Encre & Énigmes.\n\n#shorts #histoire #noel #mystere",
-  "yt_tags": "noël, histoire, mystère, encre et énigmes,"
+  "yt_tags": "noël, histoire, mystère, encre et énigmes,",
+  "metricool_id": 412084028
 }

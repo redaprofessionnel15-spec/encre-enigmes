@@ -1,6 +1,6 @@
 {
   "title": "🎄 Ce soir, le Krampus punit les enfants",
-  "status": "script",
+  "status": "programmé",
   "series": "Noël 2026",
   "video": "videos/028-krampus.mp4",
   "costume": "santa, noel, lantern",
@@ -12,5 +12,6 @@
   "publish_at": "2026-12-05T16:00:00+01:00",
   "yt_title": "🎄 Ce soir, le Krampus punit les enfants",
   "yt_description": "Ce soir, dans les Alpes, des démons à cornes courent dans les rues pour punir les enfants. 🦉 Une énigme de l'histoire chaque jour sur Encre & Énigmes.\n\n#shorts #histoire #noel #mystere",
-  "yt_tags": "noël, histoire, mystère, encre et énigmes,"
+  "yt_tags": "noël, histoire, mystère, encre et énigmes,",
+  "metricool_id": 412083972
 }

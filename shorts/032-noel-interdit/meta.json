@@ -1,6 +1,6 @@
 {
   "title": "🎄 Quand fêter Noël était interdit",
-  "status": "script",
+  "status": "programmé",
   "series": "Noël 2026",
   "video": "videos/032-noel-interdit.mp4",
   "costume": "santa, noel, lantern",
@@ -12,5 +12,6 @@
   "publish_at": "2026-12-09T16:00:00+01:00",
   "yt_title": "🎄 Quand fêter Noël était interdit",
   "yt_description": "Pendant plus de vingt ans, fêter Noël était interdit. Et puni d'une amende. 🦉 Une énigme de l'histoire chaque jour sur Encre & Énigmes.\n\n#shorts #histoire #noel #mystere",
-  "yt_tags": "noël, histoire, mystère, encre et énigmes,"
+  "yt_tags": "noël, histoire, mystère, encre et énigmes,",
+  "metricool_id": 412084017
 }

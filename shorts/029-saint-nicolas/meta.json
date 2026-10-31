@@ -1,6 +1,6 @@
 {
   "title": "🎄 La légende terrifiante de saint Nicolas",
-  "status": "script",
+  "status": "programmé",
   "series": "Noël 2026",
   "video": "videos/029-saint-nicolas.mp4",
   "costume": "santa, noel, gift",
@@ -12,5 +12,6 @@
   "publish_at": "2026-12-06T16:00:00+01:00",
   "yt_title": "🎄 La légende terrifiante de saint Nicolas",
   "yt_description": "La légende de saint Nicolas commence par un crime horrible : un boucher qui tue trois enfants. 🦉 Une énigme de l'histoire chaque jour sur Encre & Énigmes.\n\n#shorts #histoire #noel #mystere",
-  "yt_tags": "noël, histoire, mystère, encre et énigmes,"
+  "yt_tags": "noël, histoire, mystère, encre et énigmes,",
+  "metricool_id": 412083984
 }
